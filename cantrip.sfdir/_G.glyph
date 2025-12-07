@@ -23,6 +23,7 @@ SplineSet
  349 552 l 1
  326 576 288 590 245 590 c 27
 EndSplineSet
+Validated: 1
 Substitution2: "proportional1 subtable" G.proportional
 Substitution2: "widen subtable" G.wide
 EndChar

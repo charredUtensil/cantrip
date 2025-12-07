@@ -53,6 +53,7 @@ SplineSet
  581 380 563 356 563 331 c 0
  563 292 587 277 632 264 c 1
 EndSplineSet
+Validated: 524289
 Ligature2: "cursiveLigatures subtable" g.cursive s.cursive
 LCarets2: 1 0
 EndChar
