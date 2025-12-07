@@ -304,7 +304,7 @@ body, .clear-features,
     "lnum" var(--font-feature-lnum),
     "ss01" var(--font-feature-ss01),
     "ss02" var(--font-feature-ss02),
-    "ss02" var(--font-feature-ss03),
+    "ss03" var(--font-feature-ss03),
     "ss08" var(--font-feature-ss08),
     "ss16" var(--font-feature-ss16);
 }
