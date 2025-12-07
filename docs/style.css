@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'cantrip_mono_demo';
-  src: url(../cantrip_mono.woff2);
+  src: url(./cantrip_mono.woff2);
 }
 
 body {
