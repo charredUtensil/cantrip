@@ -1,0 +1,914 @@
+SplineFontDB: 3.2
+FontName: cantrip_mono
+FullName: Cantrip Mono
+FamilyName: Cantrip Mono
+Weight: Regular
+Copyright: Copyright (c) 2025, Christopher Dollard
+UComments: "2025-6-9: Created with FontForge (http://fontforge.org)"
+Version: 000.041
+ItalicAngle: 0
+UnderlinePosition: -300
+UnderlineWidth: 70
+Ascent: 770
+Descent: 254
+InvalidEm: 0
+LayerCount: 2
+Layer: 0 0 "Back" 1
+Layer: 1 0 "Fore" 0
+XUID: [1021 642 1347093009 5539417]
+FSType: 0
+OS2Version: 0
+OS2_WeightWidthSlopeOnly: 0
+OS2_UseTypoMetrics: 1
+CreationTime: 1749492845
+ModificationTime: 1764956345
+PfmFamily: 17
+TTFWeight: 400
+TTFWidth: 5
+LineGap: 97
+VLineGap: 0
+Panose: 2 0 5 9 0 0 0 0 0 0
+OS2TypoAscent: 0
+OS2TypoAOffset: 1
+OS2TypoDescent: 0
+OS2TypoDOffset: 1
+OS2TypoLinegap: 97
+OS2WinAscent: 0
+OS2WinAOffset: 1
+OS2WinDescent: 0
+OS2WinDOffset: 1
+HheadAscent: 0
+HheadAOffset: 1
+HheadDescent: 0
+HheadDOffset: 1
+OS2FamilyClass: 1027
+OS2Vendor: 'PfEd'
+Lookup: 1 0 0 "lining" { "lining subtable"  } ['lnum' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 1 0 0 "toHex" { "toHex subtable"  } []
+Lookup: 6 0 0 "hexify" { "hexify contextual 0"  "hexify contextual 1"  "hexify contextual 2"  "hexify contextual 3"  "hexify contextual 4"  "hexify contextual 5"  "hexify contextual 6"  "hexify contextual 7"  "hexify contextual 8"  "hexify contextual 9"  "hexify contextual 10"  "hexify contextual 11"  } ['ss16' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 6 0 0 "afterHexify" { "afterHexify subtable"  } ['ss16' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 1 0 0 "Single Substitution lookup 4" { "Single Substitution lookup 4 subtable"  } []
+Lookup: 1 0 0 "toCursive" { "toCursive subtable"  } []
+Lookup: 6 0 0 "cursiveAlts" { "cursiveAlts contextual 0"  "cursiveAlts contextual 1"  "cursiveAlts contextual 2"  "cursiveAlts contextual 3"  "cursiveAlts contextual 4"  "cursiveAlts contextual 5"  "cursiveAlts contextual 6"  "cursiveAlts contextual 7"  "cursiveAlts contextual 8"  "cursiveAlts contextual 9"  "cursiveAlts contextual 10"  "cursiveAlts contextual 11"  "cursiveAlts contextual 12"  "cursiveAlts contextual 13"  "cursiveAlts contextual 14"  "cursiveAlts contextual 15"  "cursiveAlts contextual 16"  "cursiveAlts contextual 17"  "cursiveAlts contextual 18"  "cursiveAlts contextual 19"  "cursiveAlts contextual 20"  } ['ss01' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 1 0 0 "toSprawl" { "toSprawl subtable"  } []
+Lookup: 1 0 0 "toSprawlAlt" { "toSprawlAlt subtable"  } []
+Lookup: 6 0 0 "sprawl1" { "sprawl1 contextual 0"  "sprawl1 contextual 1"  "sprawl1 contextual 2"  "sprawl1 contextual 3"  "sprawl1 contextual 4"  "sprawl1 contextual 5"  "sprawl1 contextual 6"  "sprawl1 contextual 7"  "sprawl1 contextual 8"  "sprawl1 contextual 9"  "sprawl1 contextual 10"  "sprawl1 contextual 11"  "sprawl1 contextual 12"  "sprawl1 contextual 13"  "sprawl1 contextual 14"  } ['calt' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 6 0 0 "sprawl2" { "sprawl2 contextual 0"  "sprawl2 contextual 1"  "sprawl2 contextual 2"  } ['calt' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 4 0 0 "tw1" { "tw1 subtable"  } ['calt' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 1 0 0 "widen" { "widen subtable"  } []
+Lookup: 1 0 0 "narrow" { "narrow subtable"  } []
+Lookup: 1 0 0 "narrowJ" { "narrowJ subtable"  } []
+Lookup: 6 0 0 "tw2" { "tw2 contextual 0"  "tw2 contextual 1"  "tw2 contextual 2"  "tw2 contextual 3"  "tw2 contextual 4"  "tw2 contextual 5"  "tw2 contextual 6"  "tw2 contextual 7"  "tw2 contextual 8"  "tw2 contextual 9"  "tw2 contextual 10"  "tw2 contextual 11"  "tw2 contextual 12"  "tw2 contextual 13"  "tw2 contextual 14"  "tw2 contextual 15"  "tw2 contextual 16"  "tw2 contextual 17"  "tw2 contextual 18"  "tw2 contextual 19"  "tw2 contextual 20"  } ['calt' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 1 0 0 "midden" { "midden subtable"  } []
+Lookup: 6 0 0 "tw3" { "tw3 contextual 0"  "tw3 contextual 1"  "tw3 contextual 2"  "tw3 contextual 3"  "tw3 contextual 4"  "tw3 contextual 5"  "tw3 contextual 6"  "tw3 contextual 7"  "tw3 contextual 8"  "tw3 contextual 9"  "tw3 contextual 10"  "tw3 contextual 11"  } ['calt' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 2 0 0 "tw4" { "tw4 subtable"  } ['calt' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 1 0 0 "proportional1" { "proportional1 subtable"  } ['ss08' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 6 0 0 "proportional2" { "proportional2 subtable"  } ['ss08' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 1 0 0 "Single Substitution lookup 21" { "Single Substitution lookup 21 subtable"  } []
+Lookup: 6 0 0 "sprawl3" { "sprawl3 contextual 0"  "sprawl3 contextual 1"  "sprawl3 contextual 2"  "sprawl3 contextual 3"  "sprawl3 contextual 4"  "sprawl3 contextual 5"  } ['calt' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 6 0 0 "flourish" { "flourish subtable"  } ['ss03' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 1 0 0 "Single Substitution lookup 24" { "Single Substitution lookup 24 subtable"  } []
+Lookup: 6 0 0 "cursiveJoiners" { "cursiveJoiners contextual 0"  "cursiveJoiners contextual 1"  } ['ss02' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 1 0 0 "Single Substitution lookup 26" { "Single Substitution lookup 26 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 27" { "Single Substitution lookup 27 subtable"  } []
+Lookup: 4 0 0 "cursiveLigatures" { "cursiveLigatures subtable"  } ['ss02' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 258 0 0 "proportionalPos" { "proportionalPos subtable"  } ['ss08' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+MarkAttachClasses: 1
+DEI: 91125
+KernClass2: 7 7 "proportionalPos subtable"
+ 15 A.proportional 
+ 54 L L.thin.sprawl.se Lacute Lcaron Lcedilla Ldot Lslash 
+ 18 T quotesingle.thin
+ 14 V.proportional
+ 25 L.proportional L.sprawl.s
+ 1135 a aacute abreve acircumflex adieresis ae agrave amacron aogonek aring atilde b c cacute ccaron ccedilla ccircumflex cdotaccent dcaron dotlessi e e.cursive eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eng eogonek eth g g.cursive gbreve gcedilla gcircumflex gdotaccent germandbls germandbls h hbar hcircumflex i i.midthin i.sprawl.w i.thin iacute ibreve icircumflex idieresis igrave ij imacron iogonek itilde j j.old1 j.sprawl.s j.thin j.thin.sprawl.sw jcircumflex k k.sprawl.se kcedilla kgreenlandic kgreenlandic l l.midthin l.sprawl.w l.thin lacute lcaron lcedilla ldot lslash m m.midwide m.wide n nacute napostrophe ncaron ncedilla ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde p q q.sprawl.se r r.midthin racute rcaron rcedilla s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scedilla scircumflex t t.midthin tbar tcaron tcedilla thorn u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde v w w.midwide w.wide wcircumflex x y y.flourish.sw yacute ycircumflex ydieresis z z.sprawl.s z.sprawl.se zacute zcaron zdotaccent
+ 15 A.proportional 
+ 63 T Y Y.short Yacute Ycircumflex Ydieresis longs quotesingle.thin
+ 24 Y.sprawl.nwne Y.sprawl.w
+ 979 a aacute abreve acircumflex adieresis ae agrave amacron aogonek aring atilde c cacute ccaron ccedilla ccircumflex cdotaccent d dcaron dcaron dcroat dotlessi e e.cursive eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eng eogonek eth g g.cursive gbreve gcedilla gcircumflex gdotaccent germandbls i i.midthin i.sprawl.w i.thin iacute ibreve icircumflex idieresis igrave ij imacron iogonek itilde j j.old1 j.sprawl.s j.thin j.thin.sprawl.sw jcircumflex kgreenlandic m m.midwide m.wide n nacute napostrophe ncaron ncedilla ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde p q q.sprawl.se r r.midthin racute rcaron rcedilla s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scedilla scircumflex u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde v w w.midwide w.wide wcircumflex x y y.flourish.sw yacute ycircumflex ydieresis z z.sprawl.s z.sprawl.se zacute zcaron zdotaccent
+ 14 V.proportional
+ 37 f f.cursive f.flourish.sw f.sprawl.sw
+ 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -30 {} 0 {} 0 {} 0 {} 0 {} 0 {} -100 {} 0 {} 0 {} -100 {} -100 {} 0 {} 0 {} 0 {} 0 {} -100 {} 0 {} -100 {} 0 {} -30 {} 0 {} 0 {} -30 {} 0 {} -30 {} 0 {} 0 {} -100 {} -30 {} 0 {} -100 {} -100 {} 0 {} 0 {} -100 {} 0 {} 0 {} -30 {} -100 {}
+ChainSub2: coverage "cursiveJoiners contextual 1" 0 0 0 1
+ 1 0 1
+  Coverage: 91 t.cursive t.cursive.before.i.thin t.cursive.before.t t.cursive.sprawl.e t.cursive.sprawl.se
+  FCoverage: 13 i.thin l.thin
+ 1
+  SeqLookup: 0 "Single Substitution lookup 27"
+EndFPST
+ChainSub2: coverage "cursiveJoiners contextual 0" 0 0 0 1
+ 1 0 1
+  Coverage: 91 t.cursive t.cursive.before.i.thin t.cursive.before.t t.cursive.sprawl.e t.cursive.sprawl.se
+  FCoverage: 91 t.cursive t.cursive.before.i.thin t.cursive.before.t t.cursive.sprawl.e t.cursive.sprawl.se
+ 1
+  SeqLookup: 0 "Single Substitution lookup 26"
+EndFPST
+ChainSub2: coverage "flourish subtable" 0 0 0 1
+ 1 1 0
+  Coverage: 15 f f.sprawl.sw y
+  BCoverage: 700 a aacute abreve acircumflex adieresis ae agrave amacron aring atilde b c cacute ccaron ccircumflex cdotaccent d dcaron dcroat dotlessi e eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eth germandbls h hbar hcircumflex i i.sprawl.w iacute ibreve icircumflex idieresis igrave imacron itilde kgreenlandic l l.sprawl.w lacute lcaron ldot lslash m m.midwide m.wide n nacute napostrophe ncaron ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde r racute rcaron s sacute scaron scircumflex t tbar tcaron u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uring utilde v w w.midwide w.wide wcircumflex x z zacute zcaron zdotaccent
+ 1
+  SeqLookup: 0 "Single Substitution lookup 24"
+EndFPST
+ChainSub2: coverage "sprawl3 contextual 5" 0 0 0 1
+ 1 1 0
+  Coverage: 3 i l
+  BCoverage: 1135 a aacute abreve acircumflex adieresis ae agrave amacron aogonek aring atilde c cacute ccaron ccedilla ccircumflex cdotaccent dcaron dotlessi e e.cursive eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eng eogonek eth g g.cursive gbreve gcedilla gcircumflex gdotaccent germandbls i i.midthin i.sprawl.w i.thin iacute ibreve icircumflex idieresis igrave ij imacron iogonek itilde j j.old1 j.sprawl.s j.thin j.thin.sprawl.sw jcircumflex kgreenlandic m m.midwide m.wide n nacute napostrophe ncaron ncedilla ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde p q q.sprawl.se r r.midthin racute rcaron rcedilla s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scedilla scircumflex u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde v w w.midwide w.wide wcircumflex x y y.flourish.sw yacute ycircumflex ydieresis z z.sprawl.s z.sprawl.se zacute zcaron zdotaccent b h hbar hcircumflex k k.sprawl.se kcedilla kgreenlandic l l.midthin l.sprawl.w l.thin lacute lcaron lcedilla ldot lslash t t.midthin tbar tcaron tcedilla germandbls thorn
+ 1
+  SeqLookup: 0 "toSprawl"
+EndFPST
+ChainSub2: coverage "sprawl3 contextual 4" 0 0 0 1
+ 1 0 1
+  Coverage: 1 i
+  FCoverage: 1256 a aacute abreve acircumflex adieresis ae agrave amacron aogonek aring atilde b c cacute ccaron ccedilla ccircumflex cdotaccent d dcaron dcroat dotlessi e e.cursive eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eng eogonek eth f f.cursive f.flourish.sw f.sprawl.sw g g.cursive gbreve gcedilla gcircumflex gdotaccent germandbls h hbar hcircumflex i i.midthin i.sprawl.w i.thin iacute ibreve icircumflex idieresis igrave ij imacron iogonek itilde j j.old1 j.sprawl.s j.thin j.thin.sprawl.sw jcircumflex k k.sprawl.se kcedilla kgreenlandic l l.midthin l.sprawl.w l.thin lacute lcaron lcedilla ldot longs lslash m m.midwide m.wide n nacute napostrophe ncaron ncedilla ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde p q q.sprawl.se r r.midthin racute rcaron rcedilla s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scedilla scircumflex t t.cursive t.cursive.before.i.thin t.cursive.before.t t.cursive.sprawl.e t.cursive.sprawl.se t.midthin tbar tcaron tcedilla thorn u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde v w w.midwide w.wide wcircumflex x y y.flourish.sw yacute ycircumflex ydieresis z z.sprawl.s z.sprawl.se zacute zcaron zdotaccent
+ 0
+EndFPST
+ChainSub2: glyph "sprawl3 contextual 3" 0 0 0 1
+ String: 1 l
+ BString: 1 l
+ FString: 0 
+ 0
+EndFPST
+ChainSub2: glyph "sprawl3 contextual 2" 0 0 0 1
+ String: 1 i
+ BString: 1 i
+ FString: 0 
+ 0
+EndFPST
+ChainSub2: coverage "sprawl3 contextual 1" 0 0 0 1
+ 1 1 0
+  Coverage: 3 i l
+  BCoverage: 34 L L.sprawl.s i.sprawl.w l.sprawl.w
+ 1
+  SeqLookup: 0 "toSprawl"
+EndFPST
+ChainSub2: coverage "sprawl3 contextual 0" 0 0 0 1
+ 1 0 1
+  Coverage: 3 i l
+  FCoverage: 1 j
+ 0
+EndFPST
+ChainSub2: coverage "proportional2 subtable" 0 0 0 1
+ 1 0 1
+  Coverage: 10 L.sprawl.s
+  FCoverage: 893 a aacute abreve acircumflex adieresis ae agrave amacron aring atilde b c cacute ccaron ccircumflex cdotaccent d dcaron dcroat dotlessi e e.cursive eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eth germandbls h hbar hcircumflex i i.midthin i.sprawl.w i.thin iacute ibreve icircumflex idieresis igrave imacron itilde kgreenlandic l l.midthin l.sprawl.w l.thin lacute lcaron ldot lslash m m.midwide m.wide n nacute napostrophe ncaron ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde r r.midthin racute rcaron s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scircumflex t t.cursive t.cursive.before.i.thin t.cursive.before.t t.cursive.sprawl.e t.midthin tbar tcaron u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uring utilde v w w.midwide w.wide wcircumflex x z zacute zcaron zdotaccent q q.sprawl.se
+ 1
+  SeqLookup: 0 "Single Substitution lookup 21"
+EndFPST
+ChainSub2: coverage "tw3 contextual 11" 0 0 0 1
+ 4 0 0
+  Coverage: 13 m.wide w.wide
+  Coverage: 1256 a aacute abreve acircumflex adieresis ae agrave amacron aogonek aring atilde b c cacute ccaron ccedilla ccircumflex cdotaccent d dcaron dcroat dotlessi e e.cursive eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eng eogonek eth f f.cursive f.flourish.sw f.sprawl.sw g g.cursive gbreve gcedilla gcircumflex gdotaccent germandbls h hbar hcircumflex i i.midthin i.sprawl.w i.thin iacute ibreve icircumflex idieresis igrave ij imacron iogonek itilde j j.old1 j.sprawl.s j.thin j.thin.sprawl.sw jcircumflex k k.sprawl.se kcedilla kgreenlandic l l.midthin l.sprawl.w l.thin lacute lcaron lcedilla ldot longs lslash m m.midwide m.wide n nacute napostrophe ncaron ncedilla ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde p q q.sprawl.se r r.midthin racute rcaron rcedilla s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scedilla scircumflex t t.cursive t.cursive.before.i.thin t.cursive.before.t t.cursive.sprawl.e t.cursive.sprawl.se t.midthin tbar tcaron tcedilla thorn u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde v w w.midwide w.wide wcircumflex x y y.flourish.sw yacute ycircumflex ydieresis z z.sprawl.s z.sprawl.se zacute zcaron zdotaccent
+  Coverage: 1256 a aacute abreve acircumflex adieresis ae agrave amacron aogonek aring atilde b c cacute ccaron ccedilla ccircumflex cdotaccent d dcaron dcroat dotlessi e e.cursive eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eng eogonek eth f f.cursive f.flourish.sw f.sprawl.sw g g.cursive gbreve gcedilla gcircumflex gdotaccent germandbls h hbar hcircumflex i i.midthin i.sprawl.w i.thin iacute ibreve icircumflex idieresis igrave ij imacron iogonek itilde j j.old1 j.sprawl.s j.thin j.thin.sprawl.sw jcircumflex k k.sprawl.se kcedilla kgreenlandic l l.midthin l.sprawl.w l.thin lacute lcaron lcedilla ldot longs lslash m m.midwide m.wide n nacute napostrophe ncaron ncedilla ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde p q q.sprawl.se r r.midthin racute rcaron rcedilla s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scedilla scircumflex t t.cursive t.cursive.before.i.thin t.cursive.before.t t.cursive.sprawl.e t.cursive.sprawl.se t.midthin tbar tcaron tcedilla thorn u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde v w w.midwide w.wide wcircumflex x y y.flourish.sw yacute ycircumflex ydieresis z z.sprawl.s z.sprawl.se zacute zcaron zdotaccent
+  Coverage: 3 m w
+ 2
+  SeqLookup: 0 "midden"
+  SeqLookup: 3 "midden"
+EndFPST
+ChainSub2: coverage "tw3 contextual 10" 0 0 0 1
+ 4 0 0
+  Coverage: 3 m w
+  Coverage: 1256 a aacute abreve acircumflex adieresis ae agrave amacron aogonek aring atilde b c cacute ccaron ccedilla ccircumflex cdotaccent d dcaron dcroat dotlessi e e.cursive eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eng eogonek eth f f.cursive f.flourish.sw f.sprawl.sw g g.cursive gbreve gcedilla gcircumflex gdotaccent germandbls h hbar hcircumflex i i.midthin i.sprawl.w i.thin iacute ibreve icircumflex idieresis igrave ij imacron iogonek itilde j j.old1 j.sprawl.s j.thin j.thin.sprawl.sw jcircumflex k k.sprawl.se kcedilla kgreenlandic l l.midthin l.sprawl.w l.thin lacute lcaron lcedilla ldot longs lslash m m.midwide m.wide n nacute napostrophe ncaron ncedilla ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde p q q.sprawl.se r r.midthin racute rcaron rcedilla s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scedilla scircumflex t t.cursive t.cursive.before.i.thin t.cursive.before.t t.cursive.sprawl.e t.cursive.sprawl.se t.midthin tbar tcaron tcedilla thorn u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde v w w.midwide w.wide wcircumflex x y y.flourish.sw yacute ycircumflex ydieresis z z.sprawl.s z.sprawl.se zacute zcaron zdotaccent
+  Coverage: 1256 a aacute abreve acircumflex adieresis ae agrave amacron aogonek aring atilde b c cacute ccaron ccedilla ccircumflex cdotaccent d dcaron dcroat dotlessi e e.cursive eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eng eogonek eth f f.cursive f.flourish.sw f.sprawl.sw g g.cursive gbreve gcedilla gcircumflex gdotaccent germandbls h hbar hcircumflex i i.midthin i.sprawl.w i.thin iacute ibreve icircumflex idieresis igrave ij imacron iogonek itilde j j.old1 j.sprawl.s j.thin j.thin.sprawl.sw jcircumflex k k.sprawl.se kcedilla kgreenlandic l l.midthin l.sprawl.w l.thin lacute lcaron lcedilla ldot longs lslash m m.midwide m.wide n nacute napostrophe ncaron ncedilla ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde p q q.sprawl.se r r.midthin racute rcaron rcedilla s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scedilla scircumflex t t.cursive t.cursive.before.i.thin t.cursive.before.t t.cursive.sprawl.e t.cursive.sprawl.se t.midthin tbar tcaron tcedilla thorn u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde v w w.midwide w.wide wcircumflex x y y.flourish.sw yacute ycircumflex ydieresis z z.sprawl.s z.sprawl.se zacute zcaron zdotaccent
+  Coverage: 13 m.wide w.wide
+ 2
+  SeqLookup: 0 "midden"
+  SeqLookup: 3 "midden"
+EndFPST
+ChainSub2: coverage "tw3 contextual 9" 0 0 0 1
+ 4 0 0
+  Coverage: 13 i.thin l.thin
+  Coverage: 1256 a aacute abreve acircumflex adieresis ae agrave amacron aogonek aring atilde b c cacute ccaron ccedilla ccircumflex cdotaccent d dcaron dcroat dotlessi e e.cursive eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eng eogonek eth f f.cursive f.flourish.sw f.sprawl.sw g g.cursive gbreve gcedilla gcircumflex gdotaccent germandbls h hbar hcircumflex i i.midthin i.sprawl.w i.thin iacute ibreve icircumflex idieresis igrave ij imacron iogonek itilde j j.old1 j.sprawl.s j.thin j.thin.sprawl.sw jcircumflex k k.sprawl.se kcedilla kgreenlandic l l.midthin l.sprawl.w l.thin lacute lcaron lcedilla ldot longs lslash m m.midwide m.wide n nacute napostrophe ncaron ncedilla ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde p q q.sprawl.se r r.midthin racute rcaron rcedilla s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scedilla scircumflex t t.cursive t.cursive.before.i.thin t.cursive.before.t t.cursive.sprawl.e t.cursive.sprawl.se t.midthin tbar tcaron tcedilla thorn u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde v w w.midwide w.wide wcircumflex x y y.flourish.sw yacute ycircumflex ydieresis z z.sprawl.s z.sprawl.se zacute zcaron zdotaccent
+  Coverage: 1256 a aacute abreve acircumflex adieresis ae agrave amacron aogonek aring atilde b c cacute ccaron ccedilla ccircumflex cdotaccent d dcaron dcroat dotlessi e e.cursive eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eng eogonek eth f f.cursive f.flourish.sw f.sprawl.sw g g.cursive gbreve gcedilla gcircumflex gdotaccent germandbls h hbar hcircumflex i i.midthin i.sprawl.w i.thin iacute ibreve icircumflex idieresis igrave ij imacron iogonek itilde j j.old1 j.sprawl.s j.thin j.thin.sprawl.sw jcircumflex k k.sprawl.se kcedilla kgreenlandic l l.midthin l.sprawl.w l.thin lacute lcaron lcedilla ldot longs lslash m m.midwide m.wide n nacute napostrophe ncaron ncedilla ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde p q q.sprawl.se r r.midthin racute rcaron rcedilla s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scedilla scircumflex t t.cursive t.cursive.before.i.thin t.cursive.before.t t.cursive.sprawl.e t.cursive.sprawl.se t.midthin tbar tcaron tcedilla thorn u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde v w w.midwide w.wide wcircumflex x y y.flourish.sw yacute ycircumflex ydieresis z z.sprawl.s z.sprawl.se zacute zcaron zdotaccent
+  Coverage: 7 i l r t
+ 2
+  SeqLookup: 0 "midden"
+  SeqLookup: 3 "midden"
+EndFPST
+ChainSub2: coverage "tw3 contextual 8" 0 0 0 1
+ 4 0 0
+  Coverage: 7 i l r t
+  Coverage: 1256 a aacute abreve acircumflex adieresis ae agrave amacron aogonek aring atilde b c cacute ccaron ccedilla ccircumflex cdotaccent d dcaron dcroat dotlessi e e.cursive eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eng eogonek eth f f.cursive f.flourish.sw f.sprawl.sw g g.cursive gbreve gcedilla gcircumflex gdotaccent germandbls h hbar hcircumflex i i.midthin i.sprawl.w i.thin iacute ibreve icircumflex idieresis igrave ij imacron iogonek itilde j j.old1 j.sprawl.s j.thin j.thin.sprawl.sw jcircumflex k k.sprawl.se kcedilla kgreenlandic l l.midthin l.sprawl.w l.thin lacute lcaron lcedilla ldot longs lslash m m.midwide m.wide n nacute napostrophe ncaron ncedilla ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde p q q.sprawl.se r r.midthin racute rcaron rcedilla s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scedilla scircumflex t t.cursive t.cursive.before.i.thin t.cursive.before.t t.cursive.sprawl.e t.cursive.sprawl.se t.midthin tbar tcaron tcedilla thorn u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde v w w.midwide w.wide wcircumflex x y y.flourish.sw yacute ycircumflex ydieresis z z.sprawl.s z.sprawl.se zacute zcaron zdotaccent
+  Coverage: 1256 a aacute abreve acircumflex adieresis ae agrave amacron aogonek aring atilde b c cacute ccaron ccedilla ccircumflex cdotaccent d dcaron dcroat dotlessi e e.cursive eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eng eogonek eth f f.cursive f.flourish.sw f.sprawl.sw g g.cursive gbreve gcedilla gcircumflex gdotaccent germandbls h hbar hcircumflex i i.midthin i.sprawl.w i.thin iacute ibreve icircumflex idieresis igrave ij imacron iogonek itilde j j.old1 j.sprawl.s j.thin j.thin.sprawl.sw jcircumflex k k.sprawl.se kcedilla kgreenlandic l l.midthin l.sprawl.w l.thin lacute lcaron lcedilla ldot longs lslash m m.midwide m.wide n nacute napostrophe ncaron ncedilla ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde p q q.sprawl.se r r.midthin racute rcaron rcedilla s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scedilla scircumflex t t.cursive t.cursive.before.i.thin t.cursive.before.t t.cursive.sprawl.e t.cursive.sprawl.se t.midthin tbar tcaron tcedilla thorn u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde v w w.midwide w.wide wcircumflex x y y.flourish.sw yacute ycircumflex ydieresis z z.sprawl.s z.sprawl.se zacute zcaron zdotaccent
+  Coverage: 13 i.thin l.thin
+ 2
+  SeqLookup: 0 "midden"
+  SeqLookup: 3 "midden"
+EndFPST
+ChainSub2: coverage "tw3 contextual 7" 0 0 0 1
+ 3 0 0
+  Coverage: 13 m.wide w.wide
+  Coverage: 1256 a aacute abreve acircumflex adieresis ae agrave amacron aogonek aring atilde b c cacute ccaron ccedilla ccircumflex cdotaccent d dcaron dcroat dotlessi e e.cursive eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eng eogonek eth f f.cursive f.flourish.sw f.sprawl.sw g g.cursive gbreve gcedilla gcircumflex gdotaccent germandbls h hbar hcircumflex i i.midthin i.sprawl.w i.thin iacute ibreve icircumflex idieresis igrave ij imacron iogonek itilde j j.old1 j.sprawl.s j.thin j.thin.sprawl.sw jcircumflex k k.sprawl.se kcedilla kgreenlandic l l.midthin l.sprawl.w l.thin lacute lcaron lcedilla ldot longs lslash m m.midwide m.wide n nacute napostrophe ncaron ncedilla ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde p q q.sprawl.se r r.midthin racute rcaron rcedilla s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scedilla scircumflex t t.cursive t.cursive.before.i.thin t.cursive.before.t t.cursive.sprawl.e t.cursive.sprawl.se t.midthin tbar tcaron tcedilla thorn u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde v w w.midwide w.wide wcircumflex x y y.flourish.sw yacute ycircumflex ydieresis z z.sprawl.s z.sprawl.se zacute zcaron zdotaccent
+  Coverage: 3 m w
+ 2
+  SeqLookup: 0 "midden"
+  SeqLookup: 2 "midden"
+EndFPST
+ChainSub2: coverage "tw3 contextual 6" 0 0 0 1
+ 3 0 0
+  Coverage: 3 m w
+  Coverage: 1256 a aacute abreve acircumflex adieresis ae agrave amacron aogonek aring atilde b c cacute ccaron ccedilla ccircumflex cdotaccent d dcaron dcroat dotlessi e e.cursive eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eng eogonek eth f f.cursive f.flourish.sw f.sprawl.sw g g.cursive gbreve gcedilla gcircumflex gdotaccent germandbls h hbar hcircumflex i i.midthin i.sprawl.w i.thin iacute ibreve icircumflex idieresis igrave ij imacron iogonek itilde j j.old1 j.sprawl.s j.thin j.thin.sprawl.sw jcircumflex k k.sprawl.se kcedilla kgreenlandic l l.midthin l.sprawl.w l.thin lacute lcaron lcedilla ldot longs lslash m m.midwide m.wide n nacute napostrophe ncaron ncedilla ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde p q q.sprawl.se r r.midthin racute rcaron rcedilla s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scedilla scircumflex t t.cursive t.cursive.before.i.thin t.cursive.before.t t.cursive.sprawl.e t.cursive.sprawl.se t.midthin tbar tcaron tcedilla thorn u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde v w w.midwide w.wide wcircumflex x y y.flourish.sw yacute ycircumflex ydieresis z z.sprawl.s z.sprawl.se zacute zcaron zdotaccent
+  Coverage: 13 m.wide w.wide
+ 2
+  SeqLookup: 0 "midden"
+  SeqLookup: 2 "midden"
+EndFPST
+ChainSub2: coverage "tw3 contextual 5" 0 0 0 1
+ 3 0 0
+  Coverage: 13 i.thin l.thin
+  Coverage: 1256 a aacute abreve acircumflex adieresis ae agrave amacron aogonek aring atilde b c cacute ccaron ccedilla ccircumflex cdotaccent d dcaron dcroat dotlessi e e.cursive eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eng eogonek eth f f.cursive f.flourish.sw f.sprawl.sw g g.cursive gbreve gcedilla gcircumflex gdotaccent germandbls h hbar hcircumflex i i.midthin i.sprawl.w i.thin iacute ibreve icircumflex idieresis igrave ij imacron iogonek itilde j j.old1 j.sprawl.s j.thin j.thin.sprawl.sw jcircumflex k k.sprawl.se kcedilla kgreenlandic l l.midthin l.sprawl.w l.thin lacute lcaron lcedilla ldot longs lslash m m.midwide m.wide n nacute napostrophe ncaron ncedilla ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde p q q.sprawl.se r r.midthin racute rcaron rcedilla s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scedilla scircumflex t t.cursive t.cursive.before.i.thin t.cursive.before.t t.cursive.sprawl.e t.cursive.sprawl.se t.midthin tbar tcaron tcedilla thorn u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde v w w.midwide w.wide wcircumflex x y y.flourish.sw yacute ycircumflex ydieresis z z.sprawl.s z.sprawl.se zacute zcaron zdotaccent
+  Coverage: 7 i l r t
+ 2
+  SeqLookup: 0 "midden"
+  SeqLookup: 2 "midden"
+EndFPST
+ChainSub2: coverage "tw3 contextual 4" 0 0 0 1
+ 3 0 0
+  Coverage: 7 i l r t
+  Coverage: 1256 a aacute abreve acircumflex adieresis ae agrave amacron aogonek aring atilde b c cacute ccaron ccedilla ccircumflex cdotaccent d dcaron dcroat dotlessi e e.cursive eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eng eogonek eth f f.cursive f.flourish.sw f.sprawl.sw g g.cursive gbreve gcedilla gcircumflex gdotaccent germandbls h hbar hcircumflex i i.midthin i.sprawl.w i.thin iacute ibreve icircumflex idieresis igrave ij imacron iogonek itilde j j.old1 j.sprawl.s j.thin j.thin.sprawl.sw jcircumflex k k.sprawl.se kcedilla kgreenlandic l l.midthin l.sprawl.w l.thin lacute lcaron lcedilla ldot longs lslash m m.midwide m.wide n nacute napostrophe ncaron ncedilla ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde p q q.sprawl.se r r.midthin racute rcaron rcedilla s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scedilla scircumflex t t.cursive t.cursive.before.i.thin t.cursive.before.t t.cursive.sprawl.e t.cursive.sprawl.se t.midthin tbar tcaron tcedilla thorn u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde v w w.midwide w.wide wcircumflex x y y.flourish.sw yacute ycircumflex ydieresis z z.sprawl.s z.sprawl.se zacute zcaron zdotaccent
+  Coverage: 13 i.thin l.thin
+ 2
+  SeqLookup: 0 "midden"
+  SeqLookup: 2 "midden"
+EndFPST
+ChainSub2: coverage "tw3 contextual 3" 0 0 0 1
+ 2 0 0
+  Coverage: 13 m.wide w.wide
+  Coverage: 3 m w
+ 2
+  SeqLookup: 0 "midden"
+  SeqLookup: 1 "midden"
+EndFPST
+ChainSub2: coverage "tw3 contextual 2" 0 0 0 1
+ 2 0 0
+  Coverage: 3 m w
+  Coverage: 13 m.wide w.wide
+ 2
+  SeqLookup: 0 "midden"
+  SeqLookup: 1 "midden"
+EndFPST
+ChainSub2: coverage "tw3 contextual 1" 0 0 0 1
+ 2 0 0
+  Coverage: 13 i.thin l.thin
+  Coverage: 7 i l r t
+ 2
+  SeqLookup: 0 "midden"
+  SeqLookup: 1 "midden"
+EndFPST
+ChainSub2: coverage "tw3 contextual 0" 0 0 0 1
+ 2 0 0
+  Coverage: 7 i l r t
+  Coverage: 13 i.thin l.thin
+ 2
+  SeqLookup: 0 "midden"
+  SeqLookup: 1 "midden"
+EndFPST
+ChainSub2: coverage "tw2 contextual 20" 0 0 0 1
+ 4 0 0
+  Coverage: 12 L L.sprawl.s
+  Coverage: 781 a aacute abreve acircumflex adieresis ae agrave amacron aring atilde b c cacute ccaron ccircumflex cdotaccent d dcaron dcroat dotlessi e e.cursive eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eth germandbls h hbar hcircumflex i i.sprawl.w iacute ibreve icircumflex idieresis igrave imacron itilde kgreenlandic l l.sprawl.w lacute lcaron ldot lslash m n nacute napostrophe ncaron ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde r racute rcaron s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scircumflex t t.cursive t.cursive.before.t t.cursive.sprawl.e tbar tcaron u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uring utilde v w wcircumflex x z zacute zcaron zdotaccent q q.sprawl.se
+  Coverage: 1120 a aacute abreve acircumflex adieresis ae agrave amacron aogonek aring atilde b c cacute ccaron ccedilla ccircumflex cdotaccent d dcaron dcroat dotlessi e e.cursive eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eng eogonek eth f f.cursive f.flourish.sw f.sprawl.sw g g.cursive gbreve gcedilla gcircumflex gdotaccent germandbls h hbar hcircumflex i i.sprawl.w iacute ibreve icircumflex idieresis igrave ij imacron iogonek itilde j j.old1 j.sprawl.s jcircumflex k k.sprawl.se kcedilla kgreenlandic l l.sprawl.w lacute lcaron lcedilla ldot longs lslash m n nacute napostrophe ncaron ncedilla ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde p q q.sprawl.se r racute rcaron rcedilla s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scedilla scircumflex t t.cursive t.cursive.before.t t.cursive.sprawl.e t.cursive.sprawl.se tbar tcaron tcedilla thorn u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde v w wcircumflex x y y.flourish.sw yacute ycircumflex ydieresis z z.sprawl.s z.sprawl.se zacute zcaron zdotaccent
+  Coverage: 9 m mm w ww
+ 2
+  SeqLookup: 0 "narrow"
+  SeqLookup: 3 "widen"
+EndFPST
+ChainSub2: coverage "tw2 contextual 19" 0 0 0 1
+ 4 1 0
+  Coverage: 11 quotesingle
+  Coverage: 1120 a aacute abreve acircumflex adieresis ae agrave amacron aogonek aring atilde b c cacute ccaron ccedilla ccircumflex cdotaccent d dcaron dcroat dotlessi e e.cursive eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eng eogonek eth f f.cursive f.flourish.sw f.sprawl.sw g g.cursive gbreve gcedilla gcircumflex gdotaccent germandbls h hbar hcircumflex i i.sprawl.w iacute ibreve icircumflex idieresis igrave ij imacron iogonek itilde j j.old1 j.sprawl.s jcircumflex k k.sprawl.se kcedilla kgreenlandic l l.sprawl.w lacute lcaron lcedilla ldot longs lslash m n nacute napostrophe ncaron ncedilla ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde p q q.sprawl.se r racute rcaron rcedilla s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scedilla scircumflex t t.cursive t.cursive.before.t t.cursive.sprawl.e t.cursive.sprawl.se tbar tcaron tcedilla thorn u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde v w wcircumflex x y y.flourish.sw yacute ycircumflex ydieresis z z.sprawl.s z.sprawl.se zacute zcaron zdotaccent
+  Coverage: 1120 a aacute abreve acircumflex adieresis ae agrave amacron aogonek aring atilde b c cacute ccaron ccedilla ccircumflex cdotaccent d dcaron dcroat dotlessi e e.cursive eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eng eogonek eth f f.cursive f.flourish.sw f.sprawl.sw g g.cursive gbreve gcedilla gcircumflex gdotaccent germandbls h hbar hcircumflex i i.sprawl.w iacute ibreve icircumflex idieresis igrave ij imacron iogonek itilde j j.old1 j.sprawl.s jcircumflex k k.sprawl.se kcedilla kgreenlandic l l.sprawl.w lacute lcaron lcedilla ldot longs lslash m n nacute napostrophe ncaron ncedilla ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde p q q.sprawl.se r racute rcaron rcedilla s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scedilla scircumflex t t.cursive t.cursive.before.t t.cursive.sprawl.e t.cursive.sprawl.se tbar tcaron tcedilla thorn u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde v w wcircumflex x y y.flourish.sw yacute ycircumflex ydieresis z z.sprawl.s z.sprawl.se zacute zcaron zdotaccent
+  Coverage: 9 m mm w ww
+  BCoverage: 2677 A A.proportional A.short A.sprawl.s A.sprawl.s.wide A.wide AE Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde B B.sprawl.nw C C.short C.sprawl.e C.sprawl.e.proportional C.sprawl.s Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D D.proportional D.sprawl.nw Dcaron Dcroat E E.short Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eng Eogonek Eth F F.sprawl.e G G.proportional G.short G.wide Gbreve Gcedilla Gcircumflex Gdotaccent H H.proportional Hbar Hcircumflex I I.midthin I.short IJ Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde J J.sprawl.s J.thin.sprawl.sw Jcircumflex K K.sprawl.se Kcedilla L L.proportional L.sprawl.s L.thin.sprawl.se Lacute Lcaron Lcedilla Ldot Lslash M M.wide N N.proportional N.short N.sprawl.s Nacute Ncaron Ncedilla Ntilde O O.short OE Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde P P.sprawl.nw Q Q.sprawl.se R R.short R.sprawl.nw R.sprawl.nwse R.sprawl.se Racute Rcaron Rcedilla S S.cursive S.cursive.wide S.short Sacute Scaron Scedilla Scircumflex T Tbar Tcaron Tcedilla Thorn U U.short Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde V V.proportional V.sprawl.nwne V.sprawl.w W W.wide W.wide.alt Wcircumflex X X.sprawl.s Y Y.short Y.sprawl.nwne Y.sprawl.w Yacute Ycircumflex Ydieresis Z Z.short Z.sprawl.s Z.sprawl.se Zacute Zcaron Zdotaccent a aacute abreve acircumflex adieresis ae agrave amacron aogonek aring atilde b c cacute ccaron ccedilla ccircumflex cdotaccent d dcaron dcroat dotlessi e e.cursive eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eng eogonek eth f f.cursive f.flourish.sw f.sprawl.sw g g.cursive gbreve gcedilla gcircumflex gdotaccent germandbls h hbar hcircumflex i i.midthin i.sprawl.w i.thin iacute ibreve icircumflex idieresis igrave ij imacron iogonek itilde j j.old1 j.sprawl.s j.thin j.thin.sprawl.sw jcircumflex k k.sprawl.se kcedilla kgreenlandic l l.midthin l.sprawl.w l.thin lacute lcaron lcedilla ldot longs lslash m m.midwide m.wide n nacute napostrophe ncaron ncedilla ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde p q q.sprawl.se r r.midthin racute rcaron rcedilla s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scedilla scircumflex t t.cursive t.cursive.before.i.thin t.cursive.before.t t.cursive.sprawl.e t.cursive.sprawl.se t.midthin tbar tcaron tcedilla thorn u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde v w w.midwide w.wide wcircumflex x y y.flourish.sw yacute ycircumflex ydieresis z z.sprawl.s z.sprawl.se zacute zcaron zdotaccent
+ 2
+  SeqLookup: 0 "narrow"
+  SeqLookup: 3 "widen"
+EndFPST
+ChainSub2: coverage "tw2 contextual 18" 0 0 0 1
+ 4 0 0
+  Coverage: 28 i ii j j.sprawl.s l ll rr tt
+  Coverage: 1120 a aacute abreve acircumflex adieresis ae agrave amacron aogonek aring atilde b c cacute ccaron ccedilla ccircumflex cdotaccent d dcaron dcroat dotlessi e e.cursive eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eng eogonek eth f f.cursive f.flourish.sw f.sprawl.sw g g.cursive gbreve gcedilla gcircumflex gdotaccent germandbls h hbar hcircumflex i i.sprawl.w iacute ibreve icircumflex idieresis igrave ij imacron iogonek itilde j j.old1 j.sprawl.s jcircumflex k k.sprawl.se kcedilla kgreenlandic l l.sprawl.w lacute lcaron lcedilla ldot longs lslash m n nacute napostrophe ncaron ncedilla ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde p q q.sprawl.se r racute rcaron rcedilla s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scedilla scircumflex t t.cursive t.cursive.before.t t.cursive.sprawl.e t.cursive.sprawl.se tbar tcaron tcedilla thorn u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde v w wcircumflex x y y.flourish.sw yacute ycircumflex ydieresis z z.sprawl.s z.sprawl.se zacute zcaron zdotaccent
+  Coverage: 1120 a aacute abreve acircumflex adieresis ae agrave amacron aogonek aring atilde b c cacute ccaron ccedilla ccircumflex cdotaccent d dcaron dcroat dotlessi e e.cursive eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eng eogonek eth f f.cursive f.flourish.sw f.sprawl.sw g g.cursive gbreve gcedilla gcircumflex gdotaccent germandbls h hbar hcircumflex i i.sprawl.w iacute ibreve icircumflex idieresis igrave ij imacron iogonek itilde j j.old1 j.sprawl.s jcircumflex k k.sprawl.se kcedilla kgreenlandic l l.sprawl.w lacute lcaron lcedilla ldot longs lslash m n nacute napostrophe ncaron ncedilla ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde p q q.sprawl.se r racute rcaron rcedilla s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scedilla scircumflex t t.cursive t.cursive.before.t t.cursive.sprawl.e t.cursive.sprawl.se tbar tcaron tcedilla thorn u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde v w wcircumflex x y y.flourish.sw yacute ycircumflex ydieresis z z.sprawl.s z.sprawl.se zacute zcaron zdotaccent
+  Coverage: 9 m mm w ww
+ 2
+  SeqLookup: 0 "narrow"
+  SeqLookup: 3 "widen"
+EndFPST
+ChainSub2: coverage "tw2 contextual 17" 0 0 0 1
+ 4 1 0
+  Coverage: 14 J J.sprawl.s j
+  Coverage: 1120 a aacute abreve acircumflex adieresis ae agrave amacron aogonek aring atilde b c cacute ccaron ccedilla ccircumflex cdotaccent d dcaron dcroat dotlessi e e.cursive eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eng eogonek eth f f.cursive f.flourish.sw f.sprawl.sw g g.cursive gbreve gcedilla gcircumflex gdotaccent germandbls h hbar hcircumflex i i.sprawl.w iacute ibreve icircumflex idieresis igrave ij imacron iogonek itilde j j.old1 j.sprawl.s jcircumflex k k.sprawl.se kcedilla kgreenlandic l l.sprawl.w lacute lcaron lcedilla ldot longs lslash m n nacute napostrophe ncaron ncedilla ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde p q q.sprawl.se r racute rcaron rcedilla s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scedilla scircumflex t t.cursive t.cursive.before.t t.cursive.sprawl.e t.cursive.sprawl.se tbar tcaron tcedilla thorn u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde v w wcircumflex x y y.flourish.sw yacute ycircumflex ydieresis z z.sprawl.s z.sprawl.se zacute zcaron zdotaccent
+  Coverage: 1120 a aacute abreve acircumflex adieresis ae agrave amacron aogonek aring atilde b c cacute ccaron ccedilla ccircumflex cdotaccent d dcaron dcroat dotlessi e e.cursive eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eng eogonek eth f f.cursive f.flourish.sw f.sprawl.sw g g.cursive gbreve gcedilla gcircumflex gdotaccent germandbls h hbar hcircumflex i i.sprawl.w iacute ibreve icircumflex idieresis igrave ij imacron iogonek itilde j j.old1 j.sprawl.s jcircumflex k k.sprawl.se kcedilla kgreenlandic l l.sprawl.w lacute lcaron lcedilla ldot longs lslash m n nacute napostrophe ncaron ncedilla ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde p q q.sprawl.se r racute rcaron rcedilla s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scedilla scircumflex t t.cursive t.cursive.before.t t.cursive.sprawl.e t.cursive.sprawl.se tbar tcaron tcedilla thorn u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde v w wcircumflex x y y.flourish.sw yacute ycircumflex ydieresis z z.sprawl.s z.sprawl.se zacute zcaron zdotaccent
+  Coverage: 9 m mm w ww
+  BCoverage: 887 a aacute abreve acircumflex adieresis ae agrave amacron aring atilde b c cacute ccaron ccircumflex cdotaccent d dcaron dcroat dotlessi e e.cursive eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eth germandbls h hbar hcircumflex i i.midthin i.sprawl.w i.thin iacute ibreve icircumflex idieresis igrave imacron itilde kgreenlandic l l.midthin l.sprawl.w l.thin lacute lcaron ldot lslash m m.midwide m.wide n nacute napostrophe ncaron ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde r r.midthin racute rcaron s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scircumflex t t.cursive t.cursive.before.i.thin t.cursive.before.t t.cursive.sprawl.e t.midthin tbar tcaron u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uring utilde v w w.midwide w.wide wcircumflex x z zacute zcaron zdotaccent p thorn
+ 2
+  SeqLookup: 0 "narrowJ"
+  SeqLookup: 3 "widen"
+EndFPST
+ChainSub2: coverage "tw2 contextual 16" 0 0 0 1
+ 4 0 1
+  Coverage: 38 A A.sprawl.s G M S.cursive W m mm w ww
+  Coverage: 1120 a aacute abreve acircumflex adieresis ae agrave amacron aogonek aring atilde b c cacute ccaron ccedilla ccircumflex cdotaccent d dcaron dcroat dotlessi e e.cursive eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eng eogonek eth f f.cursive f.flourish.sw f.sprawl.sw g g.cursive gbreve gcedilla gcircumflex gdotaccent germandbls h hbar hcircumflex i i.sprawl.w iacute ibreve icircumflex idieresis igrave ij imacron iogonek itilde j j.old1 j.sprawl.s jcircumflex k k.sprawl.se kcedilla kgreenlandic l l.sprawl.w lacute lcaron lcedilla ldot longs lslash m n nacute napostrophe ncaron ncedilla ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde p q q.sprawl.se r racute rcaron rcedilla s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scedilla scircumflex t t.cursive t.cursive.before.t t.cursive.sprawl.e t.cursive.sprawl.se tbar tcaron tcedilla thorn u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde v w wcircumflex x y y.flourish.sw yacute ycircumflex ydieresis z z.sprawl.s z.sprawl.se zacute zcaron zdotaccent
+  Coverage: 1120 a aacute abreve acircumflex adieresis ae agrave amacron aogonek aring atilde b c cacute ccaron ccedilla ccircumflex cdotaccent d dcaron dcroat dotlessi e e.cursive eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eng eogonek eth f f.cursive f.flourish.sw f.sprawl.sw g g.cursive gbreve gcedilla gcircumflex gdotaccent germandbls h hbar hcircumflex i i.sprawl.w iacute ibreve icircumflex idieresis igrave ij imacron iogonek itilde j j.old1 j.sprawl.s jcircumflex k k.sprawl.se kcedilla kgreenlandic l l.sprawl.w lacute lcaron lcedilla ldot longs lslash m n nacute napostrophe ncaron ncedilla ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde p q q.sprawl.se r racute rcaron rcedilla s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scedilla scircumflex t t.cursive t.cursive.before.t t.cursive.sprawl.e t.cursive.sprawl.se tbar tcaron tcedilla thorn u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde v w wcircumflex x y y.flourish.sw yacute ycircumflex ydieresis z z.sprawl.s z.sprawl.se zacute zcaron zdotaccent
+  Coverage: 11 quotesingle
+  FCoverage: 2677 A A.proportional A.short A.sprawl.s A.sprawl.s.wide A.wide AE Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde B B.sprawl.nw C C.short C.sprawl.e C.sprawl.e.proportional C.sprawl.s Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D D.proportional D.sprawl.nw Dcaron Dcroat E E.short Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eng Eogonek Eth F F.sprawl.e G G.proportional G.short G.wide Gbreve Gcedilla Gcircumflex Gdotaccent H H.proportional Hbar Hcircumflex I I.midthin I.short IJ Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde J J.sprawl.s J.thin.sprawl.sw Jcircumflex K K.sprawl.se Kcedilla L L.proportional L.sprawl.s L.thin.sprawl.se Lacute Lcaron Lcedilla Ldot Lslash M M.wide N N.proportional N.short N.sprawl.s Nacute Ncaron Ncedilla Ntilde O O.short OE Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde P P.sprawl.nw Q Q.sprawl.se R R.short R.sprawl.nw R.sprawl.nwse R.sprawl.se Racute Rcaron Rcedilla S S.cursive S.cursive.wide S.short Sacute Scaron Scedilla Scircumflex T Tbar Tcaron Tcedilla Thorn U U.short Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde V V.proportional V.sprawl.nwne V.sprawl.w W W.wide W.wide.alt Wcircumflex X X.sprawl.s Y Y.short Y.sprawl.nwne Y.sprawl.w Yacute Ycircumflex Ydieresis Z Z.short Z.sprawl.s Z.sprawl.se Zacute Zcaron Zdotaccent a aacute abreve acircumflex adieresis ae agrave amacron aogonek aring atilde b c cacute ccaron ccedilla ccircumflex cdotaccent d dcaron dcroat dotlessi e e.cursive eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eng eogonek eth f f.cursive f.flourish.sw f.sprawl.sw g g.cursive gbreve gcedilla gcircumflex gdotaccent germandbls h hbar hcircumflex i i.midthin i.sprawl.w i.thin iacute ibreve icircumflex idieresis igrave ij imacron iogonek itilde j j.old1 j.sprawl.s j.thin j.thin.sprawl.sw jcircumflex k k.sprawl.se kcedilla kgreenlandic l l.midthin l.sprawl.w l.thin lacute lcaron lcedilla ldot longs lslash m m.midwide m.wide n nacute napostrophe ncaron ncedilla ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde p q q.sprawl.se r r.midthin racute rcaron rcedilla s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scedilla scircumflex t t.cursive t.cursive.before.i.thin t.cursive.before.t t.cursive.sprawl.e t.cursive.sprawl.se t.midthin tbar tcaron tcedilla thorn u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde v w w.midwide w.wide wcircumflex x y y.flourish.sw yacute ycircumflex ydieresis z z.sprawl.s z.sprawl.se zacute zcaron zdotaccent
+ 2
+  SeqLookup: 0 "widen"
+  SeqLookup: 3 "narrow"
+EndFPST
+ChainSub2: coverage "tw2 contextual 15" 0 0 0 1
+ 4 0 0
+  Coverage: 38 A A.sprawl.s G M S.cursive W m mm w ww
+  Coverage: 1120 a aacute abreve acircumflex adieresis ae agrave amacron aogonek aring atilde b c cacute ccaron ccedilla ccircumflex cdotaccent d dcaron dcroat dotlessi e e.cursive eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eng eogonek eth f f.cursive f.flourish.sw f.sprawl.sw g g.cursive gbreve gcedilla gcircumflex gdotaccent germandbls h hbar hcircumflex i i.sprawl.w iacute ibreve icircumflex idieresis igrave ij imacron iogonek itilde j j.old1 j.sprawl.s jcircumflex k k.sprawl.se kcedilla kgreenlandic l l.sprawl.w lacute lcaron lcedilla ldot longs lslash m n nacute napostrophe ncaron ncedilla ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde p q q.sprawl.se r racute rcaron rcedilla s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scedilla scircumflex t t.cursive t.cursive.before.t t.cursive.sprawl.e t.cursive.sprawl.se tbar tcaron tcedilla thorn u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde v w wcircumflex x y y.flourish.sw yacute ycircumflex ydieresis z z.sprawl.s z.sprawl.se zacute zcaron zdotaccent
+  Coverage: 1120 a aacute abreve acircumflex adieresis ae agrave amacron aogonek aring atilde b c cacute ccaron ccedilla ccircumflex cdotaccent d dcaron dcroat dotlessi e e.cursive eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eng eogonek eth f f.cursive f.flourish.sw f.sprawl.sw g g.cursive gbreve gcedilla gcircumflex gdotaccent germandbls h hbar hcircumflex i i.sprawl.w iacute ibreve icircumflex idieresis igrave ij imacron iogonek itilde j j.old1 j.sprawl.s jcircumflex k k.sprawl.se kcedilla kgreenlandic l l.sprawl.w lacute lcaron lcedilla ldot longs lslash m n nacute napostrophe ncaron ncedilla ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde p q q.sprawl.se r racute rcaron rcedilla s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scedilla scircumflex t t.cursive t.cursive.before.t t.cursive.sprawl.e t.cursive.sprawl.se tbar tcaron tcedilla thorn u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde v w wcircumflex x y y.flourish.sw yacute ycircumflex ydieresis z z.sprawl.s z.sprawl.se zacute zcaron zdotaccent
+  Coverage: 28 i ii j j.sprawl.s l ll rr tt
+ 2
+  SeqLookup: 0 "widen"
+  SeqLookup: 3 "narrow"
+EndFPST
+ChainSub2: coverage "tw2 contextual 14" 0 0 0 1
+ 4 0 0
+  Coverage: 38 A A.sprawl.s G M S.cursive W m mm w ww
+  Coverage: 1120 a aacute abreve acircumflex adieresis ae agrave amacron aogonek aring atilde b c cacute ccaron ccedilla ccircumflex cdotaccent d dcaron dcroat dotlessi e e.cursive eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eng eogonek eth f f.cursive f.flourish.sw f.sprawl.sw g g.cursive gbreve gcedilla gcircumflex gdotaccent germandbls h hbar hcircumflex i i.sprawl.w iacute ibreve icircumflex idieresis igrave ij imacron iogonek itilde j j.old1 j.sprawl.s jcircumflex k k.sprawl.se kcedilla kgreenlandic l l.sprawl.w lacute lcaron lcedilla ldot longs lslash m n nacute napostrophe ncaron ncedilla ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde p q q.sprawl.se r racute rcaron rcedilla s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scedilla scircumflex t t.cursive t.cursive.before.t t.cursive.sprawl.e t.cursive.sprawl.se tbar tcaron tcedilla thorn u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde v w wcircumflex x y y.flourish.sw yacute ycircumflex ydieresis z z.sprawl.s z.sprawl.se zacute zcaron zdotaccent
+  Coverage: 775 a aacute abreve acircumflex adieresis ae agrave amacron aring atilde b c cacute ccaron ccircumflex cdotaccent d dcaron dcroat dotlessi e e.cursive eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eth germandbls h hbar hcircumflex i i.sprawl.w iacute ibreve icircumflex idieresis igrave imacron itilde kgreenlandic l l.sprawl.w lacute lcaron ldot lslash m n nacute napostrophe ncaron ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde r racute rcaron s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scircumflex t t.cursive t.cursive.before.t t.cursive.sprawl.e tbar tcaron u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uring utilde v w wcircumflex x z zacute zcaron zdotaccent p thorn
+  Coverage: 14 J J.sprawl.s j
+ 2
+  SeqLookup: 0 "widen"
+  SeqLookup: 3 "narrowJ"
+EndFPST
+ChainSub2: coverage "tw2 contextual 13" 0 0 0 1
+ 3 0 0
+  Coverage: 12 L L.sprawl.s
+  Coverage: 781 a aacute abreve acircumflex adieresis ae agrave amacron aring atilde b c cacute ccaron ccircumflex cdotaccent d dcaron dcroat dotlessi e e.cursive eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eth germandbls h hbar hcircumflex i i.sprawl.w iacute ibreve icircumflex idieresis igrave imacron itilde kgreenlandic l l.sprawl.w lacute lcaron ldot lslash m n nacute napostrophe ncaron ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde r racute rcaron s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scircumflex t t.cursive t.cursive.before.t t.cursive.sprawl.e tbar tcaron u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uring utilde v w wcircumflex x z zacute zcaron zdotaccent q q.sprawl.se
+  Coverage: 9 m mm w ww
+ 2
+  SeqLookup: 0 "narrow"
+  SeqLookup: 2 "widen"
+EndFPST
+ChainSub2: coverage "tw2 contextual 12" 0 0 0 1
+ 3 1 0
+  Coverage: 11 quotesingle
+  Coverage: 1120 a aacute abreve acircumflex adieresis ae agrave amacron aogonek aring atilde b c cacute ccaron ccedilla ccircumflex cdotaccent d dcaron dcroat dotlessi e e.cursive eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eng eogonek eth f f.cursive f.flourish.sw f.sprawl.sw g g.cursive gbreve gcedilla gcircumflex gdotaccent germandbls h hbar hcircumflex i i.sprawl.w iacute ibreve icircumflex idieresis igrave ij imacron iogonek itilde j j.old1 j.sprawl.s jcircumflex k k.sprawl.se kcedilla kgreenlandic l l.sprawl.w lacute lcaron lcedilla ldot longs lslash m n nacute napostrophe ncaron ncedilla ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde p q q.sprawl.se r racute rcaron rcedilla s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scedilla scircumflex t t.cursive t.cursive.before.t t.cursive.sprawl.e t.cursive.sprawl.se tbar tcaron tcedilla thorn u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde v w wcircumflex x y y.flourish.sw yacute ycircumflex ydieresis z z.sprawl.s z.sprawl.se zacute zcaron zdotaccent
+  Coverage: 9 m mm w ww
+  BCoverage: 2677 A A.proportional A.short A.sprawl.s A.sprawl.s.wide A.wide AE Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde B B.sprawl.nw C C.short C.sprawl.e C.sprawl.e.proportional C.sprawl.s Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D D.proportional D.sprawl.nw Dcaron Dcroat E E.short Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eng Eogonek Eth F F.sprawl.e G G.proportional G.short G.wide Gbreve Gcedilla Gcircumflex Gdotaccent H H.proportional Hbar Hcircumflex I I.midthin I.short IJ Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde J J.sprawl.s J.thin.sprawl.sw Jcircumflex K K.sprawl.se Kcedilla L L.proportional L.sprawl.s L.thin.sprawl.se Lacute Lcaron Lcedilla Ldot Lslash M M.wide N N.proportional N.short N.sprawl.s Nacute Ncaron Ncedilla Ntilde O O.short OE Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde P P.sprawl.nw Q Q.sprawl.se R R.short R.sprawl.nw R.sprawl.nwse R.sprawl.se Racute Rcaron Rcedilla S S.cursive S.cursive.wide S.short Sacute Scaron Scedilla Scircumflex T Tbar Tcaron Tcedilla Thorn U U.short Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde V V.proportional V.sprawl.nwne V.sprawl.w W W.wide W.wide.alt Wcircumflex X X.sprawl.s Y Y.short Y.sprawl.nwne Y.sprawl.w Yacute Ycircumflex Ydieresis Z Z.short Z.sprawl.s Z.sprawl.se Zacute Zcaron Zdotaccent a aacute abreve acircumflex adieresis ae agrave amacron aogonek aring atilde b c cacute ccaron ccedilla ccircumflex cdotaccent d dcaron dcroat dotlessi e e.cursive eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eng eogonek eth f f.cursive f.flourish.sw f.sprawl.sw g g.cursive gbreve gcedilla gcircumflex gdotaccent germandbls h hbar hcircumflex i i.midthin i.sprawl.w i.thin iacute ibreve icircumflex idieresis igrave ij imacron iogonek itilde j j.old1 j.sprawl.s j.thin j.thin.sprawl.sw jcircumflex k k.sprawl.se kcedilla kgreenlandic l l.midthin l.sprawl.w l.thin lacute lcaron lcedilla ldot longs lslash m m.midwide m.wide n nacute napostrophe ncaron ncedilla ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde p q q.sprawl.se r r.midthin racute rcaron rcedilla s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scedilla scircumflex t t.cursive t.cursive.before.i.thin t.cursive.before.t t.cursive.sprawl.e t.cursive.sprawl.se t.midthin tbar tcaron tcedilla thorn u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde v w w.midwide w.wide wcircumflex x y y.flourish.sw yacute ycircumflex ydieresis z z.sprawl.s z.sprawl.se zacute zcaron zdotaccent
+ 2
+  SeqLookup: 0 "narrow"
+  SeqLookup: 2 "widen"
+EndFPST
+ChainSub2: coverage "tw2 contextual 11" 0 0 0 1
+ 3 0 0
+  Coverage: 28 i ii j j.sprawl.s l ll rr tt
+  Coverage: 1120 a aacute abreve acircumflex adieresis ae agrave amacron aogonek aring atilde b c cacute ccaron ccedilla ccircumflex cdotaccent d dcaron dcroat dotlessi e e.cursive eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eng eogonek eth f f.cursive f.flourish.sw f.sprawl.sw g g.cursive gbreve gcedilla gcircumflex gdotaccent germandbls h hbar hcircumflex i i.sprawl.w iacute ibreve icircumflex idieresis igrave ij imacron iogonek itilde j j.old1 j.sprawl.s jcircumflex k k.sprawl.se kcedilla kgreenlandic l l.sprawl.w lacute lcaron lcedilla ldot longs lslash m n nacute napostrophe ncaron ncedilla ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde p q q.sprawl.se r racute rcaron rcedilla s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scedilla scircumflex t t.cursive t.cursive.before.t t.cursive.sprawl.e t.cursive.sprawl.se tbar tcaron tcedilla thorn u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde v w wcircumflex x y y.flourish.sw yacute ycircumflex ydieresis z z.sprawl.s z.sprawl.se zacute zcaron zdotaccent
+  Coverage: 9 m mm w ww
+ 2
+  SeqLookup: 0 "narrow"
+  SeqLookup: 2 "widen"
+EndFPST
+ChainSub2: coverage "tw2 contextual 10" 0 0 0 1
+ 3 1 0
+  Coverage: 14 J J.sprawl.s j
+  Coverage: 1120 a aacute abreve acircumflex adieresis ae agrave amacron aogonek aring atilde b c cacute ccaron ccedilla ccircumflex cdotaccent d dcaron dcroat dotlessi e e.cursive eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eng eogonek eth f f.cursive f.flourish.sw f.sprawl.sw g g.cursive gbreve gcedilla gcircumflex gdotaccent germandbls h hbar hcircumflex i i.sprawl.w iacute ibreve icircumflex idieresis igrave ij imacron iogonek itilde j j.old1 j.sprawl.s jcircumflex k k.sprawl.se kcedilla kgreenlandic l l.sprawl.w lacute lcaron lcedilla ldot longs lslash m n nacute napostrophe ncaron ncedilla ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde p q q.sprawl.se r racute rcaron rcedilla s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scedilla scircumflex t t.cursive t.cursive.before.t t.cursive.sprawl.e t.cursive.sprawl.se tbar tcaron tcedilla thorn u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde v w wcircumflex x y y.flourish.sw yacute ycircumflex ydieresis z z.sprawl.s z.sprawl.se zacute zcaron zdotaccent
+  Coverage: 9 m mm w ww
+  BCoverage: 887 a aacute abreve acircumflex adieresis ae agrave amacron aring atilde b c cacute ccaron ccircumflex cdotaccent d dcaron dcroat dotlessi e e.cursive eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eth germandbls h hbar hcircumflex i i.midthin i.sprawl.w i.thin iacute ibreve icircumflex idieresis igrave imacron itilde kgreenlandic l l.midthin l.sprawl.w l.thin lacute lcaron ldot lslash m m.midwide m.wide n nacute napostrophe ncaron ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde r r.midthin racute rcaron s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scircumflex t t.cursive t.cursive.before.i.thin t.cursive.before.t t.cursive.sprawl.e t.midthin tbar tcaron u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uring utilde v w w.midwide w.wide wcircumflex x z zacute zcaron zdotaccent p thorn
+ 2
+  SeqLookup: 0 "narrowJ"
+  SeqLookup: 2 "widen"
+EndFPST
+ChainSub2: coverage "tw2 contextual 9" 0 0 0 1
+ 3 0 1
+  Coverage: 38 A A.sprawl.s G M S.cursive W m mm w ww
+  Coverage: 1120 a aacute abreve acircumflex adieresis ae agrave amacron aogonek aring atilde b c cacute ccaron ccedilla ccircumflex cdotaccent d dcaron dcroat dotlessi e e.cursive eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eng eogonek eth f f.cursive f.flourish.sw f.sprawl.sw g g.cursive gbreve gcedilla gcircumflex gdotaccent germandbls h hbar hcircumflex i i.sprawl.w iacute ibreve icircumflex idieresis igrave ij imacron iogonek itilde j j.old1 j.sprawl.s jcircumflex k k.sprawl.se kcedilla kgreenlandic l l.sprawl.w lacute lcaron lcedilla ldot longs lslash m n nacute napostrophe ncaron ncedilla ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde p q q.sprawl.se r racute rcaron rcedilla s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scedilla scircumflex t t.cursive t.cursive.before.t t.cursive.sprawl.e t.cursive.sprawl.se tbar tcaron tcedilla thorn u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde v w wcircumflex x y y.flourish.sw yacute ycircumflex ydieresis z z.sprawl.s z.sprawl.se zacute zcaron zdotaccent
+  Coverage: 11 quotesingle
+  FCoverage: 2677 A A.proportional A.short A.sprawl.s A.sprawl.s.wide A.wide AE Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde B B.sprawl.nw C C.short C.sprawl.e C.sprawl.e.proportional C.sprawl.s Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D D.proportional D.sprawl.nw Dcaron Dcroat E E.short Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eng Eogonek Eth F F.sprawl.e G G.proportional G.short G.wide Gbreve Gcedilla Gcircumflex Gdotaccent H H.proportional Hbar Hcircumflex I I.midthin I.short IJ Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde J J.sprawl.s J.thin.sprawl.sw Jcircumflex K K.sprawl.se Kcedilla L L.proportional L.sprawl.s L.thin.sprawl.se Lacute Lcaron Lcedilla Ldot Lslash M M.wide N N.proportional N.short N.sprawl.s Nacute Ncaron Ncedilla Ntilde O O.short OE Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde P P.sprawl.nw Q Q.sprawl.se R R.short R.sprawl.nw R.sprawl.nwse R.sprawl.se Racute Rcaron Rcedilla S S.cursive S.cursive.wide S.short Sacute Scaron Scedilla Scircumflex T Tbar Tcaron Tcedilla Thorn U U.short Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde V V.proportional V.sprawl.nwne V.sprawl.w W W.wide W.wide.alt Wcircumflex X X.sprawl.s Y Y.short Y.sprawl.nwne Y.sprawl.w Yacute Ycircumflex Ydieresis Z Z.short Z.sprawl.s Z.sprawl.se Zacute Zcaron Zdotaccent a aacute abreve acircumflex adieresis ae agrave amacron aogonek aring atilde b c cacute ccaron ccedilla ccircumflex cdotaccent d dcaron dcroat dotlessi e e.cursive eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eng eogonek eth f f.cursive f.flourish.sw f.sprawl.sw g g.cursive gbreve gcedilla gcircumflex gdotaccent germandbls h hbar hcircumflex i i.midthin i.sprawl.w i.thin iacute ibreve icircumflex idieresis igrave ij imacron iogonek itilde j j.old1 j.sprawl.s j.thin j.thin.sprawl.sw jcircumflex k k.sprawl.se kcedilla kgreenlandic l l.midthin l.sprawl.w l.thin lacute lcaron lcedilla ldot longs lslash m m.midwide m.wide n nacute napostrophe ncaron ncedilla ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde p q q.sprawl.se r r.midthin racute rcaron rcedilla s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scedilla scircumflex t t.cursive t.cursive.before.i.thin t.cursive.before.t t.cursive.sprawl.e t.cursive.sprawl.se t.midthin tbar tcaron tcedilla thorn u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde v w w.midwide w.wide wcircumflex x y y.flourish.sw yacute ycircumflex ydieresis z z.sprawl.s z.sprawl.se zacute zcaron zdotaccent
+ 2
+  SeqLookup: 0 "widen"
+  SeqLookup: 2 "narrow"
+EndFPST
+ChainSub2: coverage "tw2 contextual 8" 0 0 0 1
+ 3 0 0
+  Coverage: 38 A A.sprawl.s G M S.cursive W m mm w ww
+  Coverage: 1120 a aacute abreve acircumflex adieresis ae agrave amacron aogonek aring atilde b c cacute ccaron ccedilla ccircumflex cdotaccent d dcaron dcroat dotlessi e e.cursive eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eng eogonek eth f f.cursive f.flourish.sw f.sprawl.sw g g.cursive gbreve gcedilla gcircumflex gdotaccent germandbls h hbar hcircumflex i i.sprawl.w iacute ibreve icircumflex idieresis igrave ij imacron iogonek itilde j j.old1 j.sprawl.s jcircumflex k k.sprawl.se kcedilla kgreenlandic l l.sprawl.w lacute lcaron lcedilla ldot longs lslash m n nacute napostrophe ncaron ncedilla ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde p q q.sprawl.se r racute rcaron rcedilla s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scedilla scircumflex t t.cursive t.cursive.before.t t.cursive.sprawl.e t.cursive.sprawl.se tbar tcaron tcedilla thorn u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde v w wcircumflex x y y.flourish.sw yacute ycircumflex ydieresis z z.sprawl.s z.sprawl.se zacute zcaron zdotaccent
+  Coverage: 28 i ii j j.sprawl.s l ll rr tt
+ 2
+  SeqLookup: 0 "widen"
+  SeqLookup: 2 "narrow"
+EndFPST
+ChainSub2: coverage "tw2 contextual 7" 0 0 0 1
+ 3 0 0
+  Coverage: 38 A A.sprawl.s G M S.cursive W m mm w ww
+  Coverage: 775 a aacute abreve acircumflex adieresis ae agrave amacron aring atilde b c cacute ccaron ccircumflex cdotaccent d dcaron dcroat dotlessi e e.cursive eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eth germandbls h hbar hcircumflex i i.sprawl.w iacute ibreve icircumflex idieresis igrave imacron itilde kgreenlandic l l.sprawl.w lacute lcaron ldot lslash m n nacute napostrophe ncaron ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde r racute rcaron s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scircumflex t t.cursive t.cursive.before.t t.cursive.sprawl.e tbar tcaron u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uring utilde v w wcircumflex x z zacute zcaron zdotaccent p thorn
+  Coverage: 14 J J.sprawl.s j
+ 2
+  SeqLookup: 0 "widen"
+  SeqLookup: 2 "narrowJ"
+EndFPST
+ChainSub2: coverage "tw2 contextual 6" 0 0 0 1
+ 2 1 0
+  Coverage: 11 quotesingle
+  Coverage: 9 m mm w ww
+  BCoverage: 2677 A A.proportional A.short A.sprawl.s A.sprawl.s.wide A.wide AE Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde B B.sprawl.nw C C.short C.sprawl.e C.sprawl.e.proportional C.sprawl.s Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D D.proportional D.sprawl.nw Dcaron Dcroat E E.short Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eng Eogonek Eth F F.sprawl.e G G.proportional G.short G.wide Gbreve Gcedilla Gcircumflex Gdotaccent H H.proportional Hbar Hcircumflex I I.midthin I.short IJ Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde J J.sprawl.s J.thin.sprawl.sw Jcircumflex K K.sprawl.se Kcedilla L L.proportional L.sprawl.s L.thin.sprawl.se Lacute Lcaron Lcedilla Ldot Lslash M M.wide N N.proportional N.short N.sprawl.s Nacute Ncaron Ncedilla Ntilde O O.short OE Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde P P.sprawl.nw Q Q.sprawl.se R R.short R.sprawl.nw R.sprawl.nwse R.sprawl.se Racute Rcaron Rcedilla S S.cursive S.cursive.wide S.short Sacute Scaron Scedilla Scircumflex T Tbar Tcaron Tcedilla Thorn U U.short Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde V V.proportional V.sprawl.nwne V.sprawl.w W W.wide W.wide.alt Wcircumflex X X.sprawl.s Y Y.short Y.sprawl.nwne Y.sprawl.w Yacute Ycircumflex Ydieresis Z Z.short Z.sprawl.s Z.sprawl.se Zacute Zcaron Zdotaccent a aacute abreve acircumflex adieresis ae agrave amacron aogonek aring atilde b c cacute ccaron ccedilla ccircumflex cdotaccent d dcaron dcroat dotlessi e e.cursive eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eng eogonek eth f f.cursive f.flourish.sw f.sprawl.sw g g.cursive gbreve gcedilla gcircumflex gdotaccent germandbls h hbar hcircumflex i i.midthin i.sprawl.w i.thin iacute ibreve icircumflex idieresis igrave ij imacron iogonek itilde j j.old1 j.sprawl.s j.thin j.thin.sprawl.sw jcircumflex k k.sprawl.se kcedilla kgreenlandic l l.midthin l.sprawl.w l.thin lacute lcaron lcedilla ldot longs lslash m m.midwide m.wide n nacute napostrophe ncaron ncedilla ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde p q q.sprawl.se r r.midthin racute rcaron rcedilla s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scedilla scircumflex t t.cursive t.cursive.before.i.thin t.cursive.before.t t.cursive.sprawl.e t.cursive.sprawl.se t.midthin tbar tcaron tcedilla thorn u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde v w w.midwide w.wide wcircumflex x y y.flourish.sw yacute ycircumflex ydieresis z z.sprawl.s z.sprawl.se zacute zcaron zdotaccent
+ 2
+  SeqLookup: 0 "narrow"
+  SeqLookup: 1 "widen"
+EndFPST
+ChainSub2: coverage "tw2 contextual 5" 0 0 0 1
+ 2 0 0
+  Coverage: 41 i ii j j.sprawl.s l ll rr tt L L.sprawl.s
+  Coverage: 9 m mm w ww
+ 2
+  SeqLookup: 0 "narrow"
+  SeqLookup: 1 "widen"
+EndFPST
+ChainSub2: coverage "tw2 contextual 4" 0 0 0 1
+ 2 1 0
+  Coverage: 14 J J.sprawl.s j
+  Coverage: 9 m mm w ww
+  BCoverage: 879 a aacute abreve acircumflex adieresis ae agrave amacron aring atilde b c cacute ccaron ccircumflex cdotaccent d dcaron dcroat dotlessi e e.cursive eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eth germandbls h hbar hcircumflex i i.midthin i.sprawl.w i.thin iacute ibreve icircumflex idieresis igrave imacron itilde kgreenlandic l l.midthin l.sprawl.w l.thin lacute lcaron ldot lslash m m.midwide m.wide n nacute napostrophe ncaron ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde r r.midthin racute rcaron s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scircumflex t t.cursive t.cursive.before.i.thin t.cursive.before.t t.cursive.sprawl.e t.midthin tbar tcaron u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uring utilde v w w.midwide w.wide wcircumflex x z zacute zcaron zdotaccent
+ 2
+  SeqLookup: 0 "narrowJ"
+  SeqLookup: 1 "widen"
+EndFPST
+ChainSub2: coverage "tw2 contextual 3" 0 0 0 1
+ 2 0 1
+  Coverage: 38 A A.sprawl.s G M S.cursive W m mm w ww
+  Coverage: 11 quotesingle
+  FCoverage: 2677 A A.proportional A.short A.sprawl.s A.sprawl.s.wide A.wide AE Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde B B.sprawl.nw C C.short C.sprawl.e C.sprawl.e.proportional C.sprawl.s Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D D.proportional D.sprawl.nw Dcaron Dcroat E E.short Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eng Eogonek Eth F F.sprawl.e G G.proportional G.short G.wide Gbreve Gcedilla Gcircumflex Gdotaccent H H.proportional Hbar Hcircumflex I I.midthin I.short IJ Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde J J.sprawl.s J.thin.sprawl.sw Jcircumflex K K.sprawl.se Kcedilla L L.proportional L.sprawl.s L.thin.sprawl.se Lacute Lcaron Lcedilla Ldot Lslash M M.wide N N.proportional N.short N.sprawl.s Nacute Ncaron Ncedilla Ntilde O O.short OE Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde P P.sprawl.nw Q Q.sprawl.se R R.short R.sprawl.nw R.sprawl.nwse R.sprawl.se Racute Rcaron Rcedilla S S.cursive S.cursive.wide S.short Sacute Scaron Scedilla Scircumflex T Tbar Tcaron Tcedilla Thorn U U.short Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde V V.proportional V.sprawl.nwne V.sprawl.w W W.wide W.wide.alt Wcircumflex X X.sprawl.s Y Y.short Y.sprawl.nwne Y.sprawl.w Yacute Ycircumflex Ydieresis Z Z.short Z.sprawl.s Z.sprawl.se Zacute Zcaron Zdotaccent a aacute abreve acircumflex adieresis ae agrave amacron aogonek aring atilde b c cacute ccaron ccedilla ccircumflex cdotaccent d dcaron dcroat dotlessi e e.cursive eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eng eogonek eth f f.cursive f.flourish.sw f.sprawl.sw g g.cursive gbreve gcedilla gcircumflex gdotaccent germandbls h hbar hcircumflex i i.midthin i.sprawl.w i.thin iacute ibreve icircumflex idieresis igrave ij imacron iogonek itilde j j.old1 j.sprawl.s j.thin j.thin.sprawl.sw jcircumflex k k.sprawl.se kcedilla kgreenlandic l l.midthin l.sprawl.w l.thin lacute lcaron lcedilla ldot longs lslash m m.midwide m.wide n nacute napostrophe ncaron ncedilla ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde p q q.sprawl.se r r.midthin racute rcaron rcedilla s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scedilla scircumflex t t.cursive t.cursive.before.i.thin t.cursive.before.t t.cursive.sprawl.e t.cursive.sprawl.se t.midthin tbar tcaron tcedilla thorn u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde v w w.midwide w.wide wcircumflex x y y.flourish.sw yacute ycircumflex ydieresis z z.sprawl.s z.sprawl.se zacute zcaron zdotaccent
+ 2
+  SeqLookup: 0 "widen"
+  SeqLookup: 1 "narrow"
+EndFPST
+ChainSub2: coverage "tw2 contextual 2" 0 0 0 1
+ 2 0 0
+  Coverage: 38 A A.sprawl.s G M S.cursive W m mm w ww
+  Coverage: 28 i ii j j.sprawl.s l ll rr tt
+ 2
+  SeqLookup: 0 "widen"
+  SeqLookup: 1 "narrow"
+EndFPST
+ChainSub2: coverage "tw2 contextual 1" 0 0 0 1
+ 2 0 0
+  Coverage: 38 A A.sprawl.s G M S.cursive W m mm w ww
+  Coverage: 14 J J.sprawl.s j
+ 2
+  SeqLookup: 0 "widen"
+  SeqLookup: 1 "narrowJ"
+EndFPST
+ChainSub2: coverage "tw2 contextual 0" 0 0 0 1
+ 1 1 0
+  Coverage: 28 A A.sprawl.s G M S.cursive W
+  BCoverage: 1420 A A.proportional A.short A.sprawl.s A.sprawl.s.wide A.wide AE Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde B B.sprawl.nw C C.short C.sprawl.e C.sprawl.e.proportional C.sprawl.s Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D D.proportional D.sprawl.nw Dcaron Dcroat E E.short Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eng Eogonek Eth F F.sprawl.e G G.proportional G.short G.wide Gbreve Gcedilla Gcircumflex Gdotaccent H H.proportional Hbar Hcircumflex I I.midthin I.short IJ Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde J J.sprawl.s J.thin.sprawl.sw Jcircumflex K K.sprawl.se Kcedilla L L.proportional L.sprawl.s L.thin.sprawl.se Lacute Lcaron Lcedilla Ldot Lslash M M.wide N N.proportional N.short N.sprawl.s Nacute Ncaron Ncedilla Ntilde O O.short OE Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde P P.sprawl.nw Q Q.sprawl.se R R.short R.sprawl.nw R.sprawl.nwse R.sprawl.se Racute Rcaron Rcedilla S S.cursive S.cursive.wide S.short Sacute Scaron Scedilla Scircumflex T Tbar Tcaron Tcedilla Thorn U U.short Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde V V.proportional V.sprawl.nwne V.sprawl.w W W.wide W.wide.alt Wcircumflex X X.sprawl.s Y Y.short Y.sprawl.nwne Y.sprawl.w Yacute Ycircumflex Ydieresis Z Z.short Z.sprawl.s Z.sprawl.se Zacute Zcaron Zdotaccent
+ 0
+EndFPST
+ChainSub2: coverage "sprawl2 contextual 2" 0 0 0 1
+ 1 1 0
+  Coverage: 3 V Y
+  BCoverage: 51 L L.proportional Lacute Lcaron Lcedilla Ldot Lslash
+ 1
+  SeqLookup: 0 "toSprawlAlt"
+EndFPST
+ChainSub2: coverage "sprawl2 contextual 1" 0 0 0 1
+ 1 0 0
+  Coverage: 13 R R.sprawl.se
+ 1
+  SeqLookup: 0 "toSprawlAlt"
+EndFPST
+ChainSub2: coverage "sprawl2 contextual 0" 0 0 0 1
+ 1 1 0
+  Coverage: 70 R R.short R.sprawl.nw R.sprawl.nwse R.sprawl.se Racute Rcaron Rcedilla
+  BCoverage: 1600 eight.lining five.lining four.lining nine.lining one.lining seven.lining six.lining three.lining two.lining zero.lining A A.proportional A.short A.sprawl.s A.sprawl.s.wide A.wide AE Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde B B.sprawl.nw C C.short C.sprawl.e C.sprawl.e.proportional C.sprawl.s Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D D.proportional D.sprawl.nw Dcaron Dcroat E E.short Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eng Eogonek Eth F F.sprawl.e G G.proportional G.short G.wide Gbreve Gcedilla Gcircumflex Gdotaccent H H.proportional Hbar Hcircumflex I I.midthin I.short IJ Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde J J.sprawl.s J.thin.sprawl.sw Jcircumflex K K.sprawl.se Kcedilla M M.wide N N.proportional N.short N.sprawl.s Nacute Ncaron Ncedilla Ntilde O O.short OE Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde P P.sprawl.nw Q Q.sprawl.se R R.short R.sprawl.nw R.sprawl.nwse R.sprawl.se Racute Rcaron Rcedilla S S.cursive S.cursive.wide S.short Sacute Scaron Scedilla Scircumflex T Tbar Tcaron Tcedilla Thorn U U.short Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde V V.proportional V.sprawl.nwne V.sprawl.w W W.wide W.wide.alt Wcircumflex X X.sprawl.s Y Y.short Y.sprawl.nwne Y.sprawl.w Yacute Ycircumflex Ydieresis Z Z.short Z.sprawl.s Z.sprawl.se Zacute Zcaron Zdotaccent d dcaron dcroat f f.cursive f.flourish.sw f.sprawl.sw quotedbl quotedblleft quotedblright quoteleft quoteright quotesingle quotesingle.thin
+ 0
+EndFPST
+ChainSub2: coverage "sprawl1 contextual 14" 0 0 0 1
+ 1 0 0
+  Coverage: 49 A B C D f J j K k L N P Q q R t.cursive V X Y Z z
+ 1
+  SeqLookup: 0 "toSprawl"
+EndFPST
+ChainSub2: coverage "sprawl1 contextual 13" 0 0 0 1
+ 1 0 1
+  Coverage: 9 t.cursive
+  FCoverage: 3207 A A.proportional A.short A.sprawl.s A.sprawl.s.wide A.wide AE Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde B B.sprawl.nw C C.short C.sprawl.e C.sprawl.e.proportional C.sprawl.s Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D D.proportional D.sprawl.nw Dcaron Dcroat E E.short Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eng Eogonek Eth F F.sprawl.e G G.proportional G.short G.wide Gbreve Gcedilla Gcircumflex Gdotaccent H H.proportional Hbar Hcircumflex I I.midthin I.short IJ Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde J J.sprawl.s J.thin.sprawl.sw Jcircumflex K K.sprawl.se Kcedilla L L.proportional L.sprawl.s L.thin.sprawl.se Lacute Lcaron Lcedilla Ldot Lslash M M.wide N N.proportional N.short N.sprawl.s Nacute Ncaron Ncedilla Ntilde O O.short OE Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde P P.sprawl.nw Q Q.sprawl.se R R.short R.sprawl.nw R.sprawl.nwse R.sprawl.se Racute Rcaron Rcedilla S S.cursive S.cursive.wide S.short Sacute Scaron Scedilla Scircumflex T Tbar Tcaron Tcedilla Thorn U U.short Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde V V.proportional V.sprawl.nwne V.sprawl.w W W.wide W.wide.alt Wcircumflex X X.sprawl.s Y Y.short Y.sprawl.nwne Y.sprawl.w Yacute Ycircumflex Ydieresis Z Z.short Z.sprawl.s Z.sprawl.se Zacute Zcaron Zdotaccent a aacute abreve acircumflex adieresis ae agrave amacron aogonek aring atilde b c cacute ccaron ccedilla ccircumflex cdotaccent d dcaron dcroat dotlessi e e.cursive eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eng eogonek eth f f.cursive f.flourish.sw f.sprawl.sw g g.cursive gbreve gcedilla gcircumflex gdotaccent germandbls h hbar hcircumflex i i.midthin i.sprawl.w i.thin iacute ibreve icircumflex idieresis igrave ij imacron iogonek itilde j j.old1 j.sprawl.s j.thin j.thin.sprawl.sw jcircumflex k k.sprawl.se kcedilla kgreenlandic l l.midthin l.sprawl.w l.thin lacute lcaron lcedilla ldot longs lslash m m.midwide m.wide n nacute napostrophe ncaron ncedilla ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde p q q.sprawl.se r r.midthin racute rcaron rcedilla s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scedilla scircumflex t t.cursive t.cursive.before.i.thin t.cursive.before.t t.cursive.sprawl.e t.cursive.sprawl.se t.midthin tbar tcaron tcedilla thorn u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde v w w.midwide w.wide wcircumflex x y y.flourish.sw yacute ycircumflex ydieresis z z.sprawl.s z.sprawl.se zacute zcaron zdotaccent A.hex B.hex C.hex D.hex E.hex F.hex X.hex a.hex b.hex c.hex d.hex e.hex eight eight.hex eight.lining f.hex five five.hex five.lining four four.hex four.lining nine nine.hex nine.lining one one.hex one.lining seven seven.hex seven.lining six six.hex six.lining three three.hex three.lining two two.hex two.lining underscore.hex x.hex zero zero.hex zero.lining colon colon.proportional comma comma.proportional ellipsis exclam exclamdown period period.proportional question questiondown semicolon semicolon.proportional dollar Euro
+ 0
+EndFPST
+ChainSub2: coverage "sprawl1 contextual 12" 0 0 0 1
+ 1 0 1
+  Coverage: 3 k q
+  FCoverage: 711 A A.proportional A.short A.sprawl.s A.sprawl.s.wide A.wide Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde L L.proportional L.sprawl.s L.thin.sprawl.se Lacute Lcaron Lcedilla Ldot Lslash M M.wide W W.wide W.wide.alt Wcircumflex X X.sprawl.s Z Z.short Z.sprawl.s Z.sprawl.se Zacute Zcaron Zdotaccent IJ f f.cursive f.flourish.sw f.sprawl.sw g g.cursive gbreve gcedilla gcircumflex gdotaccent j j.old1 j.sprawl.s j.thin j.thin.sprawl.sw jcircumflex p y y.flourish.sw yacute ycircumflex ydieresis ij thorn backslash bar braceleft braceright bracketleft bracketright brokenbar dagger daggerdbl florin parenleft parenright slash comma comma.proportional semicolon semicolon.proportional slash
+ 0
+EndFPST
+ChainSub2: coverage "sprawl1 contextual 11" 0 0 0 1
+ 1 0 1
+  Coverage: 5 K Q R
+  FCoverage: 1328 A A.proportional A.short A.sprawl.s A.sprawl.s.wide A.wide Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde L L.proportional L.sprawl.s L.thin.sprawl.se Lacute Lcaron Lcedilla Ldot Lslash M M.wide W W.wide W.wide.alt Wcircumflex X X.sprawl.s Z Z.short Z.sprawl.s Z.sprawl.se Zacute Zcaron Zdotaccent IJ f f.cursive f.flourish.sw f.sprawl.sw g g.cursive gbreve gcedilla gcircumflex gdotaccent j j.old1 j.sprawl.s j.thin j.thin.sprawl.sw jcircumflex p y y.flourish.sw yacute ycircumflex ydieresis ij thorn backslash bar braceleft braceright bracketleft bracketright brokenbar dagger daggerdbl florin parenleft parenright slash comma comma.proportional semicolon semicolon.proportional slash B B.sprawl.nw C C.short C.sprawl.e C.sprawl.e.proportional C.sprawl.s Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D D.proportional D.sprawl.nw Dcaron Dcroat Eth E E.short Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek F F.sprawl.e I I.midthin I.short Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde H H.proportional Hbar Hcircumflex J J.sprawl.s J.thin.sprawl.sw Jcircumflex K K.sprawl.se Kcedilla N N.proportional N.short N.sprawl.s Nacute Ncaron Ncedilla Ntilde P P.sprawl.nw R R.short R.sprawl.nw R.sprawl.nwse R.sprawl.se Racute Rcaron Rcedilla AE Eng
+ 0
+EndFPST
+ChainSub2: coverage "sprawl1 contextual 10" 0 0 0 1
+ 1 1 0
+  Coverage: 9 s.cursive
+  BCoverage: 115 F F.sprawl.e P P.sprawl.nw T Tbar Tcaron Tcedilla r r.midthin racute rcaron rcedilla v quotesingle quotesingle.thin
+ 1
+  SeqLookup: 0 "toSprawlAlt"
+EndFPST
+ChainSub2: coverage "sprawl1 contextual 9" 0 0 0 1
+ 1 0 1
+  Coverage: 1 z
+  FCoverage: 711 A A.proportional A.short A.sprawl.s A.sprawl.s.wide A.wide Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde L L.proportional L.sprawl.s L.thin.sprawl.se Lacute Lcaron Lcedilla Ldot Lslash M M.wide W W.wide W.wide.alt Wcircumflex X X.sprawl.s Z Z.short Z.sprawl.s Z.sprawl.se Zacute Zcaron Zdotaccent IJ f f.cursive f.flourish.sw f.sprawl.sw g g.cursive gbreve gcedilla gcircumflex gdotaccent j j.old1 j.sprawl.s j.thin j.thin.sprawl.sw jcircumflex p y y.flourish.sw yacute ycircumflex ydieresis ij thorn backslash bar braceleft braceright bracketleft bracketright brokenbar dagger daggerdbl florin parenleft parenright slash comma comma.proportional semicolon semicolon.proportional slash
+ 1
+  SeqLookup: 0 "toSprawlAlt"
+EndFPST
+ChainSub2: coverage "sprawl1 contextual 8" 0 0 0 1
+ 1 0 1
+  Coverage: 1 Z
+  FCoverage: 1328 A A.proportional A.short A.sprawl.s A.sprawl.s.wide A.wide Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde L L.proportional L.sprawl.s L.thin.sprawl.se Lacute Lcaron Lcedilla Ldot Lslash M M.wide W W.wide W.wide.alt Wcircumflex X X.sprawl.s Z Z.short Z.sprawl.s Z.sprawl.se Zacute Zcaron Zdotaccent IJ f f.cursive f.flourish.sw f.sprawl.sw g g.cursive gbreve gcedilla gcircumflex gdotaccent j j.old1 j.sprawl.s j.thin j.thin.sprawl.sw jcircumflex p y y.flourish.sw yacute ycircumflex ydieresis ij thorn backslash bar braceleft braceright bracketleft bracketright brokenbar dagger daggerdbl florin parenleft parenright slash comma comma.proportional semicolon semicolon.proportional slash B B.sprawl.nw C C.short C.sprawl.e C.sprawl.e.proportional C.sprawl.s Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D D.proportional D.sprawl.nw Dcaron Dcroat Eth E E.short Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek F F.sprawl.e I I.midthin I.short Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde H H.proportional Hbar Hcircumflex J J.sprawl.s J.thin.sprawl.sw Jcircumflex K K.sprawl.se Kcedilla N N.proportional N.short N.sprawl.s Nacute Ncaron Ncedilla Ntilde P P.sprawl.nw R R.short R.sprawl.nw R.sprawl.nwse R.sprawl.se Racute Rcaron Rcedilla AE Eng
+ 1
+  SeqLookup: 0 "toSprawlAlt"
+EndFPST
+ChainSub2: coverage "sprawl1 contextual 7" 0 0 0 1
+ 1 0 1
+  Coverage: 1 F
+  FCoverage: 1304 A A.proportional A.short A.sprawl.s A.sprawl.s.wide A.wide Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde a ae c dcaron dotlessi e e.cursive eth germandbls kgreenlandic m m.midwide m.wide n o oe oslash r r.midthin s s.cursive s.cursive.alt s.cursive.sprawl.w u v w w.midwide w.wide x z d dcaron dcroat q q.sprawl.se a aacute abreve acircumflex adieresis ae agrave amacron aogonek aring atilde c cacute ccaron ccedilla ccircumflex cdotaccent dcaron dotlessi e e.cursive eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eng eogonek eth g g.cursive gbreve gcedilla gcircumflex gdotaccent germandbls i i.midthin i.sprawl.w i.thin iacute ibreve icircumflex idieresis igrave ij imacron iogonek itilde j j.old1 j.sprawl.s j.thin j.thin.sprawl.sw jcircumflex kgreenlandic m m.midwide m.wide n nacute napostrophe ncaron ncedilla ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde p q q.sprawl.se r r.midthin racute rcaron rcedilla s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scedilla scircumflex u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde v w w.midwide w.wide wcircumflex x y y.flourish.sw yacute ycircumflex ydieresis z z.sprawl.s z.sprawl.se zacute zcaron zdotaccent
+ 1
+  SeqLookup: 0 "toSprawlAlt"
+EndFPST
+ChainSub2: coverage "sprawl1 contextual 6" 0 0 0 1
+ 1 0 1
+  Coverage: 1 C
+  FCoverage: 209 a ae c dcaron dotlessi e e.cursive eth germandbls kgreenlandic m m.midwide m.wide n o oe oslash r r.midthin s s.cursive s.cursive.alt s.cursive.sprawl.w u v w w.midwide w.wide x z d dcaron dcroat q q.sprawl.se
+ 1
+  SeqLookup: 0 "toSprawlAlt"
+EndFPST
+ChainSub2: coverage "sprawl1 contextual 5" 0 0 0 1
+ 1 0 1
+  Coverage: 3 V Y
+  FCoverage: 1712 eight.lining five.lining four.lining nine.lining one.lining seven.lining six.lining three.lining two.lining zero.lining A A.proportional A.short A.sprawl.s A.sprawl.s.wide A.wide AE Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde B B.sprawl.nw C C.short C.sprawl.e C.sprawl.e.proportional C.sprawl.s Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D D.proportional D.sprawl.nw Dcaron Dcroat E E.short Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eng Eogonek Eth F F.sprawl.e G G.proportional G.short G.wide Gbreve Gcedilla Gcircumflex Gdotaccent H H.proportional Hbar Hcircumflex I I.midthin I.short IJ Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde J J.sprawl.s J.thin.sprawl.sw Jcircumflex K K.sprawl.se Kcedilla L L.proportional L.sprawl.s L.thin.sprawl.se Lacute Lcaron Lcedilla Ldot Lslash M M.wide N N.proportional N.short N.sprawl.s Nacute Ncaron Ncedilla Ntilde O O.short OE Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde P P.sprawl.nw Q Q.sprawl.se R R.short R.sprawl.nw R.sprawl.nwse R.sprawl.se Racute Rcaron Rcedilla S S.cursive S.cursive.wide S.short Sacute Scaron Scedilla Scircumflex T Tbar Tcaron Tcedilla Thorn U U.short Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde V V.proportional V.sprawl.nwne V.sprawl.w W W.wide W.wide.alt Wcircumflex X X.sprawl.s Y Y.short Y.sprawl.nwne Y.sprawl.w Yacute Ycircumflex Ydieresis Z Z.short Z.sprawl.s Z.sprawl.se Zacute Zcaron Zdotaccent b h hbar hcircumflex k k.sprawl.se kcedilla kgreenlandic l l.midthin l.sprawl.w l.thin lacute lcaron lcedilla ldot lslash t t.midthin tbar tcaron tcedilla germandbls thorn
+ 0
+EndFPST
+ChainSub2: coverage "sprawl1 contextual 4" 0 0 0 1
+ 1 1 0
+  Coverage: 3 V Y
+  BCoverage: 1514 eight.lining five.lining four.lining nine.lining one.lining seven.lining six.lining three.lining two.lining zero.lining A A.proportional A.short A.sprawl.s A.sprawl.s.wide A.wide AE Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde B B.sprawl.nw C C.short C.sprawl.e C.sprawl.e.proportional C.sprawl.s Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D D.proportional D.sprawl.nw Dcaron Dcroat E E.short Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eng Eogonek Eth F F.sprawl.e G G.proportional G.short G.wide Gbreve Gcedilla Gcircumflex Gdotaccent H H.proportional Hbar Hcircumflex I I.midthin I.short IJ Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde J J.sprawl.s J.thin.sprawl.sw Jcircumflex K K.sprawl.se Kcedilla M M.wide N N.proportional N.short N.sprawl.s Nacute Ncaron Ncedilla Ntilde O O.short OE Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde P P.sprawl.nw Q Q.sprawl.se R R.short R.sprawl.nw R.sprawl.nwse R.sprawl.se Racute Rcaron Rcedilla S S.cursive S.cursive.wide S.short Sacute Scaron Scedilla Scircumflex T Tbar Tcaron Tcedilla Thorn U U.short Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde V V.proportional V.sprawl.nwne V.sprawl.w W W.wide W.wide.alt Wcircumflex X X.sprawl.s Y Y.short Y.sprawl.nwne Y.sprawl.w Yacute Ycircumflex Ydieresis Z Z.short Z.sprawl.s Z.sprawl.se Zacute Zcaron Zdotaccent d dcaron dcroat f f.cursive f.flourish.sw f.sprawl.sw
+ 0
+EndFPST
+ChainSub2: coverage "sprawl1 contextual 3" 0 0 0 1
+ 1 1 0
+  Coverage: 5 B D P
+  BCoverage: 1600 eight.lining five.lining four.lining nine.lining one.lining seven.lining six.lining three.lining two.lining zero.lining A A.proportional A.short A.sprawl.s A.sprawl.s.wide A.wide AE Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde B B.sprawl.nw C C.short C.sprawl.e C.sprawl.e.proportional C.sprawl.s Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D D.proportional D.sprawl.nw Dcaron Dcroat E E.short Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eng Eogonek Eth F F.sprawl.e G G.proportional G.short G.wide Gbreve Gcedilla Gcircumflex Gdotaccent H H.proportional Hbar Hcircumflex I I.midthin I.short IJ Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde J J.sprawl.s J.thin.sprawl.sw Jcircumflex K K.sprawl.se Kcedilla M M.wide N N.proportional N.short N.sprawl.s Nacute Ncaron Ncedilla Ntilde O O.short OE Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde P P.sprawl.nw Q Q.sprawl.se R R.short R.sprawl.nw R.sprawl.nwse R.sprawl.se Racute Rcaron Rcedilla S S.cursive S.cursive.wide S.short Sacute Scaron Scedilla Scircumflex T Tbar Tcaron Tcedilla Thorn U U.short Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde V V.proportional V.sprawl.nwne V.sprawl.w W W.wide W.wide.alt Wcircumflex X X.sprawl.s Y Y.short Y.sprawl.nwne Y.sprawl.w Yacute Ycircumflex Ydieresis Z Z.short Z.sprawl.s Z.sprawl.se Zacute Zcaron Zdotaccent d dcaron dcroat f f.cursive f.flourish.sw f.sprawl.sw quotedbl quotedblleft quotedblright quoteleft quoteright quotesingle quotesingle.thin
+ 0
+EndFPST
+ChainSub2: coverage "sprawl1 contextual 2" 0 0 0 1
+ 1 1 0
+  Coverage: 1 f
+  BCoverage: 439 K K.sprawl.se Kcedilla R R.short R.sprawl.nw R.sprawl.nwse R.sprawl.se Racute Rcaron Rcedilla Z.sprawl.s Z.sprawl.se Eng IJ aogonek eogonek g g.cursive gbreve gcedilla gcircumflex gdotaccent j j.old1 j.sprawl.s j.thin j.thin.sprawl.sw jcircumflex k.sprawl.se q q.sprawl.se t.cursive t.cursive.before.i.thin t.cursive.before.t t.cursive.sprawl.e t.cursive.sprawl.se y y.flourish.sw yacute ycircumflex ydieresis z.sprawl.s z.sprawl.se eng ij
+ 0
+EndFPST
+ChainSub2: coverage "sprawl1 contextual 1" 0 0 0 1
+ 1 1 0
+  Coverage: 5 J j z
+  BCoverage: 1256 a aacute abreve acircumflex adieresis ae agrave amacron aogonek aring atilde b c cacute ccaron ccedilla ccircumflex cdotaccent d dcaron dcroat dotlessi e e.cursive eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eng eogonek eth f f.cursive f.flourish.sw f.sprawl.sw g g.cursive gbreve gcedilla gcircumflex gdotaccent germandbls h hbar hcircumflex i i.midthin i.sprawl.w i.thin iacute ibreve icircumflex idieresis igrave ij imacron iogonek itilde j j.old1 j.sprawl.s j.thin j.thin.sprawl.sw jcircumflex k k.sprawl.se kcedilla kgreenlandic l l.midthin l.sprawl.w l.thin lacute lcaron lcedilla ldot longs lslash m m.midwide m.wide n nacute napostrophe ncaron ncedilla ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde p q q.sprawl.se r r.midthin racute rcaron rcedilla s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scedilla scircumflex t t.cursive t.cursive.before.i.thin t.cursive.before.t t.cursive.sprawl.e t.cursive.sprawl.se t.midthin tbar tcaron tcedilla thorn u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde v w w.midwide w.wide wcircumflex x y y.flourish.sw yacute ycircumflex ydieresis z z.sprawl.s z.sprawl.se zacute zcaron zdotaccent
+ 0
+EndFPST
+ChainSub2: coverage "sprawl1 contextual 0" 0 0 0 1
+ 1 1 0
+  Coverage: 13 A C J L N X Z
+  BCoverage: 1540 A A.proportional A.short A.sprawl.s A.sprawl.s.wide A.wide AE Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde B B.sprawl.nw C C.short C.sprawl.e C.sprawl.e.proportional C.sprawl.s Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D D.proportional D.sprawl.nw Dcaron Dcroat E E.short Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eng Eogonek Eth F F.sprawl.e G G.proportional G.short G.wide Gbreve Gcedilla Gcircumflex Gdotaccent H H.proportional Hbar Hcircumflex I I.midthin I.short IJ Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde J J.sprawl.s J.thin.sprawl.sw Jcircumflex K K.sprawl.se Kcedilla L L.proportional L.sprawl.s L.thin.sprawl.se Lacute Lcaron Lcedilla Ldot Lslash M M.wide N N.proportional N.short N.sprawl.s Nacute Ncaron Ncedilla Ntilde O O.short OE Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde P P.sprawl.nw Q Q.sprawl.se R R.short R.sprawl.nw R.sprawl.nwse R.sprawl.se Racute Rcaron Rcedilla S S.cursive S.cursive.wide S.short Sacute Scaron Scedilla Scircumflex T Tbar Tcaron Tcedilla Thorn U U.short Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde V V.proportional V.sprawl.nwne V.sprawl.w W W.wide W.wide.alt Wcircumflex X X.sprawl.s Y Y.short Y.sprawl.nwne Y.sprawl.w Yacute Ycircumflex Ydieresis Z Z.short Z.sprawl.s Z.sprawl.se Zacute Zcaron Zdotaccent zero.lining one.lining two.lining three.lining four.lining five.lining six.lining seven.lining eight.lining nine.lining
+ 0
+EndFPST
+ChainSub2: coverage "cursiveAlts contextual 20" 0 0 0 1
+ 1 0 3
+  Coverage: 1 t
+  FCoverage: 1 t
+  FCoverage: 28 quotesingle quotesingle.thin
+  FCoverage: 145 r r.midthin racute rcaron rcedilla s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scedilla scircumflex w w.midwide w.wide wcircumflex
+ 1
+  SeqLookup: 0 "toCursive"
+EndFPST
+ChainSub2: coverage "cursiveAlts contextual 19" 0 0 0 1
+ 1 0 2
+  Coverage: 1 t
+  FCoverage: 1 t
+  FCoverage: 145 r r.midthin racute rcaron rcedilla s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scedilla scircumflex w w.midwide w.wide wcircumflex
+ 1
+  SeqLookup: 0 "toCursive"
+EndFPST
+ChainSub2: coverage "cursiveAlts contextual 18" 0 0 0 1
+ 1 0 2
+  Coverage: 1 t
+  FCoverage: 28 quotesingle quotesingle.thin
+  FCoverage: 145 r r.midthin racute rcaron rcedilla s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scedilla scircumflex w w.midwide w.wide wcircumflex
+ 1
+  SeqLookup: 0 "toCursive"
+EndFPST
+ChainSub2: coverage "cursiveAlts contextual 17" 0 0 0 1
+ 1 0 1
+  Coverage: 1 t
+  FCoverage: 145 r r.midthin racute rcaron rcedilla s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scedilla scircumflex w w.midwide w.wide wcircumflex
+ 1
+  SeqLookup: 0 "toCursive"
+EndFPST
+ChainSub2: coverage "cursiveAlts contextual 16" 0 0 0 1
+ 1 1 0
+  Coverage: 1 t
+  BCoverage: 209 c cacute ccaron ccedilla ccircumflex cdotaccent p t.cursive t.cursive.before.i.thin t.cursive.before.t t.cursive.sprawl.e t.cursive.sprawl.se s.cursive s.cursive.alt s.cursive.sprawl.w S.cursive S.cursive.wide
+ 1
+  SeqLookup: 0 "toCursive"
+EndFPST
+ChainSub2: coverage "cursiveAlts contextual 15" 0 0 0 1
+ 1 0 1
+  Coverage: 1 t
+  FCoverage: 1540 h hbar hcircumflex k k.sprawl.se kcedilla kgreenlandic l l.midthin l.sprawl.w l.thin lacute lcaron lcedilla ldot lslash A A.proportional A.short A.sprawl.s A.sprawl.s.wide A.wide AE Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde B B.sprawl.nw C C.short C.sprawl.e C.sprawl.e.proportional C.sprawl.s Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D D.proportional D.sprawl.nw Dcaron Dcroat E E.short Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eng Eogonek Eth F F.sprawl.e G G.proportional G.short G.wide Gbreve Gcedilla Gcircumflex Gdotaccent H H.proportional Hbar Hcircumflex I I.midthin I.short IJ Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde J J.sprawl.s J.thin.sprawl.sw Jcircumflex K K.sprawl.se Kcedilla L L.proportional L.sprawl.s L.thin.sprawl.se Lacute Lcaron Lcedilla Ldot Lslash M M.wide N N.proportional N.short N.sprawl.s Nacute Ncaron Ncedilla Ntilde O O.short OE Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde P P.sprawl.nw Q Q.sprawl.se R R.short R.sprawl.nw R.sprawl.nwse R.sprawl.se Racute Rcaron Rcedilla S S.cursive S.cursive.wide S.short Sacute Scaron Scedilla Scircumflex T Tbar Tcaron Tcedilla Thorn U U.short Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde V V.proportional V.sprawl.nwne V.sprawl.w W W.wide W.wide.alt Wcircumflex X X.sprawl.s Y Y.short Y.sprawl.nwne Y.sprawl.w Yacute Ycircumflex Ydieresis Z Z.short Z.sprawl.s Z.sprawl.se Zacute Zcaron Zdotaccent
+ 0
+EndFPST
+ChainSub2: coverage "cursiveAlts contextual 14" 0 0 0 1
+ 1 1 0
+  Coverage: 1 t
+  BCoverage: 118 d dcaron dcroat f f.cursive f.flourish.sw f.sprawl.sw l l.midthin l.sprawl.w l.thin lacute lcaron lcedilla ldot lslash
+ 0
+EndFPST
+ChainSub2: coverage "cursiveAlts contextual 13" 0 0 0 1
+ 1 0 1
+  Coverage: 1 S
+  FCoverage: 1256 a aacute abreve acircumflex adieresis ae agrave amacron aogonek aring atilde b c cacute ccaron ccedilla ccircumflex cdotaccent d dcaron dcroat dotlessi e e.cursive eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eng eogonek eth f f.cursive f.flourish.sw f.sprawl.sw g g.cursive gbreve gcedilla gcircumflex gdotaccent germandbls h hbar hcircumflex i i.midthin i.sprawl.w i.thin iacute ibreve icircumflex idieresis igrave ij imacron iogonek itilde j j.old1 j.sprawl.s j.thin j.thin.sprawl.sw jcircumflex k k.sprawl.se kcedilla kgreenlandic l l.midthin l.sprawl.w l.thin lacute lcaron lcedilla ldot longs lslash m m.midwide m.wide n nacute napostrophe ncaron ncedilla ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde p q q.sprawl.se r r.midthin racute rcaron rcedilla s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scedilla scircumflex t t.cursive t.cursive.before.i.thin t.cursive.before.t t.cursive.sprawl.e t.cursive.sprawl.se t.midthin tbar tcaron tcedilla thorn u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde v w w.midwide w.wide wcircumflex x y y.flourish.sw yacute ycircumflex ydieresis z z.sprawl.s z.sprawl.se zacute zcaron zdotaccent
+ 1
+  SeqLookup: 0 "toCursive"
+EndFPST
+ChainSub2: coverage "cursiveAlts contextual 12" 0 0 0 1
+ 1 2 0
+  Coverage: 1 s
+  BCoverage: 28 quotesingle quotesingle.thin
+  BCoverage: 2677 A A.proportional A.short A.sprawl.s A.sprawl.s.wide A.wide AE Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde B B.sprawl.nw C C.short C.sprawl.e C.sprawl.e.proportional C.sprawl.s Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D D.proportional D.sprawl.nw Dcaron Dcroat E E.short Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eng Eogonek Eth F F.sprawl.e G G.proportional G.short G.wide Gbreve Gcedilla Gcircumflex Gdotaccent H H.proportional Hbar Hcircumflex I I.midthin I.short IJ Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde J J.sprawl.s J.thin.sprawl.sw Jcircumflex K K.sprawl.se Kcedilla L L.proportional L.sprawl.s L.thin.sprawl.se Lacute Lcaron Lcedilla Ldot Lslash M M.wide N N.proportional N.short N.sprawl.s Nacute Ncaron Ncedilla Ntilde O O.short OE Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde P P.sprawl.nw Q Q.sprawl.se R R.short R.sprawl.nw R.sprawl.nwse R.sprawl.se Racute Rcaron Rcedilla S S.cursive S.cursive.wide S.short Sacute Scaron Scedilla Scircumflex T Tbar Tcaron Tcedilla Thorn U U.short Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde V V.proportional V.sprawl.nwne V.sprawl.w W W.wide W.wide.alt Wcircumflex X X.sprawl.s Y Y.short Y.sprawl.nwne Y.sprawl.w Yacute Ycircumflex Ydieresis Z Z.short Z.sprawl.s Z.sprawl.se Zacute Zcaron Zdotaccent a aacute abreve acircumflex adieresis ae agrave amacron aogonek aring atilde b c cacute ccaron ccedilla ccircumflex cdotaccent d dcaron dcroat dotlessi e e.cursive eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eng eogonek eth f f.cursive f.flourish.sw f.sprawl.sw g g.cursive gbreve gcedilla gcircumflex gdotaccent germandbls h hbar hcircumflex i i.midthin i.sprawl.w i.thin iacute ibreve icircumflex idieresis igrave ij imacron iogonek itilde j j.old1 j.sprawl.s j.thin j.thin.sprawl.sw jcircumflex k k.sprawl.se kcedilla kgreenlandic l l.midthin l.sprawl.w l.thin lacute lcaron lcedilla ldot longs lslash m m.midwide m.wide n nacute napostrophe ncaron ncedilla ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde p q q.sprawl.se r r.midthin racute rcaron rcedilla s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scedilla scircumflex t t.cursive t.cursive.before.i.thin t.cursive.before.t t.cursive.sprawl.e t.cursive.sprawl.se t.midthin tbar tcaron tcedilla thorn u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde v w w.midwide w.wide wcircumflex x y y.flourish.sw yacute ycircumflex ydieresis z z.sprawl.s z.sprawl.se zacute zcaron zdotaccent
+ 1
+  SeqLookup: 0 "toCursive"
+EndFPST
+ChainSub2: glyph "cursiveAlts contextual 11" 0 0 0 1
+ String: 1 s
+ BString: 9 g.cursive
+ FString: 0 
+ 1
+  SeqLookup: 0 "toCursive"
+EndFPST
+ChainSub2: coverage "cursiveAlts contextual 10" 0 0 0 1
+ 1 1 1
+  Coverage: 1 s
+  BCoverage: 2677 A A.proportional A.short A.sprawl.s A.sprawl.s.wide A.wide AE Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde B B.sprawl.nw C C.short C.sprawl.e C.sprawl.e.proportional C.sprawl.s Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D D.proportional D.sprawl.nw Dcaron Dcroat E E.short Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eng Eogonek Eth F F.sprawl.e G G.proportional G.short G.wide Gbreve Gcedilla Gcircumflex Gdotaccent H H.proportional Hbar Hcircumflex I I.midthin I.short IJ Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde J J.sprawl.s J.thin.sprawl.sw Jcircumflex K K.sprawl.se Kcedilla L L.proportional L.sprawl.s L.thin.sprawl.se Lacute Lcaron Lcedilla Ldot Lslash M M.wide N N.proportional N.short N.sprawl.s Nacute Ncaron Ncedilla Ntilde O O.short OE Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde P P.sprawl.nw Q Q.sprawl.se R R.short R.sprawl.nw R.sprawl.nwse R.sprawl.se Racute Rcaron Rcedilla S S.cursive S.cursive.wide S.short Sacute Scaron Scedilla Scircumflex T Tbar Tcaron Tcedilla Thorn U U.short Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde V V.proportional V.sprawl.nwne V.sprawl.w W W.wide W.wide.alt Wcircumflex X X.sprawl.s Y Y.short Y.sprawl.nwne Y.sprawl.w Yacute Ycircumflex Ydieresis Z Z.short Z.sprawl.s Z.sprawl.se Zacute Zcaron Zdotaccent a aacute abreve acircumflex adieresis ae agrave amacron aogonek aring atilde b c cacute ccaron ccedilla ccircumflex cdotaccent d dcaron dcroat dotlessi e e.cursive eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eng eogonek eth f f.cursive f.flourish.sw f.sprawl.sw g g.cursive gbreve gcedilla gcircumflex gdotaccent germandbls h hbar hcircumflex i i.midthin i.sprawl.w i.thin iacute ibreve icircumflex idieresis igrave ij imacron iogonek itilde j j.old1 j.sprawl.s j.thin j.thin.sprawl.sw jcircumflex k k.sprawl.se kcedilla kgreenlandic l l.midthin l.sprawl.w l.thin lacute lcaron lcedilla ldot longs lslash m m.midwide m.wide n nacute napostrophe ncaron ncedilla ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde p q q.sprawl.se r r.midthin racute rcaron rcedilla s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scedilla scircumflex t t.cursive t.cursive.before.i.thin t.cursive.before.t t.cursive.sprawl.e t.cursive.sprawl.se t.midthin tbar tcaron tcedilla thorn u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde v w w.midwide w.wide wcircumflex x y y.flourish.sw yacute ycircumflex ydieresis z z.sprawl.s z.sprawl.se zacute zcaron zdotaccent
+  FCoverage: 1256 a aacute abreve acircumflex adieresis ae agrave amacron aogonek aring atilde b c cacute ccaron ccedilla ccircumflex cdotaccent d dcaron dcroat dotlessi e e.cursive eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eng eogonek eth f f.cursive f.flourish.sw f.sprawl.sw g g.cursive gbreve gcedilla gcircumflex gdotaccent germandbls h hbar hcircumflex i i.midthin i.sprawl.w i.thin iacute ibreve icircumflex idieresis igrave ij imacron iogonek itilde j j.old1 j.sprawl.s j.thin j.thin.sprawl.sw jcircumflex k k.sprawl.se kcedilla kgreenlandic l l.midthin l.sprawl.w l.thin lacute lcaron lcedilla ldot longs lslash m m.midwide m.wide n nacute napostrophe ncaron ncedilla ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde p q q.sprawl.se r r.midthin racute rcaron rcedilla s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scedilla scircumflex t t.cursive t.cursive.before.i.thin t.cursive.before.t t.cursive.sprawl.e t.cursive.sprawl.se t.midthin tbar tcaron tcedilla thorn u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde v w w.midwide w.wide wcircumflex x y y.flourish.sw yacute ycircumflex ydieresis z z.sprawl.s z.sprawl.se zacute zcaron zdotaccent
+ 1
+  SeqLookup: 0 "toCursive"
+EndFPST
+ChainSub2: glyph "cursiveAlts contextual 9" 0 0 0 1
+ String: 1 S
+ BString: 1 S
+ FString: 0 
+ 0
+EndFPST
+ChainSub2: glyph "cursiveAlts contextual 8" 0 0 0 1
+ String: 1 s
+ BString: 1 s
+ FString: 0 
+ 0
+EndFPST
+ChainSub2: glyph "cursiveAlts contextual 7" 0 0 0 1
+ String: 1 s
+ BString: 0 
+ FString: 1 s
+ 0
+EndFPST
+ChainSub2: coverage "cursiveAlts contextual 6" 0 0 0 1
+ 1 1 0
+  Coverage: 1 g
+  BCoverage: 144 g.cursive s.cursive s.cursive.alt s.cursive.sprawl.w t.cursive t.cursive.before.i.thin t.cursive.before.t t.cursive.sprawl.e t.cursive.sprawl.se
+ 1
+  SeqLookup: 0 "toCursive"
+EndFPST
+ChainSub2: coverage "cursiveAlts contextual 5" 0 0 0 1
+ 2 0 1
+  Coverage: 1 g
+  Coverage: 1 g
+  FCoverage: 5 e r s
+ 2
+  SeqLookup: 0 "toCursive"
+  SeqLookup: 1 "toCursive"
+EndFPST
+ChainSub2: coverage "cursiveAlts contextual 4" 0 0 0 1
+ 1 0 1
+  Coverage: 1 g
+  FCoverage: 5 e r s
+ 1
+  SeqLookup: 0 "toCursive"
+EndFPST
+ChainSub2: glyph "cursiveAlts contextual 3" 0 0 0 1
+ String: 1 g
+ BString: 1 g
+ FString: 0 
+ 0
+EndFPST
+ChainSub2: glyph "cursiveAlts contextual 2" 0 0 0 1
+ String: 1 e
+ BString: 11 s.cursive o
+ FString: 0 
+ 1
+  SeqLookup: 0 "toCursive"
+EndFPST
+ChainSub2: glyph "cursiveAlts contextual 1" 0 0 0 1
+ String: 1 e
+ BString: 11 s.cursive b
+ FString: 0 
+ 1
+  SeqLookup: 0 "toCursive"
+EndFPST
+ChainSub2: coverage "cursiveAlts contextual 0" 0 0 0 1
+ 1 1 0
+  Coverage: 1 e
+  BCoverage: 101 g.cursive t.cursive t.cursive.before.i.thin t.cursive.before.t t.cursive.sprawl.e t.cursive.sprawl.se
+ 1
+  SeqLookup: 0 "toCursive"
+EndFPST
+ChainSub2: coverage "afterHexify subtable" 0 0 0 1
+ 1 0 0
+  Coverage: 11 x.hex X.hex
+ 1
+  SeqLookup: 0 "Single Substitution lookup 4"
+EndFPST
+ChainSub2: coverage "hexify contextual 11" 0 0 0 1
+ 1 0 15
+  Coverage: 84 zero one two three four five six seven eight nine a b c d e f A B C D E F underscore
+  FCoverage: 84 zero one two three four five six seven eight nine a b c d e f A B C D E F underscore
+  FCoverage: 84 zero one two three four five six seven eight nine a b c d e f A B C D E F underscore
+  FCoverage: 84 zero one two three four five six seven eight nine a b c d e f A B C D E F underscore
+  FCoverage: 84 zero one two three four five six seven eight nine a b c d e f A B C D E F underscore
+  FCoverage: 84 zero one two three four five six seven eight nine a b c d e f A B C D E F underscore
+  FCoverage: 84 zero one two three four five six seven eight nine a b c d e f A B C D E F underscore
+  FCoverage: 84 zero one two three four five six seven eight nine a b c d e f A B C D E F underscore
+  FCoverage: 84 zero one two three four five six seven eight nine a b c d e f A B C D E F underscore
+  FCoverage: 84 zero one two three four five six seven eight nine a b c d e f A B C D E F underscore
+  FCoverage: 84 zero one two three four five six seven eight nine a b c d e f A B C D E F underscore
+  FCoverage: 84 zero one two three four five six seven eight nine a b c d e f A B C D E F underscore
+  FCoverage: 84 zero one two three four five six seven eight nine a b c d e f A B C D E F underscore
+  FCoverage: 84 zero one two three four five six seven eight nine a b c d e f A B C D E F underscore
+  FCoverage: 84 zero one two three four five six seven eight nine a b c d e f A B C D E F underscore
+  FCoverage: 84 zero one two three four five six seven eight nine a b c d e f A B C D E F underscore
+ 1
+  SeqLookup: 0 "toHex"
+EndFPST
+ChainSub2: coverage "hexify contextual 10" 0 0 0 1
+ 1 1 0
+  Coverage: 84 zero one two three four five six seven eight nine a b c d e f A B C D E F underscore
+  BCoverage: 176 zero.hex one.hex two.hex three.hex four.hex five.hex six.hex seven.hex eight.hex nine.hex a.hex b.hex c.hex d.hex e.hex f.hex A.hex B.hex C.hex D.hex E.hex F.hex underscore.hex
+ 1
+  SeqLookup: 0 "toHex"
+EndFPST
+ChainSub2: coverage "hexify contextual 9" 0 0 0 1
+ 1 1 1
+  Coverage: 84 zero one two three four five six seven eight nine a b c d e f A B C D E F underscore
+  BCoverage: 22 x.hex X.hex numbersign
+  FCoverage: 84 zero one two three four five six seven eight nine a b c d e f A B C D E F underscore
+ 1
+  SeqLookup: 0 "toHex"
+EndFPST
+ChainSub2: coverage "hexify contextual 8" 0 0 0 1
+ 1 1 8
+  Coverage: 84 zero one two three four five six seven eight nine a b c d e f A B C D E F underscore
+  BCoverage: 22 x.hex X.hex numbersign
+  FCoverage: 84 zero one two three four five six seven eight nine a b c d e f A B C D E F underscore
+  FCoverage: 84 zero one two three four five six seven eight nine a b c d e f A B C D E F underscore
+  FCoverage: 84 zero one two three four five six seven eight nine a b c d e f A B C D E F underscore
+  FCoverage: 84 zero one two three four five six seven eight nine a b c d e f A B C D E F underscore
+  FCoverage: 84 zero one two three four five six seven eight nine a b c d e f A B C D E F underscore
+  FCoverage: 84 zero one two three four five six seven eight nine a b c d e f A B C D E F underscore
+  FCoverage: 84 zero one two three four five six seven eight nine a b c d e f A B C D E F underscore
+  FCoverage: 3589 G G.proportional G.short G.wide Gbreve Gcedilla Gcircumflex Gdotaccent H H.proportional Hbar Hcircumflex I I.midthin I.short Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde J J.sprawl.s J.thin.sprawl.sw Jcircumflex K K.sprawl.se Kcedilla L L.proportional L.sprawl.s L.thin.sprawl.se Lacute Lcaron Lcedilla Ldot Lslash M M.wide N N.proportional N.short N.sprawl.s Nacute Ncaron Ncedilla Ntilde O O.short Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde P P.sprawl.nw Q Q.sprawl.se R R.short R.sprawl.nw R.sprawl.nwse R.sprawl.se Racute Rcaron Rcedilla S S.cursive S.cursive.wide S.short Sacute Scaron Scedilla Scircumflex T Tbar Tcaron Tcedilla U U.short Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde V V.proportional V.sprawl.nwne V.sprawl.w W W.wide W.wide.alt Wcircumflex X X.sprawl.s Y Y.short Y.sprawl.nwne Y.sprawl.w Yacute Ycircumflex Ydieresis Z Z.short Z.sprawl.s Z.sprawl.se Zacute Zcaron Zdotaccent g g.cursive gbreve gcedilla gcircumflex gdotaccent h hbar hcircumflex i i.midthin i.sprawl.w i.thin iacute ibreve icircumflex idieresis igrave imacron iogonek itilde j j.old1 j.sprawl.s j.thin j.thin.sprawl.sw jcircumflex k k.sprawl.se kcedilla kgreenlandic l l.midthin l.sprawl.w l.thin lacute lcaron lcedilla ldot lslash m m.midwide m.wide n nacute napostrophe ncaron ncedilla ntilde o oacute obreve ocircumflex odieresis ograve ohungarumlaut omacron oslash otilde p q q.sprawl.se r r.midthin racute rcaron rcedilla s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scedilla scircumflex t t.cursive t.cursive.before.i.thin t.cursive.before.t t.cursive.sprawl.e t.cursive.sprawl.se t.midthin tbar tcaron tcedilla u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde v w w.midwide w.wide wcircumflex x y y.flourish.sw yacute ycircumflex ydieresis z z.sprawl.s z.sprawl.se zacute zcaron zdotaccent Aacute Abreve Acircumflex Adieresis Agrave Amacron Aring Atilde Cacute Ccaron Ccircumflex Cdotaccent Dcaron Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Gbreve Gcircumflex Gdotaccent Hcircumflex Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Itilde Jcircumflex Lacute Nacute Ncaron Ntilde Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Otilde Racute Rcaron Sacute Scaron Scircumflex Tcaron Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uring Utilde Wcircumflex Yacute Ycircumflex Ydieresis Zacute Zcaron Zdotaccent aacute abreve acircumflex adieresis agrave amacron aring atilde cacute ccaron ccircumflex cdotaccent eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron gbreve gcedilla gcircumflex gdotaccent hcircumflex i i.midthin i.sprawl.w i.thin iacute ibreve icircumflex idieresis igrave ij imacron iogonek itilde j j.old1 j.sprawl.s j.thin j.thin.sprawl.sw jcircumflex lacute nacute napostrophe ncaron ntilde oacute obreve ocircumflex odieresis ograve ohungarumlaut omacron otilde racute rcaron sacute scaron scircumflex uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uring utilde wcircumflex yacute ycircumflex ydieresis zacute zcaron zdotaccent Aogonek Ccedilla Eogonek Gcedilla Iogonek Kcedilla Lcedilla Ncedilla Rcedilla Scedilla Tcedilla Uogonek aogonek ccedilla eogonek iogonek kcedilla lcedilla ncedilla rcedilla scedilla tcedilla uogonek Dcroat Eth Hbar Lcaron Ldot Lslash Oslash Tbar dcaron dcroat hbar kgreenlandic lcaron ldot lslash oslash tbar tcaron AE Eng IJ OE Thorn ae dotlessi eng eth germandbls ij longs oe
+ 0
+EndFPST
+ChainSub2: coverage "hexify contextual 7" 0 0 0 1
+ 1 1 7
+  Coverage: 84 zero one two three four five six seven eight nine a b c d e f A B C D E F underscore
+  BCoverage: 22 x.hex X.hex numbersign
+  FCoverage: 84 zero one two three four five six seven eight nine a b c d e f A B C D E F underscore
+  FCoverage: 84 zero one two three four five six seven eight nine a b c d e f A B C D E F underscore
+  FCoverage: 84 zero one two three four five six seven eight nine a b c d e f A B C D E F underscore
+  FCoverage: 84 zero one two three four five six seven eight nine a b c d e f A B C D E F underscore
+  FCoverage: 84 zero one two three four five six seven eight nine a b c d e f A B C D E F underscore
+  FCoverage: 84 zero one two three four five six seven eight nine a b c d e f A B C D E F underscore
+  FCoverage: 3589 G G.proportional G.short G.wide Gbreve Gcedilla Gcircumflex Gdotaccent H H.proportional Hbar Hcircumflex I I.midthin I.short Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde J J.sprawl.s J.thin.sprawl.sw Jcircumflex K K.sprawl.se Kcedilla L L.proportional L.sprawl.s L.thin.sprawl.se Lacute Lcaron Lcedilla Ldot Lslash M M.wide N N.proportional N.short N.sprawl.s Nacute Ncaron Ncedilla Ntilde O O.short Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde P P.sprawl.nw Q Q.sprawl.se R R.short R.sprawl.nw R.sprawl.nwse R.sprawl.se Racute Rcaron Rcedilla S S.cursive S.cursive.wide S.short Sacute Scaron Scedilla Scircumflex T Tbar Tcaron Tcedilla U U.short Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde V V.proportional V.sprawl.nwne V.sprawl.w W W.wide W.wide.alt Wcircumflex X X.sprawl.s Y Y.short Y.sprawl.nwne Y.sprawl.w Yacute Ycircumflex Ydieresis Z Z.short Z.sprawl.s Z.sprawl.se Zacute Zcaron Zdotaccent g g.cursive gbreve gcedilla gcircumflex gdotaccent h hbar hcircumflex i i.midthin i.sprawl.w i.thin iacute ibreve icircumflex idieresis igrave imacron iogonek itilde j j.old1 j.sprawl.s j.thin j.thin.sprawl.sw jcircumflex k k.sprawl.se kcedilla kgreenlandic l l.midthin l.sprawl.w l.thin lacute lcaron lcedilla ldot lslash m m.midwide m.wide n nacute napostrophe ncaron ncedilla ntilde o oacute obreve ocircumflex odieresis ograve ohungarumlaut omacron oslash otilde p q q.sprawl.se r r.midthin racute rcaron rcedilla s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scedilla scircumflex t t.cursive t.cursive.before.i.thin t.cursive.before.t t.cursive.sprawl.e t.cursive.sprawl.se t.midthin tbar tcaron tcedilla u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde v w w.midwide w.wide wcircumflex x y y.flourish.sw yacute ycircumflex ydieresis z z.sprawl.s z.sprawl.se zacute zcaron zdotaccent Aacute Abreve Acircumflex Adieresis Agrave Amacron Aring Atilde Cacute Ccaron Ccircumflex Cdotaccent Dcaron Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Gbreve Gcircumflex Gdotaccent Hcircumflex Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Itilde Jcircumflex Lacute Nacute Ncaron Ntilde Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Otilde Racute Rcaron Sacute Scaron Scircumflex Tcaron Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uring Utilde Wcircumflex Yacute Ycircumflex Ydieresis Zacute Zcaron Zdotaccent aacute abreve acircumflex adieresis agrave amacron aring atilde cacute ccaron ccircumflex cdotaccent eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron gbreve gcedilla gcircumflex gdotaccent hcircumflex i i.midthin i.sprawl.w i.thin iacute ibreve icircumflex idieresis igrave ij imacron iogonek itilde j j.old1 j.sprawl.s j.thin j.thin.sprawl.sw jcircumflex lacute nacute napostrophe ncaron ntilde oacute obreve ocircumflex odieresis ograve ohungarumlaut omacron otilde racute rcaron sacute scaron scircumflex uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uring utilde wcircumflex yacute ycircumflex ydieresis zacute zcaron zdotaccent Aogonek Ccedilla Eogonek Gcedilla Iogonek Kcedilla Lcedilla Ncedilla Rcedilla Scedilla Tcedilla Uogonek aogonek ccedilla eogonek iogonek kcedilla lcedilla ncedilla rcedilla scedilla tcedilla uogonek Dcroat Eth Hbar Lcaron Ldot Lslash Oslash Tbar dcaron dcroat hbar kgreenlandic lcaron ldot lslash oslash tbar tcaron AE Eng IJ OE Thorn ae dotlessi eng eth germandbls ij longs oe
+ 0
+EndFPST
+ChainSub2: coverage "hexify contextual 6" 0 0 0 1
+ 1 1 6
+  Coverage: 84 zero one two three four five six seven eight nine a b c d e f A B C D E F underscore
+  BCoverage: 22 x.hex X.hex numbersign
+  FCoverage: 84 zero one two three four five six seven eight nine a b c d e f A B C D E F underscore
+  FCoverage: 84 zero one two three four five six seven eight nine a b c d e f A B C D E F underscore
+  FCoverage: 84 zero one two three four five six seven eight nine a b c d e f A B C D E F underscore
+  FCoverage: 84 zero one two three four five six seven eight nine a b c d e f A B C D E F underscore
+  FCoverage: 84 zero one two three four five six seven eight nine a b c d e f A B C D E F underscore
+  FCoverage: 3589 G G.proportional G.short G.wide Gbreve Gcedilla Gcircumflex Gdotaccent H H.proportional Hbar Hcircumflex I I.midthin I.short Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde J J.sprawl.s J.thin.sprawl.sw Jcircumflex K K.sprawl.se Kcedilla L L.proportional L.sprawl.s L.thin.sprawl.se Lacute Lcaron Lcedilla Ldot Lslash M M.wide N N.proportional N.short N.sprawl.s Nacute Ncaron Ncedilla Ntilde O O.short Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde P P.sprawl.nw Q Q.sprawl.se R R.short R.sprawl.nw R.sprawl.nwse R.sprawl.se Racute Rcaron Rcedilla S S.cursive S.cursive.wide S.short Sacute Scaron Scedilla Scircumflex T Tbar Tcaron Tcedilla U U.short Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde V V.proportional V.sprawl.nwne V.sprawl.w W W.wide W.wide.alt Wcircumflex X X.sprawl.s Y Y.short Y.sprawl.nwne Y.sprawl.w Yacute Ycircumflex Ydieresis Z Z.short Z.sprawl.s Z.sprawl.se Zacute Zcaron Zdotaccent g g.cursive gbreve gcedilla gcircumflex gdotaccent h hbar hcircumflex i i.midthin i.sprawl.w i.thin iacute ibreve icircumflex idieresis igrave imacron iogonek itilde j j.old1 j.sprawl.s j.thin j.thin.sprawl.sw jcircumflex k k.sprawl.se kcedilla kgreenlandic l l.midthin l.sprawl.w l.thin lacute lcaron lcedilla ldot lslash m m.midwide m.wide n nacute napostrophe ncaron ncedilla ntilde o oacute obreve ocircumflex odieresis ograve ohungarumlaut omacron oslash otilde p q q.sprawl.se r r.midthin racute rcaron rcedilla s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scedilla scircumflex t t.cursive t.cursive.before.i.thin t.cursive.before.t t.cursive.sprawl.e t.cursive.sprawl.se t.midthin tbar tcaron tcedilla u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde v w w.midwide w.wide wcircumflex x y y.flourish.sw yacute ycircumflex ydieresis z z.sprawl.s z.sprawl.se zacute zcaron zdotaccent Aacute Abreve Acircumflex Adieresis Agrave Amacron Aring Atilde Cacute Ccaron Ccircumflex Cdotaccent Dcaron Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Gbreve Gcircumflex Gdotaccent Hcircumflex Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Itilde Jcircumflex Lacute Nacute Ncaron Ntilde Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Otilde Racute Rcaron Sacute Scaron Scircumflex Tcaron Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uring Utilde Wcircumflex Yacute Ycircumflex Ydieresis Zacute Zcaron Zdotaccent aacute abreve acircumflex adieresis agrave amacron aring atilde cacute ccaron ccircumflex cdotaccent eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron gbreve gcedilla gcircumflex gdotaccent hcircumflex i i.midthin i.sprawl.w i.thin iacute ibreve icircumflex idieresis igrave ij imacron iogonek itilde j j.old1 j.sprawl.s j.thin j.thin.sprawl.sw jcircumflex lacute nacute napostrophe ncaron ntilde oacute obreve ocircumflex odieresis ograve ohungarumlaut omacron otilde racute rcaron sacute scaron scircumflex uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uring utilde wcircumflex yacute ycircumflex ydieresis zacute zcaron zdotaccent Aogonek Ccedilla Eogonek Gcedilla Iogonek Kcedilla Lcedilla Ncedilla Rcedilla Scedilla Tcedilla Uogonek aogonek ccedilla eogonek iogonek kcedilla lcedilla ncedilla rcedilla scedilla tcedilla uogonek Dcroat Eth Hbar Lcaron Ldot Lslash Oslash Tbar dcaron dcroat hbar kgreenlandic lcaron ldot lslash oslash tbar tcaron AE Eng IJ OE Thorn ae dotlessi eng eth germandbls ij longs oe
+ 0
+EndFPST
+ChainSub2: coverage "hexify contextual 5" 0 0 0 1
+ 1 1 5
+  Coverage: 84 zero one two three four five six seven eight nine a b c d e f A B C D E F underscore
+  BCoverage: 22 x.hex X.hex numbersign
+  FCoverage: 84 zero one two three four five six seven eight nine a b c d e f A B C D E F underscore
+  FCoverage: 84 zero one two three four five six seven eight nine a b c d e f A B C D E F underscore
+  FCoverage: 84 zero one two three four five six seven eight nine a b c d e f A B C D E F underscore
+  FCoverage: 84 zero one two three four five six seven eight nine a b c d e f A B C D E F underscore
+  FCoverage: 3589 G G.proportional G.short G.wide Gbreve Gcedilla Gcircumflex Gdotaccent H H.proportional Hbar Hcircumflex I I.midthin I.short Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde J J.sprawl.s J.thin.sprawl.sw Jcircumflex K K.sprawl.se Kcedilla L L.proportional L.sprawl.s L.thin.sprawl.se Lacute Lcaron Lcedilla Ldot Lslash M M.wide N N.proportional N.short N.sprawl.s Nacute Ncaron Ncedilla Ntilde O O.short Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde P P.sprawl.nw Q Q.sprawl.se R R.short R.sprawl.nw R.sprawl.nwse R.sprawl.se Racute Rcaron Rcedilla S S.cursive S.cursive.wide S.short Sacute Scaron Scedilla Scircumflex T Tbar Tcaron Tcedilla U U.short Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde V V.proportional V.sprawl.nwne V.sprawl.w W W.wide W.wide.alt Wcircumflex X X.sprawl.s Y Y.short Y.sprawl.nwne Y.sprawl.w Yacute Ycircumflex Ydieresis Z Z.short Z.sprawl.s Z.sprawl.se Zacute Zcaron Zdotaccent g g.cursive gbreve gcedilla gcircumflex gdotaccent h hbar hcircumflex i i.midthin i.sprawl.w i.thin iacute ibreve icircumflex idieresis igrave imacron iogonek itilde j j.old1 j.sprawl.s j.thin j.thin.sprawl.sw jcircumflex k k.sprawl.se kcedilla kgreenlandic l l.midthin l.sprawl.w l.thin lacute lcaron lcedilla ldot lslash m m.midwide m.wide n nacute napostrophe ncaron ncedilla ntilde o oacute obreve ocircumflex odieresis ograve ohungarumlaut omacron oslash otilde p q q.sprawl.se r r.midthin racute rcaron rcedilla s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scedilla scircumflex t t.cursive t.cursive.before.i.thin t.cursive.before.t t.cursive.sprawl.e t.cursive.sprawl.se t.midthin tbar tcaron tcedilla u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde v w w.midwide w.wide wcircumflex x y y.flourish.sw yacute ycircumflex ydieresis z z.sprawl.s z.sprawl.se zacute zcaron zdotaccent Aacute Abreve Acircumflex Adieresis Agrave Amacron Aring Atilde Cacute Ccaron Ccircumflex Cdotaccent Dcaron Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Gbreve Gcircumflex Gdotaccent Hcircumflex Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Itilde Jcircumflex Lacute Nacute Ncaron Ntilde Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Otilde Racute Rcaron Sacute Scaron Scircumflex Tcaron Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uring Utilde Wcircumflex Yacute Ycircumflex Ydieresis Zacute Zcaron Zdotaccent aacute abreve acircumflex adieresis agrave amacron aring atilde cacute ccaron ccircumflex cdotaccent eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron gbreve gcedilla gcircumflex gdotaccent hcircumflex i i.midthin i.sprawl.w i.thin iacute ibreve icircumflex idieresis igrave ij imacron iogonek itilde j j.old1 j.sprawl.s j.thin j.thin.sprawl.sw jcircumflex lacute nacute napostrophe ncaron ntilde oacute obreve ocircumflex odieresis ograve ohungarumlaut omacron otilde racute rcaron sacute scaron scircumflex uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uring utilde wcircumflex yacute ycircumflex ydieresis zacute zcaron zdotaccent Aogonek Ccedilla Eogonek Gcedilla Iogonek Kcedilla Lcedilla Ncedilla Rcedilla Scedilla Tcedilla Uogonek aogonek ccedilla eogonek iogonek kcedilla lcedilla ncedilla rcedilla scedilla tcedilla uogonek Dcroat Eth Hbar Lcaron Ldot Lslash Oslash Tbar dcaron dcroat hbar kgreenlandic lcaron ldot lslash oslash tbar tcaron AE Eng IJ OE Thorn ae dotlessi eng eth germandbls ij longs oe
+ 0
+EndFPST
+ChainSub2: coverage "hexify contextual 4" 0 0 0 1
+ 1 1 4
+  Coverage: 84 zero one two three four five six seven eight nine a b c d e f A B C D E F underscore
+  BCoverage: 22 x.hex X.hex numbersign
+  FCoverage: 84 zero one two three four five six seven eight nine a b c d e f A B C D E F underscore
+  FCoverage: 84 zero one two three four five six seven eight nine a b c d e f A B C D E F underscore
+  FCoverage: 84 zero one two three four five six seven eight nine a b c d e f A B C D E F underscore
+  FCoverage: 3589 G G.proportional G.short G.wide Gbreve Gcedilla Gcircumflex Gdotaccent H H.proportional Hbar Hcircumflex I I.midthin I.short Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde J J.sprawl.s J.thin.sprawl.sw Jcircumflex K K.sprawl.se Kcedilla L L.proportional L.sprawl.s L.thin.sprawl.se Lacute Lcaron Lcedilla Ldot Lslash M M.wide N N.proportional N.short N.sprawl.s Nacute Ncaron Ncedilla Ntilde O O.short Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde P P.sprawl.nw Q Q.sprawl.se R R.short R.sprawl.nw R.sprawl.nwse R.sprawl.se Racute Rcaron Rcedilla S S.cursive S.cursive.wide S.short Sacute Scaron Scedilla Scircumflex T Tbar Tcaron Tcedilla U U.short Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde V V.proportional V.sprawl.nwne V.sprawl.w W W.wide W.wide.alt Wcircumflex X X.sprawl.s Y Y.short Y.sprawl.nwne Y.sprawl.w Yacute Ycircumflex Ydieresis Z Z.short Z.sprawl.s Z.sprawl.se Zacute Zcaron Zdotaccent g g.cursive gbreve gcedilla gcircumflex gdotaccent h hbar hcircumflex i i.midthin i.sprawl.w i.thin iacute ibreve icircumflex idieresis igrave imacron iogonek itilde j j.old1 j.sprawl.s j.thin j.thin.sprawl.sw jcircumflex k k.sprawl.se kcedilla kgreenlandic l l.midthin l.sprawl.w l.thin lacute lcaron lcedilla ldot lslash m m.midwide m.wide n nacute napostrophe ncaron ncedilla ntilde o oacute obreve ocircumflex odieresis ograve ohungarumlaut omacron oslash otilde p q q.sprawl.se r r.midthin racute rcaron rcedilla s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scedilla scircumflex t t.cursive t.cursive.before.i.thin t.cursive.before.t t.cursive.sprawl.e t.cursive.sprawl.se t.midthin tbar tcaron tcedilla u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde v w w.midwide w.wide wcircumflex x y y.flourish.sw yacute ycircumflex ydieresis z z.sprawl.s z.sprawl.se zacute zcaron zdotaccent Aacute Abreve Acircumflex Adieresis Agrave Amacron Aring Atilde Cacute Ccaron Ccircumflex Cdotaccent Dcaron Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Gbreve Gcircumflex Gdotaccent Hcircumflex Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Itilde Jcircumflex Lacute Nacute Ncaron Ntilde Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Otilde Racute Rcaron Sacute Scaron Scircumflex Tcaron Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uring Utilde Wcircumflex Yacute Ycircumflex Ydieresis Zacute Zcaron Zdotaccent aacute abreve acircumflex adieresis agrave amacron aring atilde cacute ccaron ccircumflex cdotaccent eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron gbreve gcedilla gcircumflex gdotaccent hcircumflex i i.midthin i.sprawl.w i.thin iacute ibreve icircumflex idieresis igrave ij imacron iogonek itilde j j.old1 j.sprawl.s j.thin j.thin.sprawl.sw jcircumflex lacute nacute napostrophe ncaron ntilde oacute obreve ocircumflex odieresis ograve ohungarumlaut omacron otilde racute rcaron sacute scaron scircumflex uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uring utilde wcircumflex yacute ycircumflex ydieresis zacute zcaron zdotaccent Aogonek Ccedilla Eogonek Gcedilla Iogonek Kcedilla Lcedilla Ncedilla Rcedilla Scedilla Tcedilla Uogonek aogonek ccedilla eogonek iogonek kcedilla lcedilla ncedilla rcedilla scedilla tcedilla uogonek Dcroat Eth Hbar Lcaron Ldot Lslash Oslash Tbar dcaron dcroat hbar kgreenlandic lcaron ldot lslash oslash tbar tcaron AE Eng IJ OE Thorn ae dotlessi eng eth germandbls ij longs oe
+ 0
+EndFPST
+ChainSub2: coverage "hexify contextual 3" 0 0 0 1
+ 1 1 3
+  Coverage: 84 zero one two three four five six seven eight nine a b c d e f A B C D E F underscore
+  BCoverage: 22 x.hex X.hex numbersign
+  FCoverage: 84 zero one two three four five six seven eight nine a b c d e f A B C D E F underscore
+  FCoverage: 84 zero one two three four five six seven eight nine a b c d e f A B C D E F underscore
+  FCoverage: 3589 G G.proportional G.short G.wide Gbreve Gcedilla Gcircumflex Gdotaccent H H.proportional Hbar Hcircumflex I I.midthin I.short Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde J J.sprawl.s J.thin.sprawl.sw Jcircumflex K K.sprawl.se Kcedilla L L.proportional L.sprawl.s L.thin.sprawl.se Lacute Lcaron Lcedilla Ldot Lslash M M.wide N N.proportional N.short N.sprawl.s Nacute Ncaron Ncedilla Ntilde O O.short Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde P P.sprawl.nw Q Q.sprawl.se R R.short R.sprawl.nw R.sprawl.nwse R.sprawl.se Racute Rcaron Rcedilla S S.cursive S.cursive.wide S.short Sacute Scaron Scedilla Scircumflex T Tbar Tcaron Tcedilla U U.short Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde V V.proportional V.sprawl.nwne V.sprawl.w W W.wide W.wide.alt Wcircumflex X X.sprawl.s Y Y.short Y.sprawl.nwne Y.sprawl.w Yacute Ycircumflex Ydieresis Z Z.short Z.sprawl.s Z.sprawl.se Zacute Zcaron Zdotaccent g g.cursive gbreve gcedilla gcircumflex gdotaccent h hbar hcircumflex i i.midthin i.sprawl.w i.thin iacute ibreve icircumflex idieresis igrave imacron iogonek itilde j j.old1 j.sprawl.s j.thin j.thin.sprawl.sw jcircumflex k k.sprawl.se kcedilla kgreenlandic l l.midthin l.sprawl.w l.thin lacute lcaron lcedilla ldot lslash m m.midwide m.wide n nacute napostrophe ncaron ncedilla ntilde o oacute obreve ocircumflex odieresis ograve ohungarumlaut omacron oslash otilde p q q.sprawl.se r r.midthin racute rcaron rcedilla s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scedilla scircumflex t t.cursive t.cursive.before.i.thin t.cursive.before.t t.cursive.sprawl.e t.cursive.sprawl.se t.midthin tbar tcaron tcedilla u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde v w w.midwide w.wide wcircumflex x y y.flourish.sw yacute ycircumflex ydieresis z z.sprawl.s z.sprawl.se zacute zcaron zdotaccent Aacute Abreve Acircumflex Adieresis Agrave Amacron Aring Atilde Cacute Ccaron Ccircumflex Cdotaccent Dcaron Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Gbreve Gcircumflex Gdotaccent Hcircumflex Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Itilde Jcircumflex Lacute Nacute Ncaron Ntilde Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Otilde Racute Rcaron Sacute Scaron Scircumflex Tcaron Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uring Utilde Wcircumflex Yacute Ycircumflex Ydieresis Zacute Zcaron Zdotaccent aacute abreve acircumflex adieresis agrave amacron aring atilde cacute ccaron ccircumflex cdotaccent eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron gbreve gcedilla gcircumflex gdotaccent hcircumflex i i.midthin i.sprawl.w i.thin iacute ibreve icircumflex idieresis igrave ij imacron iogonek itilde j j.old1 j.sprawl.s j.thin j.thin.sprawl.sw jcircumflex lacute nacute napostrophe ncaron ntilde oacute obreve ocircumflex odieresis ograve ohungarumlaut omacron otilde racute rcaron sacute scaron scircumflex uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uring utilde wcircumflex yacute ycircumflex ydieresis zacute zcaron zdotaccent Aogonek Ccedilla Eogonek Gcedilla Iogonek Kcedilla Lcedilla Ncedilla Rcedilla Scedilla Tcedilla Uogonek aogonek ccedilla eogonek iogonek kcedilla lcedilla ncedilla rcedilla scedilla tcedilla uogonek Dcroat Eth Hbar Lcaron Ldot Lslash Oslash Tbar dcaron dcroat hbar kgreenlandic lcaron ldot lslash oslash tbar tcaron AE Eng IJ OE Thorn ae dotlessi eng eth germandbls ij longs oe
+ 0
+EndFPST
+ChainSub2: coverage "hexify contextual 2" 0 0 0 1
+ 1 1 2
+  Coverage: 84 zero one two three four five six seven eight nine a b c d e f A B C D E F underscore
+  BCoverage: 22 x.hex X.hex numbersign
+  FCoverage: 84 zero one two three four five six seven eight nine a b c d e f A B C D E F underscore
+  FCoverage: 3589 G G.proportional G.short G.wide Gbreve Gcedilla Gcircumflex Gdotaccent H H.proportional Hbar Hcircumflex I I.midthin I.short Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde J J.sprawl.s J.thin.sprawl.sw Jcircumflex K K.sprawl.se Kcedilla L L.proportional L.sprawl.s L.thin.sprawl.se Lacute Lcaron Lcedilla Ldot Lslash M M.wide N N.proportional N.short N.sprawl.s Nacute Ncaron Ncedilla Ntilde O O.short Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde P P.sprawl.nw Q Q.sprawl.se R R.short R.sprawl.nw R.sprawl.nwse R.sprawl.se Racute Rcaron Rcedilla S S.cursive S.cursive.wide S.short Sacute Scaron Scedilla Scircumflex T Tbar Tcaron Tcedilla U U.short Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde V V.proportional V.sprawl.nwne V.sprawl.w W W.wide W.wide.alt Wcircumflex X X.sprawl.s Y Y.short Y.sprawl.nwne Y.sprawl.w Yacute Ycircumflex Ydieresis Z Z.short Z.sprawl.s Z.sprawl.se Zacute Zcaron Zdotaccent g g.cursive gbreve gcedilla gcircumflex gdotaccent h hbar hcircumflex i i.midthin i.sprawl.w i.thin iacute ibreve icircumflex idieresis igrave imacron iogonek itilde j j.old1 j.sprawl.s j.thin j.thin.sprawl.sw jcircumflex k k.sprawl.se kcedilla kgreenlandic l l.midthin l.sprawl.w l.thin lacute lcaron lcedilla ldot lslash m m.midwide m.wide n nacute napostrophe ncaron ncedilla ntilde o oacute obreve ocircumflex odieresis ograve ohungarumlaut omacron oslash otilde p q q.sprawl.se r r.midthin racute rcaron rcedilla s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scedilla scircumflex t t.cursive t.cursive.before.i.thin t.cursive.before.t t.cursive.sprawl.e t.cursive.sprawl.se t.midthin tbar tcaron tcedilla u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde v w w.midwide w.wide wcircumflex x y y.flourish.sw yacute ycircumflex ydieresis z z.sprawl.s z.sprawl.se zacute zcaron zdotaccent Aacute Abreve Acircumflex Adieresis Agrave Amacron Aring Atilde Cacute Ccaron Ccircumflex Cdotaccent Dcaron Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Gbreve Gcircumflex Gdotaccent Hcircumflex Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Itilde Jcircumflex Lacute Nacute Ncaron Ntilde Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Otilde Racute Rcaron Sacute Scaron Scircumflex Tcaron Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uring Utilde Wcircumflex Yacute Ycircumflex Ydieresis Zacute Zcaron Zdotaccent aacute abreve acircumflex adieresis agrave amacron aring atilde cacute ccaron ccircumflex cdotaccent eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron gbreve gcedilla gcircumflex gdotaccent hcircumflex i i.midthin i.sprawl.w i.thin iacute ibreve icircumflex idieresis igrave ij imacron iogonek itilde j j.old1 j.sprawl.s j.thin j.thin.sprawl.sw jcircumflex lacute nacute napostrophe ncaron ntilde oacute obreve ocircumflex odieresis ograve ohungarumlaut omacron otilde racute rcaron sacute scaron scircumflex uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uring utilde wcircumflex yacute ycircumflex ydieresis zacute zcaron zdotaccent Aogonek Ccedilla Eogonek Gcedilla Iogonek Kcedilla Lcedilla Ncedilla Rcedilla Scedilla Tcedilla Uogonek aogonek ccedilla eogonek iogonek kcedilla lcedilla ncedilla rcedilla scedilla tcedilla uogonek Dcroat Eth Hbar Lcaron Ldot Lslash Oslash Tbar dcaron dcroat hbar kgreenlandic lcaron ldot lslash oslash tbar tcaron AE Eng IJ OE Thorn ae dotlessi eng eth germandbls ij longs oe
+ 0
+EndFPST
+ChainSub2: glyph "hexify contextual 1" 0 0 0 1
+ String: 1 X
+ BString: 4 zero
+ FString: 0 
+ 1
+  SeqLookup: 0 "toHex"
+EndFPST
+ChainSub2: glyph "hexify contextual 0" 0 0 0 1
+ String: 1 x
+ BString: 4 zero
+ FString: 0 
+ 1
+  SeqLookup: 0 "toHex"
+EndFPST
+LangName: 1033 "" "" "" "" "" "" "" "" "" "" "" "" "" "This Font Software is licensed under the SIL Open Font License, Version 1.1.+AAoA-This license is copied below, and is also available with a FAQ at:+AAoA-http://scripts.sil.org/OFL+AAoACgAK------------------------------------------------------------+AAoA-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007+AAoA------------------------------------------------------------+AAoACgAA-PREAMBLE+AAoA-The goals of the Open Font License (OFL) are to stimulate worldwide+AAoA-development of collaborative font projects, to support the font creation+AAoA-efforts of academic and linguistic communities, and to provide a free and+AAoA-open framework in which fonts may be shared and improved in partnership+AAoA-with others.+AAoACgAA-The OFL allows the licensed fonts to be used, studied, modified and+AAoA-redistributed freely as long as they are not sold by themselves. The+AAoA-fonts, including any derivative works, can be bundled, embedded, +AAoA-redistributed and/or sold with any software provided that any reserved+AAoA-names are not used by derivative works. The fonts and derivatives,+AAoA-however, cannot be released under any other type of license. The+AAoA-requirement for fonts to remain under this license does not apply+AAoA-to any document created using the fonts or their derivatives.+AAoACgAA-DEFINITIONS+AAoAIgAA-Font Software+ACIA refers to the set of files released by the Copyright+AAoA-Holder(s) under this license and clearly marked as such. This may+AAoA-include source files, build scripts and documentation.+AAoACgAi-Reserved Font Name+ACIA refers to any names specified as such after the+AAoA-copyright statement(s).+AAoACgAi-Original Version+ACIA refers to the collection of Font Software components as+AAoA-distributed by the Copyright Holder(s).+AAoACgAi-Modified Version+ACIA refers to any derivative made by adding to, deleting,+AAoA-or substituting -- in part or in whole -- any of the components of the+AAoA-Original Version, by changing formats or by porting the Font Software to a+AAoA-new environment.+AAoACgAi-Author+ACIA refers to any designer, engineer, programmer, technical+AAoA-writer or other person who contributed to the Font Software.+AAoACgAA-PERMISSION & CONDITIONS+AAoA-Permission is hereby granted, free of charge, to any person obtaining+AAoA-a copy of the Font Software, to use, study, copy, merge, embed, modify,+AAoA-redistribute, and sell modified and unmodified copies of the Font+AAoA-Software, subject to the following conditions:+AAoACgAA-1) Neither the Font Software nor any of its individual components,+AAoA-in Original or Modified Versions, may be sold by itself.+AAoACgAA-2) Original or Modified Versions of the Font Software may be bundled,+AAoA-redistributed and/or sold with any software, provided that each copy+AAoA-contains the above copyright notice and this license. These can be+AAoA-included either as stand-alone text files, human-readable headers or+AAoA-in the appropriate machine-readable metadata fields within text or+AAoA-binary files as long as those fields can be easily viewed by the user.+AAoACgAA-3) No Modified Version of the Font Software may use the Reserved Font+AAoA-Name(s) unless explicit written permission is granted by the corresponding+AAoA-Copyright Holder. This restriction only applies to the primary font name as+AAoA-presented to the users.+AAoACgAA-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font+AAoA-Software shall not be used to promote, endorse or advertise any+AAoA-Modified Version, except to acknowledge the contribution(s) of the+AAoA-Copyright Holder(s) and the Author(s) or with their explicit written+AAoA-permission.+AAoACgAA-5) The Font Software, modified or unmodified, in part or in whole,+AAoA-must be distributed entirely under this license, and must not be+AAoA-distributed under any other license. The requirement for fonts to+AAoA-remain under this license does not apply to any document created+AAoA-using the Font Software.+AAoACgAA-TERMINATION+AAoA-This license becomes null and void if any of the above conditions are+AAoA-not met.+AAoACgAA-DISCLAIMER+AAoA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND,+AAoA-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF+AAoA-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT+AAoA-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE+AAoA-COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,+AAoA-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL+AAoA-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING+AAoA-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM+AAoA-OTHER DEALINGS IN THE FONT SOFTWARE." "http://scripts.sil.org/OFL"
+OtfFeatName: 'ss16' 1033 "Oldstyle A-F Glyphs in Hexadecimal Literals"
+OtfFeatName: 'ss08' 1033 "Proportional Glyphs (No Monospace)"
+OtfFeatName: 'ss02' 1033 "Ligatures for Cursive Alternates"
+OtfFeatName: 'ss01' 1033 "Contextual Cursive Alternates"
+Encoding: Custom
+UnicodeInterp: none
+NameList: AGL For New Fonts
+DisplaySize: -48
+AntiAlias: 1
+FitToEm: 0
+WinInfo: 17 17 9
+BeginPrivate: 6
+StdHW 4 [70]
+StemSnapH 7 [70 90]
+StemSnapV 7 [75 95]
+StdVW 4 [95]
+BlueValues 23 [-60 0 420 436 680 690]
+OtherBlues 11 [-254 -244]
+EndPrivate
+Grid
+158 454 m 0
+ 129 454 110 481 110 510 c 0
+ 110 538 130 562 158 562 c 0
+ 185 562 205 537 205 510 c 0
+ 205 481 187 454 158 454 c 0
+208 420 m 27
+ 316 420 390 319 390 211 c 27
+ 390 99 320 -10 208 -10 c 27
+ 97 -10 30 100 30 211 c 27
+ 30 318 101 420 208 420 c 27
+105 211 m 27
+ 105 140 137 60 208 60 c 27
+ 280 60 315 139 315 211 c 27
+ 315 279 276 350 208 350 c 27
+ 141 350 105 278 105 211 c 27
+28 402 m 1
+ 99 433 l 1
+ 112 417 117 402 120 390 c 1
+ 134 401 165 420 223 420 c 3
+ 342 420 370 361 370 283 c 27
+ 370 94 l 3
+ 370 62 375 56 380 56 c 3
+ 388 56 390 58 397 65 c 1
+ 420 29 l 1
+ 405 12 381 -4 360 -5 c 3
+ 315 -5 295 35 295 62 c 0
+ 295 232 l 1
+ 295 315 290 350 223 350 c 3
+ 170 350 125 323 125 275 c 1
+ 125 0 l 1
+ 50 0 l 1
+ 50 291 l 1
+ 50 370 44 378 28 402 c 1
+EndSplineSet
+TeXData: 1 0 0 430080 220200 146800 440402 1048576 146800 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
+EndSplineFont

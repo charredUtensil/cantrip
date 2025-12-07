@@ -1,0 +1,23 @@
+StartChar: N.short
+Encoding: 564 -1 301
+Width: 420
+Flags: MW
+VStem: 40 95<-60 350> 285 95<150 580>
+DStem2: 135 570 135 350 0.336336 -0.941742<207.183 445.982>
+LayerCount: 2
+Fore
+SplineSet
+285 580 m 1
+ 380 600 l 1
+ 380 -50 l 1
+ 285 -70 l 1
+ 135 350 l 1
+ 135 -60 l 1
+ 40 -80 l 1
+ 40 550 l 1
+ 135 570 l 1
+ 285 150 l 1
+ 285 580 l 1
+EndSplineSet
+Validated: 1
+EndChar

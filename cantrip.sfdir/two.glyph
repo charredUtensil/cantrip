@@ -1,0 +1,28 @@
+StartChar: two
+Encoding: 18 50 73
+Width: 420
+VWidth: 1000
+Flags: MW
+HStem: 360 70<114.75 261.807>
+VStem: 280 70<218.435 342.36>
+DStem2: 168 42 60 0 0.952029 -0.306009<0 201.762>
+LayerCount: 2
+Fore
+SplineSet
+60 380 m 5
+ 105 414 151 430 201 430 c 4
+ 289 430 350 374 350 294 c 4
+ 350 193 267 95 168 42 c 5
+ 360 -20 l 5
+ 340 -90 l 5
+ 60 0 l 5
+ 80 70 l 5
+ 160 113 280 191 280 294 c 4
+ 280 334 249 360 201 360 c 4
+ 160 360 132 351 96 326 c 5
+ 60 380 l 5
+EndSplineSet
+Validated: 1
+Substitution2: "toHex subtable" two.hex
+Substitution2: "lining subtable" two.lining
+EndChar

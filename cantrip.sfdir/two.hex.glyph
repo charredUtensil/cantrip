@@ -1,0 +1,13 @@
+StartChar: two.hex
+Encoding: 515 -1 218
+Width: 420
+VWidth: 1000
+Flags: HW
+HStem: 350 70<114.75 261.807>
+VStem: 280 70<210.105 332.36>
+DStem2: 167.731 41.8009 60 0 0.952029 -0.306009<0 201.958>
+LayerCount: 2
+Fore
+Refer: 73 50 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar

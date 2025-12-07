@@ -1,0 +1,21 @@
+StartChar: T
+Encoding: 52 84 42
+Width: 420
+Flags: W
+HStem: 590 90<20 160 255 400>
+VStem: 160 95<-60 590>
+LayerCount: 2
+Fore
+SplineSet
+20 680 m 1
+ 420 680 l 1
+ 400 590 l 1
+ 255 590 l 1
+ 255 -60 l 1
+ 160 -80 l 1
+ 160 590 l 1
+ 0 590 l 1
+ 20 680 l 1
+EndSplineSet
+Validated: 1
+EndChar

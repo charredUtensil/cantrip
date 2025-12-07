@@ -1,0 +1,31 @@
+StartChar: seven
+Encoding: 23 55 87
+Width: 420
+VWidth: 1000
+Flags: MW
+HStem: 200 60<180 205.351 308.952 330> 350 70<80 254>
+VStem: 60 300
+DStem2: 144 -20 226 0 0.307129 0.951668<44.2179 231.173 317.143 388.973>
+LayerCount: 2
+Fore
+SplineSet
+264 350 m 1
+ 60 350 l 1
+ 80 420 l 1
+ 360 420 l 1
+ 309 260 l 1
+ 350 260 l 1
+ 330 200 l 1
+ 290 200 l 1
+ 226 0 l 1
+ 144 -20 l 1
+ 215 200 l 1
+ 160 200 l 1
+ 180 260 l 1
+ 235 260 l 1
+ 264 350 l 1
+EndSplineSet
+Validated: 1
+Substitution2: "toHex subtable" seven.hex
+Substitution2: "lining subtable" seven.lining
+EndChar

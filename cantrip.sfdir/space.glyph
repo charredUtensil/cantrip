@@ -1,0 +1,10 @@
+StartChar: space
+Encoding: 0 32 6
+Width: 420
+VWidth: 1000
+Flags: W
+LayerCount: 2
+Fore
+Validated: 1
+Substitution2: "proportional1 subtable" space.proportional
+EndChar

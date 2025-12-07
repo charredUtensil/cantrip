@@ -1,0 +1,22 @@
+StartChar: D.sprawl.nw
+Encoding: 614 -1 611
+Width: 420
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+135 -60 m 5
+ 40 -80 l 5
+ 40 577 l 5
+ 11 569 -19 558 -46 542 c 5
+ -99 611 l 5
+ -22 660 64 680 135 680 c 4
+ 316 680 390 532 390 351 c 4
+ 390 162 324 -60 135 -60 c 5
+135 30 m 5
+ 275 30 295 211 295 351 c 4
+ 295 483 267 590 135 590 c 5
+ 135 30 l 5
+EndSplineSet
+Validated: 1
+EndChar

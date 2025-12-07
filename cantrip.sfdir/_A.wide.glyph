@@ -1,0 +1,28 @@
+StartChar: A.wide
+Encoding: 507 -1 203
+Width: 600
+Flags: HMW
+HStem: 270 90<247.394 360> 670 20G<285 384.865>
+DStem2: 40 -80 135 -60 0.258509 0.966009<43.8786 385.49 478.657 708.172> 380 690 285 670 0.236352 -0.971668<0 24.8179 87.9002 315.923 408.573 758.557>
+LayerCount: 2
+Fore
+SplineSet
+285 670 m 1
+ 380 690 l 1
+ 560 -50 l 1
+ 465 -70 l 1
+ 382 270 l 1
+ 223 270 l 1
+ 135 -60 l 1
+ 40 -80 l 1
+ 230 630 l 1
+ 292 643 l 1
+ 285 670 l 1
+247 360 m 1
+ 360 360 l 1
+ 307 582 l 1
+ 247 360 l 1
+EndSplineSet
+Validated: 1
+Substitution2: "proportional1 subtable" A.proportional
+EndChar

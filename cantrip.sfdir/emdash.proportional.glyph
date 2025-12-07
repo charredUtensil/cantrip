@@ -1,0 +1,16 @@
+StartChar: emdash.proportional
+Encoding: 583 -1 463
+Width: 600
+VWidth: 1000
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+20 280 m 1
+ 600 280 l 5
+ 580 210 l 5
+ 0 210 l 1
+ 20 280 l 1
+EndSplineSet
+Validated: 1
+EndChar

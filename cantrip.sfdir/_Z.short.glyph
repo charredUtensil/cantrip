@@ -1,0 +1,29 @@
+StartChar: Z.short
+Encoding: 563 -1 293
+Width: 420
+Flags: MW
+HStem: -60 90<162 400> 470 90<80 270>
+DStem2: 35 -60 162 30 0.404221 0.914661<133.656 338.923 472.579 579.762>
+LayerCount: 2
+Fore
+SplineSet
+270 470 m 1
+ 60 470 l 1
+ 80 560 l 1
+ 397 560 l 1
+ 299 340 l 1
+ 340 340 l 1
+ 300 250 l 1
+ 260 250 l 1
+ 162 30 l 1
+ 420 30 l 1
+ 400 -60 l 1
+ 35 -60 l 1
+ 172 250 l 1
+ 133 250 l 1
+ 173 340 l 1
+ 212 340 l 1
+ 270 470 l 1
+EndSplineSet
+Validated: 1
+EndChar

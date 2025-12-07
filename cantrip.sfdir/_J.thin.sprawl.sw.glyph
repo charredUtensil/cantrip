@@ -1,0 +1,21 @@
+StartChar: J.thin.sprawl.sw
+Encoding: 495 -1 116
+Width: 240
+Flags: MW
+HStem: -254 90<-117.154 68.7712>
+VStem: 105 95<-125.113 670>
+LayerCount: 2
+Fore
+SplineSet
+105 670 m 1
+ 200 690 l 1
+ 200 -49 l 2
+ 200 -189 99 -254 0 -254 c 0
+ -68 -254 -152 -223 -201 -194 c 1
+ -158 -121 l 1
+ -92 -160 -61 -164 -16 -164 c 0
+ 75 -164 105 -127 105 -32 c 2
+ 105 670 l 1
+EndSplineSet
+Validated: 1
+EndChar

@@ -1,0 +1,33 @@
+StartChar: three
+Encoding: 19 51 74
+Width: 420
+VWidth: 1000
+Flags: W
+HStem: -5 65<125.405 258.417> 200 60<178 259.964> 360 70<113.208 260.935>
+VStem: 275 75<276.58 344.419> 285 75<86.0718 186.614>
+LayerCount: 2
+Fore
+SplineSet
+60 380 m 5xf0
+ 102 411 151 430 191 430 c 4
+ 287 430 350 384 350 313 c 4xf0
+ 350 277 340 240 322 227 c 5
+ 343 215 360 176 360 141 c 4
+ 360 51 293 -5 186 -5 c 4
+ 141 -5 99 10 70 37 c 5
+ 115 91 l 5
+ 137 71 155 60 186 60 c 4
+ 243 60 285 90 285 131 c 4xe8
+ 285 182 262 200 198 200 c 4
+ 178 200 l 5
+ 178 260 l 5
+ 198 260 l 4
+ 244 260 275 287 275 312 c 4
+ 275 339 238 360 191 360 c 4
+ 155 360 130 351 96 326 c 5
+ 60 380 l 5xf0
+EndSplineSet
+Validated: 1
+Substitution2: "toHex subtable" three.hex
+Substitution2: "lining subtable" three.lining
+EndChar

@@ -1,0 +1,25 @@
+StartChar: W.wide
+Encoding: 582 -1 462
+Width: 600
+Flags: MW
+DStem2: 125 650 30 630 0.107482 -0.994207<9.67337 561.216> 416 127 490 -50 0.107482 0.994207<0 546.196>
+LayerCount: 2
+Fore
+SplineSet
+475 670 m 5
+ 570 690 l 5
+ 490 -50 l 5
+ 395 -70 l 1
+ 301 181 l 1
+ 205 -90 l 1
+ 110 -110 l 1
+ 30 630 l 1
+ 125 650 l 1
+ 185 92 l 1
+ 260 291 l 1
+ 340 311 l 1
+ 416 127 l 5
+ 475 670 l 5
+EndSplineSet
+Validated: 1
+EndChar

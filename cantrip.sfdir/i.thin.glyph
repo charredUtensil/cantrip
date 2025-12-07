@@ -1,0 +1,32 @@
+StartChar: i.thin
+Encoding: 471 -1 55
+Width: 240
+VWidth: 1000
+Flags: MW
+HStem: -5 70<156.996 205> 330 70<50 73.7331>
+VStem: 75 80<73.5743 328.59>
+LayerCount: 2
+Fore
+SplineSet
+75 73 m 2
+ 75 258 l 2
+ 75 294 74 315 71 330 c 1
+ 30 330 l 1
+ 50 400 l 1
+ 129 400 l 5
+ 141 385 155 362 155 280 c 6
+ 155 105 l 6
+ 155 73 170 65 185 65 c 4
+ 205 65 l 5
+ 215 -5 l 5
+ 140 -5 l 0
+ 95 -5 75 46 75 73 c 2
+113 454 m 4
+ 84 454 65 481 65 510 c 4
+ 65 538 85 562 113 562 c 4
+ 140 562 160 537 160 510 c 4
+ 160 481 142 454 113 454 c 4
+EndSplineSet
+Validated: 1
+Substitution2: "midden subtable" i.midthin
+EndChar

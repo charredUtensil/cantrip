@@ -1,0 +1,21 @@
+StartChar: paragraph
+Encoding: 115 182 214
+Width: 420
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+260 590 m 1
+ 260 -60 l 1
+ 185 -80 l 1
+ 185 170 l 1
+ 70 170 30 307 30 422 c 0
+ 30 539 68 680 185 680 c 0
+ 380 680 l 1
+ 380 -60 l 1
+ 305 -80 l 1
+ 305 590 l 1
+ 260 590 l 1
+EndSplineSet
+Validated: 1
+EndChar

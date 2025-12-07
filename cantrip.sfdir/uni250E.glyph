@@ -1,0 +1,21 @@
+StartChar: uni250E
+Encoding: 348 9486 506
+Width: 420
+UnlinkRmOvrlpSave: 1
+Flags: H
+LayerCount: 2
+Fore
+SplineSet
+155 -274 m 1
+ 155 280 l 5
+ 265 300 l 5
+ 265 -254 l 1
+ 155 -274 l 1
+175 350 m 1
+ 440 350 l 1
+ 420 280 l 1
+ 155 280 l 1
+ 175 350 l 1
+EndSplineSet
+Validated: 5
+EndChar

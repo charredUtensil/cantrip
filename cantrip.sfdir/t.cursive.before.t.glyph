@@ -1,0 +1,40 @@
+StartChar: t.cursive.before.t
+Encoding: 460 -1 7
+Width: 420
+VWidth: 1000
+Flags: MW
+HStem: -60 70<138.344 297.818> 400 20G<81.4286 150> 620 70<187 236>
+VStem: 30 75<43.7728 206.556> 236 79<539.814 620>
+DStem2: 90 420 60 350 0.990793 -0.135388<0 35.3301 137.32 273.49>
+LayerCount: 2
+Fore
+SplineSet
+572 259 m 1
+ 443.385742188 15 340 -60 220 -60 c 0
+ 100 -60 30 5 30 114 c 0
+ 30 171 72 257 106 324 c 2
+ 115 342 l 1
+ 60 350 l 1
+ 90 420 l 1
+ 150 412 l 1
+ 219 550 l 2
+ 229 569 236 593 236 620 c 1
+ 167 620 l 1
+ 187 690 l 1
+ 294 690 l 1
+ 307 672 315 652 315 620 c 0
+ 315 581 307 554 296 534 c 2
+ 226 401 l 5
+ 381 380 l 5
+ 351 310 l 5
+ 190 332 l 5
+ 152 259 l 2
+ 125.322265625 207.75 105 162 105 125 c 0
+ 105 30 150 10 226 10 c 0
+ 302 10 419.66015625 99 526 324 c 1
+ 572 259 l 1
+EndSplineSet
+Validated: 1
+Substitution2: "Single Substitution lookup 27 subtable" t.cursive.before.i.thin
+Substitution2: "Single Substitution lookup 26 subtable" t.cursive.before.t
+EndChar

@@ -1,0 +1,13 @@
+StartChar: seven.hex
+Encoding: 520 -1 223
+Width: 420
+VWidth: 1000
+Flags: HW
+HStem: 200 60<180 205.351 308.952 330> 350 70<80 254>
+VStem: 60 300
+DStem2: 134 -20 226 0 0.307129 0.951668<47.2892 231.173 320.215 388.973>
+LayerCount: 2
+Fore
+Refer: 87 55 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar

@@ -1,0 +1,17 @@
+StartChar: block
+Encoding: 455 9608 209
+Width: 420
+Flags: W
+HStem: -254 21G<0 420>
+VStem: 0 420<-254 770>
+LayerCount: 2
+Fore
+SplineSet
+0 770 m 1
+ 420 770 l 1
+ 420 -254 l 1
+ 0 -254 l 1
+ 0 770 l 1
+EndSplineSet
+Validated: 1
+EndChar

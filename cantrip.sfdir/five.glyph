@@ -1,0 +1,32 @@
+StartChar: five
+Encoding: 21 53 77
+Width: 420
+VWidth: 1000
+Flags: W
+HStem: -150 70<70.5577 251.048> -57 20G<5.77358 55> 147 70<155.401 258.045> 350 70<155 340>
+VStem: 80 75<210 350> 285 75<-44.0661 118.589>
+LayerCount: 2
+Fore
+SplineSet
+80 120 m 1
+ 80 400 l 1
+ 155 420 l 1
+ 360 420 l 1
+ 340 350 l 1
+ 155 350 l 1
+ 155 210 l 1
+ 172 215 189 217 205 217 c 3
+ 297 217 360 146 360 42 c 0
+ 360 -78 279 -150 189 -150 c 0
+ 112 -150 28 -119 -21 -90 c 1
+ 22 -37 l 1
+ 88 -67 119 -80 190 -80 c 0
+ 255 -80 285 -33 285 42 c 0
+ 285 110 255 147 200 147 c 3
+ 186 147 171 144 155 140 c 1
+ 80 120 l 1
+EndSplineSet
+Validated: 1
+Substitution2: "toHex subtable" five.hex
+Substitution2: "lining subtable" five.lining
+EndChar

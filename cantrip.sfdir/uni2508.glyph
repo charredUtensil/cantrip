@@ -1,0 +1,31 @@
+StartChar: uni2508
+Encoding: 344 9480 600
+Width: 420
+UnlinkRmOvrlpSave: 1
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+335 350 m 5
+ 405 350 l 5
+ 385 280 l 5
+ 315 280 l 5
+ 335 350 l 5
+135 350 m 5
+ 205 350 l 5
+ 185 280 l 5
+ 115 280 l 5
+ 135 350 l 5
+35 350 m 5
+ 105 350 l 5
+ 85 280 l 5
+ 15 280 l 5
+ 35 350 l 5
+235 350 m 5
+ 305 350 l 5
+ 285 280 l 5
+ 215 280 l 5
+ 235 350 l 5
+EndSplineSet
+Validated: 1
+EndChar

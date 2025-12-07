@@ -1,0 +1,18 @@
+StartChar: emdash
+Encoding: 324 8212 258
+Width: 420
+VWidth: 1000
+Flags: W
+HStem: 210 70<0 420>
+LayerCount: 2
+Fore
+SplineSet
+0 280 m 5
+ 440 280 l 5
+ 420 210 l 5
+ -20 210 l 5
+ 0 280 l 5
+EndSplineSet
+Validated: 1
+Substitution2: "proportional1 subtable" emdash.proportional
+EndChar

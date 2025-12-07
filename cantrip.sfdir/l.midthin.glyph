@@ -1,0 +1,28 @@
+StartChar: l.midthin
+Encoding: 503 -1 193
+Width: 330
+VWidth: 1000
+Flags: W
+HStem: -5 70<165.5 305.583> 620 70<60 121.733>
+VStem: 123 75<73.5743 618.59>
+LayerCount: 2
+Fore
+SplineSet
+198 105 m 0
+ 198 73 213 65 228 65 c 0
+ 266 65 265 71 301 80 c 1
+ 320 15 l 1
+ 276 2 239 -5 188 -5 c 0
+ 143 -5 123 46 123 73 c 0
+ 123 548 l 0
+ 123 584 122 605 119 620 c 1
+ 40 620 l 1
+ 60 690 l 1
+ 172 690 l 1
+ 184 675 198 652 198 570 c 0
+ 198 105 l 0
+EndSplineSet
+Validated: 1
+Substitution2: "proportional1 subtable" l.thin
+Substitution2: "narrow subtable" l.thin
+EndChar

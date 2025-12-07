@@ -1,0 +1,13 @@
+StartChar: Racute
+Encoding: 273 340 320
+Width: 420
+UnlinkRmOvrlpSave: 1
+HStem: 110 90<135 213.59> 490 90<135 232.219> 548 186
+VStem: 40 95<-50 110 200 490> 105 209 295 95<282.365 435.596>
+DStem2: 311.182 183.551 230.92 131.634 0.214127 -0.976806<33.5268 362.8>
+LayerCount: 2
+Fore
+Refer: 319 -1 N 1 0 0 1 0 0 2
+Refer: 118 180 N 1 0 0 1 0 0 2
+Validated: 5
+EndChar

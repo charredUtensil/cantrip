@@ -1,0 +1,12 @@
+StartChar: one.hex
+Encoding: 514 -1 217
+Width: 420
+VWidth: 1000
+Flags: HW
+HStem: 0 70<80 170 245 340>
+VStem: 170 75<70 334.242>
+LayerCount: 2
+Fore
+Refer: 76 49 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar

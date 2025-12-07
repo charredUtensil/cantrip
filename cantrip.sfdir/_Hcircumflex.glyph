@@ -1,0 +1,24 @@
+StartChar: Hcircumflex
+Encoding: 225 292 365
+Width: 420
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+40 550 m 1
+ 135 570 l 1
+ 135 340 l 1
+ 285 340 l 1
+ 285 570 l 1
+ 380 590 l 1
+ 380 -40 l 1
+ 285 -60 l 1
+ 285 250 l 1
+ 135 250 l 1
+ 135 -60 l 1
+ 40 -80 l 1
+ 40 550 l 1
+EndSplineSet
+Refer: 56 94 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar

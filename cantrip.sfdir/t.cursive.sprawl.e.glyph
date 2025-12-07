@@ -1,0 +1,40 @@
+StartChar: t.cursive.sprawl.e
+Encoding: 458 -1 1
+Width: 420
+VWidth: 1000
+Flags: MW
+HStem: -170 70<224.491 487.755> -26 20G<568 615.154> 400 20G<81.4286 150> 620 70<187 236>
+VStem: 30 75<1.70092 203.918> 236 79<539.814 620>
+DStem2: 90 420 60 350 0.990793 -0.135388<0 35.3301 137.32 273.49>
+LayerCount: 2
+Fore
+SplineSet
+167 620 m 5
+ 187 690 l 5
+ 294 690 l 5
+ 307 672 315 652 315 620 c 4
+ 315 581 307 554 296 534 c 6
+ 226 401 l 5
+ 381 380 l 5
+ 351 310 l 5
+ 190 332 l 5
+ 152 259 l 6
+ 121 200 105 142 105 105 c 4
+ 105 10 140 -100 366 -100 c 4
+ 468 -100 537 -62 599 -6 c 5
+ 641 -58 l 5
+ 582 -116 497 -170 360 -170 c 4
+ 80 -170 30 -25 30 104 c 4
+ 30 171 72 257 106 324 c 6
+ 115 342 l 5
+ 60 350 l 5
+ 90 420 l 5
+ 150 412 l 5
+ 219 550 l 6
+ 229 569 236 593 236 620 c 5
+ 167 620 l 5
+EndSplineSet
+Validated: 1
+Substitution2: "Single Substitution lookup 27 subtable" t.cursive.before.i.thin
+Substitution2: "Single Substitution lookup 26 subtable" t.cursive.before.t
+EndChar

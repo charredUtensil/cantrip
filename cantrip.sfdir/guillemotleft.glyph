@@ -1,0 +1,27 @@
+StartChar: guillemotleft
+Encoding: 105 171 441
+Width: 420
+VWidth: 1000
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+104 309 m 1
+ 220 220 l 1
+ 200 150 l 1
+ 30 280 l 1
+ 50 350 l 1
+ 220 460 l 1
+ 210 380 l 1
+ 104 309 l 1
+274 309 m 1
+ 390 220 l 1
+ 370 150 l 1
+ 200 280 l 1
+ 220 350 l 1
+ 390 460 l 1
+ 380 380 l 1
+ 274 309 l 1
+EndSplineSet
+Validated: 1
+EndChar

@@ -1,0 +1,11 @@
+StartChar: Ubreve
+Encoding: 297 364 378
+Width: 420
+HStem: -60 90<178.087 250.045> 601 65<140.895 279.105>
+VStem: 40 95<105.459 510> 50 70<687.141 736> 285 95<86.9966 550> 300 70<687.141 736>
+LayerCount: 2
+Fore
+Refer: 362 728 N 1 0 0 1 0 0 2
+Refer: 146 -1 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar

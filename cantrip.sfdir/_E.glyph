@@ -1,0 +1,27 @@
+StartChar: E
+Encoding: 37 69 45
+Width: 420
+Flags: HW
+HStem: -60 90<135 370> 340 90<135 340> 590 90<135 370>
+VStem: 40 95<30 340 430 590>
+LayerCount: 2
+Fore
+SplineSet
+135 680 m 1
+ 390 680 l 1
+ 370 590 l 1
+ 135 590 l 1
+ 135 430 l 1
+ 340 430 l 1
+ 340 340 l 1
+ 135 340 l 1
+ 135 30 l 1
+ 390 30 l 1
+ 370 -60 l 1
+ 40 -60 l 1
+ 40 660 l 1
+ 135 680 l 1
+EndSplineSet
+Validated: 1
+Substitution2: "toHex subtable" E.hex
+EndChar

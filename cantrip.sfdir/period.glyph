@@ -1,0 +1,19 @@
+StartChar: period
+Encoding: 14 46 37
+Width: 420
+VWidth: 1000
+Flags: W
+HStem: -30 138<162.5 257>
+VStem: 142 135<-10.8024 91.518>
+LayerCount: 2
+Fore
+SplineSet
+210 -30 m 27
+ 170 -30 142 6 142 46 c 27
+ 142 82 174 108 210 108 c 24
+ 246 108 277 82 277 46 c 27
+ 277 6 250 -30 210 -30 c 27
+EndSplineSet
+Validated: 1
+Substitution2: "proportional1 subtable" period.proportional
+EndChar

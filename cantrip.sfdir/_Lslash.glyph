@@ -1,0 +1,28 @@
+StartChar: Lslash
+Encoding: 254 321 298
+Width: 420
+Flags: MW
+HStem: -60 90<135 370> 670 20G<40 135>
+VStem: 40 95<30 206 365 670>
+DStem2: 135 365 135 261 0.864292 0.50299<0 88.845>
+LayerCount: 2
+Fore
+SplineSet
+40 670 m 1
+ 135 690 l 1
+ 135 365 l 1
+ 229 420 l 1
+ 257 332 l 1
+ 135 261 l 1
+ 135 30 l 1
+ 390 30 l 1
+ 370 -60 l 1
+ 40 -60 l 1
+ 40 206 l 1
+ 28 199 l 1
+ 0 287 l 1
+ 40 310 l 1
+ 40 670 l 1
+EndSplineSet
+Validated: 1
+EndChar

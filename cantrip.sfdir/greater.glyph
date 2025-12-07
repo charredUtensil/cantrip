@@ -1,0 +1,21 @@
+StartChar: greater
+Encoding: 30 62 80
+Width: 420
+VWidth: 1000
+Flags: MW
+HStem: 150 310
+DStem2: 50 460 30 390 0.951445 -0.30782<2.51853 262.151> 50 223 30 150 0.934052 0.357137<0 243.101>
+LayerCount: 2
+Fore
+SplineSet
+277 310 m 1
+ 30 390 l 1
+ 50 460 l 1
+ 390 350 l 1
+ 370 280 l 1
+ 30 150 l 1
+ 50 223 l 1
+ 277 310 l 1
+EndSplineSet
+Validated: 1
+EndChar

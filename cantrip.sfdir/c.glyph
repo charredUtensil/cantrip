@@ -1,0 +1,25 @@
+StartChar: c
+Encoding: 67 99 11
+Width: 420
+VWidth: 1000
+Flags: W
+HStem: -10 70<179.867 328.76> 350 70<177.812 329.128>
+VStem: 40 75<126.759 286.92>
+LayerCount: 2
+Fore
+SplineSet
+341 89 m 5
+ 373 30 l 5
+ 325 4 288 -10 239 -10 c 7
+ 115 -10 40 100 40 208 c 31
+ 40 318 123 420 239 420 c 7
+ 289 420 332 404 373 378 c 5
+ 341 321 l 5
+ 305 342 291 350 257 350 c 7
+ 160 350 115 278 115 207 c 31
+ 115 140 158 60 257 60 c 7
+ 288 60 312 73 341 89 c 5
+EndSplineSet
+Validated: 1
+Substitution2: "toHex subtable" c.hex
+EndChar

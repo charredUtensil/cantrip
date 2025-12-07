@@ -1,0 +1,26 @@
+StartChar: E.hex
+Encoding: 533 -1 236
+Width: 420
+Flags: W
+HStem: 0 70<135 350> 200 70<135 300> 350 70<135 350>
+VStem: 60 75<70 200 270 350>
+LayerCount: 2
+Fore
+SplineSet
+135 420 m 1
+ 360 420 l 1
+ 350 350 l 1
+ 135 350 l 1
+ 135 270 l 1
+ 300 270 l 1
+ 300 200 l 1
+ 135 200 l 1
+ 135 70 l 1
+ 360 70 l 1
+ 350 0 l 1
+ 60 0 l 1
+ 60 400 l 1
+ 135 420 l 1
+EndSplineSet
+Validated: 1
+EndChar

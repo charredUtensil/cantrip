@@ -1,0 +1,26 @@
+StartChar: Y
+Encoding: 57 89 63
+Width: 420
+Flags: MW
+HStem: 670 20G<285 380>
+VStem: 160 95<-60 179.867>
+DStem2: 135 670 40 650 0.233373 -0.972387<0 319.915> 210 359 255 170 0.252012 0.967724<0 319.863>
+LayerCount: 2
+Fore
+SplineSet
+40 650 m 1
+ 135 670 l 1
+ 210 359 l 1
+ 285 670 l 1
+ 380 690 l 1
+ 380 650 l 1
+ 255 170 l 1
+ 255 -60 l 1
+ 160 -80 l 1
+ 160 150 l 1
+ 40 650 l 1
+EndSplineSet
+Validated: 1
+Substitution2: "toSprawlAlt subtable" Y.sprawl.w
+Substitution2: "toSprawl subtable" Y.sprawl.nwne
+EndChar

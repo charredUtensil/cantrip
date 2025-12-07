@@ -1,0 +1,16 @@
+StartChar: uni2501
+Encoding: 339 9473 522
+Width: 420
+UnlinkRmOvrlpSave: 1
+HStem: 260 110<0 420>
+LayerCount: 2
+Fore
+SplineSet
+0 370 m 1
+ 440 370 l 1
+ 420 260 l 1
+ -20 260 l 1
+ 0 370 l 1
+EndSplineSet
+Validated: 1
+EndChar

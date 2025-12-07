@@ -1,0 +1,18 @@
+StartChar: Lacute
+Encoding: 246 313 360
+Width: 420
+Flags: H
+LayerCount: 2
+Fore
+SplineSet
+40 560 m 1
+ 135 580 l 1
+ 135 30 l 1
+ 390 30 l 1
+ 370 -60 l 1
+ 40 -60 l 1
+ 40 560 l 1
+EndSplineSet
+Refer: 118 180 N 1 0 0 1 30 0 2
+Validated: 1
+EndChar

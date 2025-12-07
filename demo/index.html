@@ -1,0 +1,448 @@
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Cantrip</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script type="text/javascript" src="./script.js"></script>
+  </head>
+  <body>
+    <div class="right">
+      <div class="features-pane">
+        Features
+        <div>
+          <input type="checkbox" id="calt-feature" name="font-feature" value="calt" checked />
+          <label for="calt-feature">calt</label>
+        </div>
+        <div>
+          <input type="checkbox" id="lnum-feature" name="font-feature" value="lnum" />
+          <label for="lnum-feature">lnum</label>
+        </div>
+        <div>
+          <input type="checkbox" id="ss01-feature" name="font-feature" value="ss01" />
+          <label for="ss01-feature">ss01</label>
+        </div>
+        <div>
+          <input type="checkbox" id="ss02-feature" name="font-feature" value="ss02" />
+          <label for="ss02-feature">ss02</label>
+        </div>
+        <div>
+          <input type="checkbox" id="ss03-feature" name="font-feature" value="ss03" />
+          <label for="ss03-feature">ss03</label>
+        </div>
+        <div>
+          <input type="checkbox" id="ss08-feature" name="font-feature" value="ss08" />
+          <label for="ss08-feature">ss08</label>
+        </div>
+        <div>
+          <input type="checkbox" id="ss16-feature" name="font-feature" value="ss16" />
+          <label for="ss16-feature">ss16</label>
+        </div>
+      </div>
+    </div>
+    <div class="main">
+      <div class="parallaxWrapper title1 clear-features calt">
+        <div class="parallax">
+          <div class="titleText">Cantrip</div>
+          <div class="subtitleText calt">A font family for Software Alchemists</div>
+        </div>
+      </div>
+      <div class="parallaxWrapper title2 clear-features calt">
+        <div class="parallax">
+          <div class="titleText ss01 ss02">Cantrip</div>
+          <div class="subtitleText no-calt">A font family for Software Alchemists</div>
+        </div>
+      </div>
+      <div class="parallaxWrapper title3 clear-features calt">
+        <div class="parallax">
+          <div class="titleText ss16">0xCA9721B&nbsp;&nbsp;</div>
+          <div class="subtitleText lnum">A F097 FAM1LY F02 50F7WA2E ALC4EM1575</div>
+        </div>
+      </div>
+      <div class="parallaxWrapper title4 clear-features calt">
+        <div class="parallax">
+          <div class="titleText ss08">Cantrip</div>
+          <div class="subtitleText ss08">A FONT FAMILY FOR SOFTWARE ALCHEMISTS</div>
+        </div>
+      </div>
+      <div id="intro" class="content">
+        <h1>
+          Cantrip
+        </h1>
+        <p>
+          <b>Monospace fonts don't have to be <i>boring</i>.</b>
+        </p>
+        <p class="sample">
+          O' sphinx of black quartz, judge my vow and
+          pack my box with five dozen liquor jugs!
+          AMAZINGLY FEW DISCOTHEQUES PROVIDE JUKEBOXES:
+          THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG?
+          0118 999 88199 9119 725 3
+          Jinxed wizards pluck ivy from the big quilt.
+          Mix Zapf with Veljovic and get quirky Beziers.
+          1337 1701 58008 90210 42069 12345
+          !@#$%^&amp;*()-=_+[]{}/\|
+          Witaj świecie Gött mos
+          &pound;&euro;&yen;
+        </p>
+        <div class="sample columns no-ss08">
+<div class="pre smaller"><span class="token keyword">function</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">const</span> checkboxes <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">querySelectorAll</span><span class="token punctuation">(</span>
+    <span class="token string">'input[name="font-feature"]'</span>
+  <span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token keyword">function</span> <span class="token function">updateFontFeatureSettings</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    checkboxes<span class="token punctuation">.</span><span class="token function">forEach</span><span class="token punctuation">(</span><span class="token parameter">cb</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+      document<span class="token punctuation">.</span>body<span class="token punctuation">.</span>style<span class="token punctuation">.</span><span class="token function">setProperty</span><span class="token punctuation">(</span>
+        <span class="token template-string"><span class="token string">`--font-feature-</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>cb<span class="token punctuation">.</span>value<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">`</span></span><span class="token punctuation">,</span>
+        <span class="token template-string"><span class="token string">`</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>cb<span class="token punctuation">.</span>checked <span class="token operator">?</span> <span class="token number">1</span> <span class="token operator">:</span> <span class="token number">0</span><span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">`</span></span>
+      <span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  checkboxes<span class="token punctuation">.</span><span class="token function">forEach</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">cb</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+    cb<span class="token punctuation">.</span><span class="token function">addEventListener</span><span class="token punctuation">(</span><span class="token string">"change"</span><span class="token punctuation">,</span> updateFontFeatureSettings<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token function">updateFontFeatureSettings</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">if</span> <span class="token punctuation">(</span>document<span class="token punctuation">.</span>readyState <span class="token operator">!=</span> <span class="token string">'loading'</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+  <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+  document<span class="token punctuation">.</span><span class="token function">addEventListener</span><span class="token punctuation">(</span><span class="token string">'DOMContentLoaded'</span><span class="token punctuation">,</span> main<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span></div>
+         <div class="small">
+<span class="token keyword">abstract</span> <span class="token">admin</span> <span class="token operator">and</span> <span class="token">api</span> <span class="token function">append</span> <span class="token parameter">args</span>
+<span class="token">array</span> <span class="token classname">Array</span> <span class="token keyword">as</span> <span class="token keyword">assert</span> <span class="token keyword">async</span> <span class="token keyword">auto</span> <span class="token">axes</span> <span class="token keyword">await</span>
+<span class="token">bar</span> <span class="token keyword">bool</span> <span class="token classname">boolean</span> <span class="token">branch</span> <span class="token keyword">break</span> <span class="token keyword">case</span>
+<span class="token keyword">catch</span> <span class="token keyword">chan</span> <span class="token keyword">char</span> <span class="token function">checkout</span> <span class="token">class</span> <span class="token function">clone</span>
+<span class="token function">close</span> <span class="token function">commit</span> <span class="token">config</span> <span class="token keyword">const</span> <span class="token function">constructor</span>
+<span class="token keyword">continue</span> <span class="token css">css</span> <span class="token">data</span> <span class="token">database</span> <span class="token function">debug</span>
+<span class="token keyword">def</span> <span class="token keyword">default</span> <span class="token keyword">defer</span> <span class="token keyword">del</span> <span class="token keyword">delete</span> <span class="token classname">Dict</span>
+<span class="token">directory</span> <span class="token function">DISPLAY</span> <span class="token keyword">do</span> <span class="token">document</span> <span class="token keyword">done</span>
+<span class="token keyword">double</span> <span class="token">eax</span> <span class="token keyword">elif</span> <span class="token keyword">else</span> <span class="token keyword">end</span> <span class="token keyword">enum</span>
+<span class="token">error</span> <span class="token">event</span> <span class="token keyword">except</span> <span class="token">exception</span> <span class="token keyword">export</span>
+<span class="token keyword">extends</span> <span class="token classname">FactoryProviderImpl</span> <span class="token">fallback</span> <span class="token keyword">fallthrough</span> <span class="token constant">False</span> <span class="token constant">false</span> <span class="token">file</span>
+<span class="token keyword">final</span> <span class="token keyword">finally</span> <span class="token keyword">float</span> <span class="token">foo</span> <span class="token keyword">for</span> <span class="token keyword">from</span>
+<span class="token keyword">func</span> <span class="token keyword">function</span> <span class="token function">get</span> <span class="token constant">GET</span> <span class="token">git</span> <span class="token keyword">global</span>
+<span class="token keyword">go</span> <span class="token keyword">goto</span> <span class="token">graph</span> <span class="token">hash</span> <span class="token css">html</span> <span class="token">i</span> <span class="token">id</span>
+<span class="token keyword">if</span> <span class="token keyword">implements</span> <span class="token keyword">import</span> <span class="token operator">in</span> <span class="token">index</span>
+<span class="token keyword">insert</span> <span class="token">instance</span> <span class="token keyword">instanceof</span> <span class="token keyword">int</span> <span class="token classname">Integer</span>
+<span class="token keyword">interface</span> <span class="token operator">is</span> <span class="token">j</span> <span class="token keyword">join</span> <span class="token css">json</span> <span class="token css">JSON</span> <span class="token">k</span>
+<span class="token parameter">kwargs</span> <span class="token keyword">lambda</span> <span class="token keyword">let</span> <span class="token classname">LinkedList</span> <span class="token">list</span> <span class="token function">listen</span>
+<span class="token">listener</span> <span class="token function">log</span> <span class="token function">main</span> <span class="token function">MAIN-PROCEDURE</span> <span class="token classname">Map</span>
+<span class="token css">margin</span> <span class="token function">max</span> <span class="token function">merge</span> <span class="token">method</span> <span class="token function">min</span> <span class="token keyword">mov</span>
+<span class="token keyword">new</span> <span class="token keyword">nil</span> <span class="token">node</span> <span class="token constant">None</span> <span class="token keyword">nonlocal</span> <span class="token">--no-verify</span> <span class="token operator">not</span>
+<span class="token constant">null</span> <span class="token">object</span> <span class="token classname">Object</span> <span class="token">offset</span> <span class="token">open</span> <span class="token operator">or</span>
+<span class="token keyword">package</span> <span class="token css">padding</span> <span class="token">path</span> <span class="token constant">POST</span> <span class="token">post</span> <span class="token classname">PostgreSQL</span> </span><span class="token function">print</span>
+<span class="token keyword">private</span> <span class="token">property</span> <span class="token keyword">protected</span> <span class="token keyword">public</span> <span class="token function">pull</span>
+<span class="token function">push</span> <span class="token function">put</span> <span class="token">query</span> <span class="token">queue</span> <span class="token keyword">raise</span> <span class="token keyword">range</span>
+<span class="token classname">React</span> <span class="token function">read</span> <span class="token">request</span> <span class="token keyword">require</span> <span class="token">response</span> <span class="token">result</span>
+<span class="token keyword">return</span> <span class="token classname">RuntimeError</span> <span class="token keyword">select</span> <span class="token keyword">self</span> <span class="token keyword">set</span> <span class="token keyword">sizeof</span> <span class="token css">sql</span>
+<span class="token">stack</span> <span class="token keyword">static</span> <span class="token">status</span> <span class="token string">string</span> <span class="token keyword">struct</span>
+<span class="token keyword">super</span> <span class="token keyword">switch</span> <span class="token">table</span> <span class="token">temp</span> <span class="token keyword">template</span>
+<span class="token keyword">then</span> <span class="token keyword">this</span> <span class="token keyword">throw</span> <span class="token keyword">throws</span> <span class="token">timestamp</span>
+<span class="token constant">TODO</span> <span class="token">token</span> <span class="token function">trace</span> <span class="token">tree</span> <span class="token constant">True</span> <span class="token constant">true</span>
+<span class="token keyword">try</span> <span class="token keyword">type</span> <span class="token keyword">typename</span> <span class="token constant">undefined</span> <span class="token keyword">union</span>
+<span class="token keyword">until</span> <span class="token keyword">update</span> <span class="token">url</span> <span class="token">user</span> <span class="token keyword">using</span> <span class="token constant">UUID</span> </span> <span class="token">value</span>
+<span class="token keyword">var</span> <span class="token">variable</span> <span class="token keyword">void</span> <span class="token keyword">volatile</span> <span class="token keyword">where</span>
+<span class="token constant">WHERE</span> <span class="token keyword">while</span> <span class="token">window</span> <span class="token keyword">with</span> <span class="token keyword">write</span> <span class="token constant">YAML</span> <span class="token keyword">yield</span>
+         </div>
+        </div>
+        <p>
+          Current version: 
+        </p>
+      </div>
+      <div id="why" class="content">
+        <h1>Why?</h1>
+        <p>
+          I've been fascinated by letter forms for a long time. My own
+          handwriting has slowly evolved to include a few intentionally unusual
+          ones - for fun. There's something inherently satisfying about leaving
+          exaggerated swooping forms on the page.
+        </p>
+        <p>
+          I also wanted to have a unique monospace font for my own use in
+          programming. As screen real estate crowds with an endless cavalcade
+          of side panels, I find most fonts' eighty-character horizontal space
+          to be far too wide at any legible point size. Additionally, many code
+          fonts focus primarily on syntax-specific ligatures, like joining an
+          "=&gt;" into a single arrow glyph by default. I find it kind of
+          annoying for many of the same reasons as
+          <a
+            href="https://practicaltypography.com/ligatures-in-programming-fonts-hell-no.html"
+            target="_blank"
+          >outlined here</a>. What I'd rather do with ligatures is focus on the
+          words themselves, giving individual words a more unique profile and
+          making the text more legible under certain circumstances.
+        </p>
+        <p>
+          Anyway, if you enjoy this, go ahead and use it. And if not... well,
+          I made this for myself and
+          <a
+            href="https://www.theguardian.com/technology/blog/2011/aug/30/google-plus-discuss-identity"
+            target="_blank"
+          >no one is forcing you to use it</a>. -&#57958;
+        </p>
+      </div>
+      <div id="texture-healing" class="content">
+        <h1>Default Features</h1>
+        <h2>
+          Texture Healing
+        </h2>
+        <div class="sample">
+          <div class="columns clear-features">
+            <div>Off</div>
+            <div>
+              Aid Mix Win mix win awl imm mmi ttm llm Wii
+              <span class="ss01">Sip</span>
+              amj wel ism Api well
+            </div>
+          </div>
+          <div class="columns clear-features calt">
+            <div>On&nbsp;</div>
+            <div>
+              Aid Mix Win mix win awl imm mmi ttm llm Wii
+              <span class="ss01">Sip</span>
+              amj wel ism Api well
+            </div>
+          </div>
+        </div>
+        <p>
+          This font has multiple glyphs at varying widths for certain letters.
+          Some (like "i") can be thinned and some can be widened (like "m").
+          It uses contextual substitution to find nearby pairs of thinnable and
+          widenable letters. The result is a font where a seven-letter word
+          will always be seven times the width of a single letter, but the
+          individual letters might be shifted to produce a more legible
+          outcome. Think of it like reverse-kerning. Instead of adjusting the
+          space between letters, it adjusts the letter widths themseleves!
+        </p>
+        <p class="sample">
+          My Mission: min-max whimsy with calming pairs conjoined in Majestic
+          Karamja, cowling whole immolated bellmouths and awwing at imminent
+          bitter cattle militia. assertEmailFirewallWorksAndApiHasBeenEnabled()
+          The prismatic summary? findLowerCaseValueForAirConditioningApi()
+          Attempt All lower molars and injure no warrior's llama milk. These
+          immigrants worry about a merry tommorrow. Lemma: Shining at Twilight,
+          the Settlement's mime emoji amuse calm mommies walking.
+        </p>
+        <p>
+          Since creating this font, I discovered
+          <a href="https://monaspace.githubnext.com" target="_blank">
+            Monaspace</a>,
+          which dubbed this kerning alternative "Texture Healing".
+          Cantrip uses a much more visually extreme version of this technique,
+          both in terms of how much space it "borrows" and because it can do
+          this from up to five letters away.
+        </p>
+      </div>
+      <div id="alts" class="content">
+        <h2>
+          Swash Caps, Ligatures & Other Contextual Alternatives
+        </h2>
+        <p>
+          This font includes some alternate capitals that will appear at the
+          beginnings of words, and are specifically intended to make
+          camelCaseVariableNames "pop". There are also a few other alternate
+          glyphs that add flair if there's room to do so.
+        </p>
+        <p class="sample">
+          HARK! AVOID ANATHEMA NEAR LINGERING BELLIES. ANNEX XYLOPHONES SIMPLY
+          DEAR TO RUBBERRED BACKPACKING - OVERT ZONED DIAGETIC CLOCKWORK. Call
+          Ten Amber Xanadu Round Kyle K. findLegalXPositionForConditionalCSS()
+          NONE PIZZA WITH LEFT BEEF. Fool the ZZYZX Zoo's dazzling zebras.
+          In joining this jam, adjust major pigfaced finals. q[] questions
+          EFFECTIVE QUANTUM QI of Falklands background.
+        </p>
+      </div>
+      <div id="i18n" class="content">
+        <h2>Internationalization Support</h2>
+        <p class="sample">
+          ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõöøùúûüýþÿ<br />
+          ĀāĂăĄąĆćĈĉĊċČčĎďĐđĒēĔĕĖėĘęĚěĜĝĞğĠġĢģĤĥĦħĨĩĪīĬĭĮįİıĲĳĴĵĶķĸĹĺĻļĽľĿŀŁł<br />
+          ŃńŅņŇňŉŊŋŌōŎŏŐőŒœŔŕŖŗŘřŚśŜŝŞşŠšŢţŤťŦŧŨũŪūŬŭŮůŰűŲųŴŵŶŷŸŹźŻżŽžſ<br />
+          ¡ ¢ £ ¤ ¥ ¦ § ¨ © ª « ¬ ® ¯ ° ± ² ³ ´ µ ¶ · ¸ ¹ º » ¼ ½ ¾ ¿ × ÷
+        </p>
+        <p>
+          Cantrip contains glyphs to cover the
+          <a href="https://en.wikipedia.org/wiki/Latin-1_Supplement" target="_blank">Latin-1 Suppliment</a>
+          and
+          <a href="https://en.wikipedia.org/wiki/Latin_Extended-A" target="_blank">Latin Extended-A</a>
+          Unicode ranges, covering a wide variety of languages. These glyphs
+          generally do not include variant width forms.
+        </p>
+        <p class="sample no-ss08">
+          <span style="background: #fff; color: #222;">
+            user@dev
+          </span><span style="background: #23e;">
+            🭬 ~/src/cantrip
+          </span><span style="color: #23e;">
+            🭬
+          </span>
+          ./boxdemo.sh
+          <span class="pre">
+┌─────────────────────┐ ┌─┬┐  ╔═╦╗  ╓─╥╖  ╒═╤╕
+│  ╔═══╗ Cantrip Box- │ │ ││  ║ ║║  ║ ║║  │ ││
+│  ╚═╦═╝ Drawing Demo │ ├─┼┤  ╠═╬╣  ╟─╫╢  ╞═╪╡
+╞═╤══╩══╤═════════════╡ └─┴┘  ╚═╩╝  ╙─╨╜  ╘═╧╛
+│ ├──┬──┤             │
+│ └──┴──┘             │
+└─────────────────────┘</span>
+        </p>
+        <p>
+          It also includes a few glyphs commonly used by terminal applications, including
+          <a href="https://en.wikipedia.org/wiki/Box-drawing_characters">Box-Drawing characters</a>.
+        </p>
+      </div>
+      <div id="cursive" class="content">
+        <h1>Optional Styles</h1>
+        <h2>
+          Alternate Cursive Styling
+        </h2>
+        <p>
+          Cantrip includes some alternative cursive glyphs to add a bit of
+          variance to words and make the overall sillouhette of some individual
+          words more unique.
+        </p>
+        <p class="sample ss01 ss02">
+          Assist these styles of passive glyphs with some hints suggesting
+          there be some others in certain positions. These letters have some
+          heft, lifting four crafty shifts. Attempt twilight standing to atone
+          the two trips. Curse wise stylish stems, bizarre foil zeroing on
+          dazzled stages. Sift those Special Screen visuals: WISELY COUNTERSIGN
+          THIS CLASS OF SIXTY-TWO ACCURSED. React to these styles best: try
+          training a pterodactyl from Etsy instead.
+        </p>
+        <ul>
+          <li>
+            <b>ss01</b> adds cursive "s" and "t" glyphs in contextual
+            positions.
+          </li>
+          <li>
+            <b>ss02</b> adds ligatures for these cursive glyphs when joined
+            with certain other characters.
+          </li>
+        </ul>
+        <p>
+          I should apologize to my third grade teacher. I was <i>really</i>
+          annoyed that just a few years after learning the print alphabet, we
+          suddenly had to learn an entire second alphabet because "this is the
+          way you have to write everything when you're an adult." Why not just
+          teach <i>this</i> first, then and skip the print version? I never
+          actually had to use cursive for anything but my own signature (which
+          doesn't even resemble letters at this point) after taking the SATs
+          and literally everything in my professional career has been typed.
+          So cursive has been obsolete since the 1990s, but it actaully can be
+          kind of fun. I created this font as a sample of my own handwriting
+          and yes, I do randomly use cursive "s" characters even though the
+          letters otherwise don't connect.
+        </p>
+      </div>
+      <div id="proportional" class="content">
+        <h2>
+          ss08: Proportional Width Glyphs
+        </h2>
+        <div class="sample columns">
+          <div class="no-ss08">
+            <div>
+              ss08 Off
+            </div>
+            <div>
+              Amusement models true WIDEN MADLY BUMMED radii illuminate
+              trollish vowels I'DN'T'VE KNOWN it's two o'clock at Randall's
+              &amp; Sally's respective discotheques. Cordially, they ALLOW GHOSTS.
+            </div>
+          </div>
+          <div class="ss08">
+            <div>
+              ss08 On
+            </div>
+            <div>
+              Amusement models true WIDEN MADLY BUMMED radii illuminate
+              trollish vowels I'DN'T'VE KNOWN it's two o'clock at Randall's
+              &amp; Sally's respective discotheques. Cordially, they ALLOW GHOSTS.
+            </div>
+          </div>
+        </div>
+        <p class="ss08">
+          This option causes all width-adjustable characters to always adjust
+          their width, ignoring any requirements for matching letter pairs. The
+          result is that the overall font is no longer anything resembling
+          monospace. There are also a few glyphs specifically for this feature
+          (like <span class="no-ss08">G</span> -&gt;
+          <span class="ss08">G</span>) that don't align at all with the
+          monospace grid. It also activates some kerning for specific letter
+          pairings.
+        </p>
+      </div>
+      <div id="numerals" class="content">
+        <h2>
+          Alternative Numerals
+        </h2>
+        <div class="sample no-lnum no-ss16">
+          <div class="columns">
+            <div>
+              Off&nbsp;
+            </div>
+            <div>
+              0123456789 #F0E1D2C3B4A5 0xf0e1d2c3b4a5 0xDEAD_BEEF #7fff00
+            </div>
+          </div>
+          <div class="columns lnum">
+            <div>
+              lnum
+            </div>
+            <div>
+              0123456789 #F0E1D2C3B4A5 0xf0e1d2c3b4a5 0xDEAD_BEEF #7fff00
+            </div>
+          </div>
+          <div class="columns ss16">
+            <div>
+              ss16
+            </div>
+            <div>
+              0123456789 #F0E1D2C3B4A5 0xf0e1d2c3b4a5 0xDEAD_BEEF #7fff00
+            </div>
+          </div>
+        </div>
+        <p>
+          This font uses "oldstyle" numerals by default, sized to match
+          lower-case letters. This gives each letter a more distinctive shape,
+          and I find them to be more legible overall. It does, however, make
+          random jumbles of characters look strange - hexadecimal literals
+          doubly so. Cantrip includes two options to handle this:
+        </p>
+        <ul>
+          <li>
+            <b>lnum</b> swaps the digits for "lining" numerals that match the
+            upper-case letters instead.
+          </li>
+          <li>
+            <b>ss16</b> adds special glyphs for a-f and A-F that match the
+            oldstyle digits, and substitutes these within hexadecimal literals
+            only.
+          </li>
+        </ul>
+      </div>
+      <div id="bugs" class="content">
+        <h1>Known Issues</h1>
+        <p>
+          On some text renderers, rounding errors mean the ligatures and thin -
+          wide pairs don't exactly match their unmodified counterparts. The
+          following lines <em>should</em> all be exactly the same width, with
+          the bars lined up at the end if everything is working properly:
+        </p>
+        <p class="sample">
+          nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn║
+          <span class="calt no-ss08">
+            mimimimimimimimimimimimimimimimimimimimimimimimimimimimimimimimimimimi║
+          </span>
+          <span class="ss01 ss02 no-ss08">
+            trtrtrtrtrtrtrtrtrtrtrtrtrtrtrtrtrtrtrtrtrtrtrtrtrtrtrtrtrtrtrtrtrtrtr║
+          </span>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

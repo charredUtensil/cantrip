@@ -1,0 +1,12 @@
+StartChar: three.hex
+Encoding: 516 -1 219
+Width: 420
+VWidth: 1000
+Flags: HW
+HStem: -5 65<125.405 258.417> 190 60<178 259.964> 350 70<113.208 260.935>
+VStem: 275 75<266.593 334.419> 285 75<86.0718 180.775>
+LayerCount: 2
+Fore
+Refer: 74 51 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar

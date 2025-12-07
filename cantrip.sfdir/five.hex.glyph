@@ -1,0 +1,12 @@
+StartChar: five.hex
+Encoding: 518 -1 221
+Width: 420
+VWidth: 1000
+Flags: HW
+HStem: -150 70<70.5577 251.048> 147 70<155.401 258.045> 350 70<155 340>
+VStem: 80 75<210 350> 285 75<-44.0661 118.589>
+LayerCount: 2
+Fore
+Refer: 77 53 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar

@@ -1,0 +1,32 @@
+StartChar: j
+Encoding: 74 106 275
+Width: 420
+VWidth: 1000
+Flags: MW
+HStem: -64 70<130.703 251.236> 350 70<182 247.818>
+VStem: 295 75<55.7586 281.219>
+LayerCount: 2
+Fore
+SplineSet
+228 454 m 0
+ 199 454 180 481 180 509 c 0
+ 180 538 200 562 227 562 c 0
+ 255 562 275 537 275 508 c 0
+ 275 481 257 454 228 454 c 0
+370 141 m 7
+ 370 1 289 -64 190 -64 c 4
+ 102 -64 54 -9 24 56 c 5
+ 83 98 l 5
+ 116 34 139 6 194 6 c 4
+ 255 6 295 63 295 158 c 7
+ 295 227 280 293 231 350 c 5
+ 162 350 l 5
+ 182 420 l 5
+ 269 420 l 5
+ 337 359 370 250 370 141 c 7
+EndSplineSet
+Validated: 1
+Substitution2: "narrowJ subtable" j.thin.sprawl.sw
+Substitution2: "narrow subtable" j.thin
+Substitution2: "toSprawl subtable" j.sprawl.s
+EndChar

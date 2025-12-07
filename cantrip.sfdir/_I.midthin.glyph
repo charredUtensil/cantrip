@@ -1,0 +1,25 @@
+StartChar: I.midthin
+Encoding: 510 -1 207
+Width: 330
+Flags: W
+HStem: -60 90<45 115 210 285> 590 90<45 115 210 285>
+VStem: 115 95<30 590>
+LayerCount: 2
+Fore
+SplineSet
+45 680 m 1
+ 305 680 l 1
+ 285 590 l 1
+ 210 590 l 1
+ 210 30 l 1
+ 305 30 l 1
+ 285 -60 l 1
+ 25 -60 l 1
+ 45 30 l 1
+ 115 30 l 1
+ 115 590 l 1
+ 25 590 l 1
+ 45 680 l 1
+EndSplineSet
+Validated: 1
+EndChar

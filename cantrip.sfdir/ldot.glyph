@@ -1,0 +1,24 @@
+StartChar: ldot
+Encoding: 253 320 416
+Width: 420
+Flags: H
+LayerCount: 2
+Fore
+SplineSet
+200 105 m 4
+ 200 73 215 65 230 65 c 4
+ 268 65 350 71 386 80 c 5
+ 405 15 l 5
+ 361 2 241 -5 190 -5 c 4
+ 145 -5 125 46 125 73 c 4
+ 125 548 l 4
+ 125 584 124 605 121 620 c 5
+ 52 620 l 5
+ 72 690 l 5
+ 174 690 l 5
+ 186 675 200 652 200 570 c 4
+ 200 105 l 4
+EndSplineSet
+Refer: 181 183 N 1 0 0 1 80 0 2
+Validated: 1
+EndChar

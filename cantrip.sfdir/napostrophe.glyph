@@ -1,0 +1,17 @@
+StartChar: napostrophe
+Encoding: 262 329 419
+Width: 420
+Flags: H
+HStem: -5 61<337.5 402.4> 350 70<151.388 278.362>
+VStem: 50 75<0 323.163> 295 75<56.7981 334.198>
+LayerCount: 2
+Fore
+SplineSet
+50 450 m 1
+ -20 475 l 1
+ 32 673 l 1
+ 116 640 l 1
+ 50 450 l 1
+EndSplineSet
+Refer: 0 110 N 1 0 0 1 0 0 2
+EndChar

@@ -1,0 +1,12 @@
+StartChar: tcedilla
+Encoding: 288 355 333
+Width: 420
+VWidth: 1000
+UnlinkRmOvrlpSave: 1
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 178 184 N 1 0 0 1 0 0 2
+Refer: 187 116 N 1 0 0 1 0 0 2
+Validated: 5
+EndChar

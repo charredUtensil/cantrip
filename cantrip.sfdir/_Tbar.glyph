@@ -1,0 +1,29 @@
+StartChar: Tbar
+Encoding: 291 358 428
+Width: 420
+Flags: W
+HStem: 340 90<70 160 255 350> 590 90<20 160 255 400>
+VStem: 160 95<-60 340 430 590>
+LayerCount: 2
+Fore
+SplineSet
+20 680 m 1
+ 420 680 l 1
+ 400 590 l 1
+ 255 590 l 1
+ 255 430 l 1
+ 370 430 l 5
+ 350 340 l 5
+ 255 340 l 1
+ 255 -60 l 1
+ 160 -80 l 1
+ 160 340 l 1
+ 50 340 l 1
+ 70 430 l 1
+ 160 430 l 1
+ 160 590 l 1
+ 0 590 l 1
+ 20 680 l 1
+EndSplineSet
+Validated: 1
+EndChar

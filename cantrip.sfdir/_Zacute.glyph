@@ -1,0 +1,13 @@
+StartChar: Zacute
+Encoding: 310 377 294
+Width: 420
+UnlinkRmOvrlpSave: 1
+HStem: -60 90<162 400> 470 90<80 270> 548 186
+VStem: 105 209
+DStem2: 35 -60 162 30 0.404221 0.914661<133.656 338.923 472.579 579.762>
+LayerCount: 2
+Fore
+Refer: 118 180 N 1 0 0 1 0 0 2
+Refer: 293 -1 N 1 0 0 1 0 0 2
+Validated: 5
+EndChar

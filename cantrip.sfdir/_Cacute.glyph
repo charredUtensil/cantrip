@@ -1,0 +1,12 @@
+StartChar: Cacute
+Encoding: 195 262 308
+Width: 420
+UnlinkRmOvrlpSave: 1
+HStem: -80 90<176.197 322.874> 490 90<183.996 329.474> 548 186
+VStem: 30 95<77.0213 416.78> 105 209
+LayerCount: 2
+Fore
+Refer: 118 180 N 1 0 0 1 0 0 2
+Refer: 310 -1 N 1 0 0 1 0 0 2
+Validated: 5
+EndChar

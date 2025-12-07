@@ -1,0 +1,21 @@
+StartChar: V.sprawl.nwne
+Encoding: 536 -1 241
+Width: 420
+Flags: MW
+DStem2: 65 650 -30 630 0.225727 -0.974191<0 647.445> 210 19 255 -170 0.231353 0.97287<0 666.884>
+LayerCount: 2
+Fore
+SplineSet
+-30 630 m 5
+ 65 650 l 5
+ 210 19 l 5
+ 355 670 l 5
+ 450 690 l 5
+ 450 650 l 5
+ 255 -170 l 5
+ 160 -190 l 5
+ -30 630 l 5
+EndSplineSet
+Validated: 1
+Substitution2: "proportional1 subtable" V.proportional
+EndChar

@@ -1,0 +1,21 @@
+StartChar: SF020000
+Encoding: 354 9492 493
+Width: 420
+UnlinkRmOvrlpSave: 1
+Flags: H
+LayerCount: 2
+Fore
+SplineSet
+195 350 m 1
+ 440 350 l 1
+ 420 280 l 1
+ 175 280 l 1
+ 195 350 l 1
+175 280 m 1
+ 175 770 l 1
+ 245 790 l 1
+ 245 300 l 1
+ 175 280 l 1
+EndSplineSet
+Validated: 5
+EndChar

@@ -1,0 +1,22 @@
+StartChar: J.sprawl.s
+Encoding: 478 -1 82
+Width: 420
+Flags: HMW
+HStem: -254 90<62.8463 248.771>
+VStem: 285 95<-125.113 670>
+LayerCount: 2
+Fore
+SplineSet
+285 670 m 5
+ 380 690 l 5
+ 380 -49 l 6
+ 380 -189 279 -254 180 -254 c 4
+ 112 -254 28 -223 -21 -194 c 5
+ 22 -121 l 5
+ 88 -160 119 -164 164 -164 c 4
+ 255 -164 285 -127 285 -32 c 6
+ 285 670 l 5
+EndSplineSet
+Validated: 1
+Substitution2: "narrowJ subtable" J.thin.sprawl.sw
+EndChar

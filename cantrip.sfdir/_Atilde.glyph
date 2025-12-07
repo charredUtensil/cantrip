@@ -1,0 +1,11 @@
+StartChar: Atilde
+Encoding: 128 195 152
+Width: 420
+Flags: HW
+HStem: 170 90<152 282> 620 60<233.802 340.246> 690 60<79.7537 186.198>
+VStem: 40 95<-170 -125.488> 60 300
+LayerCount: 2
+Fore
+Refer: 100 126 S 1 0 0 1 0 370 2
+Refer: 101 -1 N 1 0 0 1 0 0 2
+EndChar

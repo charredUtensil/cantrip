@@ -1,0 +1,11 @@
+StartChar: Emacron
+Encoding: 207 274 394
+Width: 420
+HStem: -60 90<135 370> 250 90<135 340> 470 90<135 370> 610 70<80 340>
+VStem: 40 95<30 250 340 470> 60 300
+LayerCount: 2
+Fore
+Refer: 391 175 N 1 0 0 1 0 0 2
+Refer: 104 -1 S 1 0 0 1 0 0 2
+Validated: 1
+EndChar

@@ -1,0 +1,25 @@
+StartChar: dagger
+Encoding: 329 8224 453
+Width: 420
+Flags: W
+HStem: 436 90<40 160 255 380>
+VStem: 160 95<-270 436 526 760>
+LayerCount: 2
+Fore
+SplineSet
+160 760 m 1
+ 255 780 l 1
+ 255 526 l 1
+ 400 526 l 1
+ 380 436 l 1
+ 255 436 l 1
+ 255 -270 l 1
+ 160 -290 l 1
+ 160 436 l 1
+ 20 436 l 1
+ 40 526 l 1
+ 160 526 l 1
+ 160 760 l 1
+EndSplineSet
+Validated: 1
+EndChar

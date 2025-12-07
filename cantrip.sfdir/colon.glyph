@@ -1,0 +1,24 @@
+StartChar: colon
+Encoding: 26 58 38
+Width: 420
+VWidth: 1000
+Flags: W
+HStem: 60 138<162.5 257> 282 138<162.5 257>
+VStem: 142 135<79.1976 181.518 301.198 403.518>
+LayerCount: 2
+Fore
+SplineSet
+210 282 m 27
+ 170 282 142 318 142 358 c 27
+ 142 394 174 420 210 420 c 24
+ 246 420 277 394 277 358 c 27
+ 277 318 250 282 210 282 c 27
+210 60 m 27
+ 170 60 142 96 142 136 c 27
+ 142 172 174 198 210 198 c 24
+ 246 198 277 172 277 136 c 27
+ 277 96 250 60 210 60 c 27
+EndSplineSet
+Validated: 1
+Substitution2: "proportional1 subtable" colon.proportional
+EndChar

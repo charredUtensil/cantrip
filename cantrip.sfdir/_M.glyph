@@ -1,0 +1,28 @@
+StartChar: M
+Encoding: 45 77 50
+Width: 420
+Flags: HMW
+HStem: 670 20G<285 380>
+VStem: 40 95<-90 483> 285 95<-50 488>
+LayerCount: 2
+Fore
+SplineSet
+135 483 m 1
+ 135 -60 l 1
+ 40 -80 l 1
+ 40 650 l 1
+ 135 670 l 1
+ 215 559 l 1
+ 285 670 l 1
+ 380 690 l 1
+ 380 -50 l 1
+ 285 -70 l 1
+ 285 488 l 1
+ 250 429 l 1
+ 170 429 l 1
+ 135 483 l 1
+EndSplineSet
+Validated: 1
+Substitution2: "proportional1 subtable" M.wide
+Substitution2: "widen subtable" M.wide
+EndChar

@@ -1,0 +1,30 @@
+StartChar: B
+Encoding: 34 66 62
+Width: 420
+Flags: W
+HStem: -60 90<135 221.142> 300 90<135 237.878> 590 90<135 232.639>
+VStem: 40 95<30 300 390 590> 265 95<411.833 559.981> 295 95<98.0067 246.456>
+LayerCount: 2
+Fore
+SplineSet
+135 590 m 5xf8
+ 135 390 l 5
+ 221 390 265 395 265 481 c 4
+ 265 576 220 590 135 590 c 5xf8
+135 680 m 5
+ 271 680 360 627 360 481 c 4xf8
+ 360 415 339 383 299 343 c 5
+ 353 310 390 252 390 171 c 4xf4
+ 390 34 272 -60 135 -60 c 5
+ 40 -80 l 5
+ 40 660 l 5
+ 135 680 l 5
+135 30 m 5
+ 221 30 295 85 295 171 c 4xf4
+ 295 256 240 300 135 300 c 5
+ 135 30 l 5
+EndSplineSet
+Validated: 1
+Substitution2: "toSprawl subtable" B.sprawl.nw
+Substitution2: "toHex subtable" B.hex
+EndChar

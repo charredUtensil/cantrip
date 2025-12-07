@@ -1,0 +1,12 @@
+StartChar: Sacute
+Encoding: 279 346 291
+Width: 420
+UnlinkRmOvrlpSave: 1
+HStem: -80 90<137.416 263.231> 490 90<172.05 296.563> 548 186
+VStem: 60 95<371.678 473.08> 105 209 295 95<46.0957 195.359>
+LayerCount: 2
+Fore
+Refer: 118 180 N 1 0 0 1 0 0 2
+Refer: 292 -1 N 1 0 0 1 0 0 2
+Validated: 5
+EndChar

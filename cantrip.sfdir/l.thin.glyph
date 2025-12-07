@@ -1,0 +1,27 @@
+StartChar: l.thin
+Encoding: 480 -1 89
+Width: 240
+VWidth: 1000
+Flags: W
+HStem: -5 70<156.996 205> 620 70<50 73.7331>
+VStem: 75 80<73.5743 618.59>
+LayerCount: 2
+Fore
+SplineSet
+75 73 m 2
+ 75 548 l 2
+ 75 584 74 605 71 620 c 1
+ 30 620 l 1
+ 50 690 l 1
+ 129 690 l 5
+ 141 675 155 652 155 570 c 6
+ 155 105 l 6
+ 155 73 170 65 185 65 c 4
+ 205 65 l 5
+ 215 -5 l 5
+ 140 -5 l 0
+ 95 -5 75 46 75 73 c 2
+EndSplineSet
+Validated: 1
+Substitution2: "midden subtable" l.midthin
+EndChar

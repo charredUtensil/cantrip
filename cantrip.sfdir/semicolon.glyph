@@ -1,0 +1,25 @@
+StartChar: semicolon
+Encoding: 27 59 40
+Width: 420
+VWidth: 1000
+Flags: W
+HStem: 282 138<162.5 257>
+VStem: 142 135<301.198 403.518> 152 115<-50.254 96.1997>
+LayerCount: 2
+Fore
+SplineSet
+152 46 m 0xa0
+ 152 82 174 108 210 108 c 0
+ 246 108 267 82 267 46 c 0
+ 267 6 228 -120 192 -170 c 1
+ 116 -190 l 1
+ 136 -154 152 -6 152 46 c 0xa0
+210 282 m 27
+ 170 282 142 318 142 358 c 27
+ 142 394 174 420 210 420 c 24
+ 246 420 277 394 277 358 c 27xc0
+ 277 318 250 282 210 282 c 27
+EndSplineSet
+Validated: 1
+Substitution2: "proportional1 subtable" semicolon.proportional
+EndChar

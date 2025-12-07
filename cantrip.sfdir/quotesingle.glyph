@@ -1,0 +1,21 @@
+StartChar: quotesingle
+Encoding: 7 39 46
+Width: 420
+VWidth: 1000
+Flags: W
+HStem: 560 210<172.664 248.221>
+VStem: 142 135<604.512 753.518>
+LayerCount: 2
+Fore
+SplineSet
+180 560 m 0
+ 160 608 142 679 142 708 c 0
+ 142 744 174 770 210 770 c 0
+ 246 770 277 744 277 708 c 0
+ 277 679 260 608 240 560 c 0
+ 180 560 l 0
+EndSplineSet
+Validated: 1
+Substitution2: "proportional1 subtable" quotesingle.thin
+Substitution2: "narrow subtable" quotesingle.thin
+EndChar

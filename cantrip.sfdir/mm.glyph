@@ -1,0 +1,11 @@
+StartChar: mm
+Encoding: 595 -1 475
+Width: 420
+Flags: W
+LayerCount: 2
+Fore
+Validated: 1
+MultipleSubs2: "tw4 subtable" m m
+Substitution2: "widen subtable" mm.wide
+Ligature2: "tw1 subtable" m m
+EndChar

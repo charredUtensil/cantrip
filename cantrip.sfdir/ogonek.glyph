@@ -1,0 +1,20 @@
+StartChar: ogonek
+Encoding: 321 731 304
+Width: 420
+VWidth: 1000
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+280 -99 m 5
+ 300 -169 l 5
+ 300 -169 267 -169 217 -169 c 7
+ 154 -169 131 -139 131 -86 c 7
+ 131 -15 171 49 171 49 c 5
+ 236 19 l 5
+ 236 19 206 -35 206 -76 c 7
+ 206 -93 220 -99 227 -99 c 7
+ 269 -99 280 -99 280 -99 c 5
+EndSplineSet
+Validated: 1
+EndChar

@@ -1,0 +1,26 @@
+StartChar: E.short
+Encoding: 487 -1 104
+Width: 420
+Flags: W
+HStem: -60 90<135 370> 250 90<135 340> 470 90<135 370>
+VStem: 40 95<30 250 340 470>
+LayerCount: 2
+Fore
+SplineSet
+135 560 m 1
+ 390 560 l 1
+ 370 470 l 1
+ 135 470 l 1
+ 135 340 l 1
+ 340 340 l 1
+ 340 250 l 1
+ 135 250 l 1
+ 135 30 l 1
+ 390 30 l 1
+ 370 -60 l 1
+ 40 -60 l 1
+ 40 540 l 1
+ 135 560 l 1
+EndSplineSet
+Validated: 1
+EndChar

@@ -1,0 +1,26 @@
+StartChar: C
+Encoding: 35 67 199
+Width: 420
+Flags: W
+HStem: -80 90<188.28 322.874> 590 90<191.662 329.474>
+VStem: 30 95<98.558 487.708>
+LayerCount: 2
+Fore
+SplineSet
+245 590 m 7
+ 152 590 125 441 125 318 c 31
+ 125 164 138 10 242 10 c 7
+ 280 10 309 19 335 41 c 5
+ 390 -25 l 5
+ 353 -62 307 -80 242 -80 c 7
+ 42 -80 30 118 30 318 c 31
+ 30 489 74 680 245 680 c 31
+ 305 680 355 661 390 629 c 5
+ 349 552 l 5
+ 326 576 293 590 245 590 c 7
+EndSplineSet
+Validated: 1
+Substitution2: "toSprawlAlt subtable" C.sprawl.e
+Substitution2: "toSprawl subtable" C.sprawl.s
+Substitution2: "toHex subtable" C.hex
+EndChar

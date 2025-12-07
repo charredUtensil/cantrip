@@ -1,0 +1,17 @@
+StartChar: lessequal
+Encoding: 336 8804 457
+Width: 420
+VWidth: 1000
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+50 220 m 1
+ 390 220 l 1
+ 370 150 l 1
+ 30 150 l 1
+ 50 220 l 1
+EndSplineSet
+Refer: 79 60 S 1 0 0 1 0 110 2
+Validated: 1
+EndChar

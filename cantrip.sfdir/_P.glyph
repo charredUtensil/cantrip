@@ -1,0 +1,23 @@
+StartChar: P
+Encoding: 48 80 61
+Width: 420
+Flags: HW
+HStem: 170 90<135 209.406> 590 90<135 209.035>
+VStem: 40 95<-60 170 260 590> 295 95<341.641 505.537>
+LayerCount: 2
+Fore
+SplineSet
+135 260 m 1
+ 221 260 295 335 295 421 c 0
+ 295 516 220 590 135 590 c 1
+ 135 260 l 1
+135 170 m 1
+ 135 -60 l 1
+ 40 -80 l 1
+ 40 660 l 1
+ 135 680 l 1
+ 271 680 390 567 390 421 c 0
+ 390 284 272 170 135 170 c 1
+EndSplineSet
+Substitution2: "toSprawl subtable" P.sprawl.nw
+EndChar

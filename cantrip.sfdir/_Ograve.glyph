@@ -1,0 +1,13 @@
+StartChar: Ograve
+Encoding: 143 210 166
+Width: 420
+UnlinkRmOvrlpSave: 1
+Flags: W
+HStem: -80 90<166.342 260.417> 490 90<165.796 260.847> 548 186
+VStem: 30 95<61.3748 442.204> 106 209 295 95<50.377 453.027>
+LayerCount: 2
+Fore
+Refer: 96 96 N 1 0 0 1 0 0 2
+Refer: 109 -1 N 1 0 0 1 0 0 2
+Validated: 5
+EndChar

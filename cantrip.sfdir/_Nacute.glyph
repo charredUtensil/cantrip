@@ -1,0 +1,13 @@
+StartChar: Nacute
+Encoding: 256 323 302
+Width: 420
+UnlinkRmOvrlpSave: 1
+HStem: 548 186
+VStem: 40 95<-60 350> 105 209 285 95<150 580>
+DStem2: 135 570 135 350 0.336336 -0.941742<207.183 445.982>
+LayerCount: 2
+Fore
+Refer: 118 180 N 1 0 0 1 0 0 2
+Refer: 301 -1 N 1 0 0 1 0 0 2
+Validated: 5
+EndChar

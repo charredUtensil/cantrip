@@ -1,0 +1,16 @@
+StartChar: u1FB6C
+Encoding: 511 129900 210
+Width: 420
+Flags: HW
+HStem: -254 1024<0 0> -254 21G<0 16.4062>
+VStem: 0 420<-254 258>
+LayerCount: 2
+Fore
+SplineSet
+0 770 m 1
+ 420 258 l 5
+ 0 -254 l 1
+ 0 770 l 1
+EndSplineSet
+Validated: 1
+EndChar

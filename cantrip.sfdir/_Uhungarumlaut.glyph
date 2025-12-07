@@ -1,0 +1,10 @@
+StartChar: Uhungarumlaut
+Encoding: 301 368 338
+Width: 420
+Flags: H
+LayerCount: 2
+Fore
+Refer: 146 -1 N 1 0 0 1 0 0 2
+Refer: 336 733 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar

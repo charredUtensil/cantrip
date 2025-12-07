@@ -1,0 +1,27 @@
+StartChar: SF490000
+Encoding: 423 9561 574
+Width: 420
+VWidth: 1000
+UnlinkRmOvrlpSave: 1
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+125 350 m 5
+ 440 350 l 5
+ 420 280 l 5
+ 105 280 l 5
+ 125 350 l 5
+105 280 m 5
+ 105 770 l 5
+ 175 790 l 5
+ 175 300 l 5
+ 105 280 l 5
+245 306 m 5
+ 245 770 l 5
+ 315 790 l 5
+ 315 326 l 5
+ 245 306 l 5
+EndSplineSet
+Validated: 5
+EndChar

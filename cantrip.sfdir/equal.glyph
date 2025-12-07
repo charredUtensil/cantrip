@@ -1,0 +1,23 @@
+StartChar: equal
+Encoding: 29 61 24
+Width: 420
+VWidth: 1000
+Flags: W
+HStem: 190 70<80 340> 350 70<80 340>
+VStem: 60 300
+LayerCount: 2
+Fore
+SplineSet
+80 420 m 5
+ 360 420 l 5
+ 340 350 l 5
+ 60 350 l 5
+ 80 420 l 5
+80 260 m 5
+ 360 260 l 5
+ 340 190 l 5
+ 60 190 l 5
+ 80 260 l 5
+EndSplineSet
+Validated: 1
+EndChar

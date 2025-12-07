@@ -1,0 +1,15 @@
+StartChar: u1FB6E
+Encoding: 512 129902 211
+Width: 420
+Flags: HMW
+VStem: 0 420<-254 258>
+LayerCount: 2
+Fore
+SplineSet
+420 -254 m 1
+ 0 258 l 5
+ 420 770 l 1
+ 420 -254 l 1
+EndSplineSet
+Validated: 1
+EndChar

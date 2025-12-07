@@ -1,0 +1,18 @@
+StartChar: underscore
+Encoding: 63 95 22
+Width: 420
+VWidth: 1000
+Flags: W
+HStem: 0 70<40 380>
+LayerCount: 2
+Fore
+SplineSet
+40 70 m 1
+ 400 70 l 1
+ 380 0 l 1
+ 20 0 l 1
+ 40 70 l 1
+EndSplineSet
+Validated: 1
+Substitution2: "toHex subtable" underscore.hex
+EndChar

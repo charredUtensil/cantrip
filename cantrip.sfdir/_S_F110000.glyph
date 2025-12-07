@@ -1,0 +1,16 @@
+StartChar: SF110000
+Encoding: 340 9474 490
+Width: 420
+UnlinkRmOvrlpSave: 1
+VStem: 175 70<-254 770>
+LayerCount: 2
+Fore
+SplineSet
+175 -274 m 1
+ 175 770 l 1
+ 245 790 l 1
+ 245 -254 l 1
+ 175 -274 l 1
+EndSplineSet
+Validated: 1
+EndChar

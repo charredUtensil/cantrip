@@ -1,0 +1,25 @@
+StartChar: D
+Encoding: 36 68 60
+Width: 420
+Flags: W
+HStem: -60 90<135 206.297> 590 90<135 219.013>
+VStem: 40 95<30 590> 295 95<170.258 501.748>
+LayerCount: 2
+Fore
+SplineSet
+135 30 m 5
+ 275 30 295 211 295 351 c 4
+ 295 483 267 590 135 590 c 5
+ 135 30 l 5
+135 -60 m 5
+ 40 -80 l 5
+ 40 660 l 5
+ 135 680 l 5
+ 316 680 390 532 390 351 c 4
+ 390 162 324 -60 135 -60 c 5
+EndSplineSet
+Validated: 1
+Substitution2: "proportional1 subtable" D.proportional
+Substitution2: "toSprawl subtable" D.sprawl.nw
+Substitution2: "toHex subtable" D.hex
+EndChar

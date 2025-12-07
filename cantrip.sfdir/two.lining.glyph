@@ -1,0 +1,25 @@
+StartChar: two.lining
+Encoding: 569 -1 344
+Width: 420
+VWidth: 1000
+Flags: HW
+HStem: -60 90<190 350> 590 90<105.751 255.92>
+VStem: 280 90<341.099 564.94>
+LayerCount: 2
+Fore
+SplineSet
+39 521 m 1
+ 82 656 151 680 201 680 c 0
+ 319 680 370 584 370 484 c 0
+ 370 303 270 133 190 30 c 1
+ 370 30 l 1
+ 350 -60 l 1
+ 50 -60 l 1
+ 70 30 l 1
+ 191 168 280 331 280 464 c 0
+ 280 554 249 590 201 590 c 0
+ 160 590 137 557 116 496 c 1
+ 39 521 l 1
+EndSplineSet
+Validated: 1
+EndChar

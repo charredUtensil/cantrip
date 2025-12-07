@@ -1,0 +1,29 @@
+StartChar: seven.lining
+Encoding: 574 -1 349
+Width: 420
+VWidth: 1000
+Flags: MW
+HStem: 340 90<173 231 335 366> 590 90<70 276>
+VStem: 50 330
+DStem2: 156 -80 246 -60 0.175791 0.984428<35.5097 426.644 533.525 680.661>
+LayerCount: 2
+Fore
+SplineSet
+276 590 m 1
+ 50 590 l 1
+ 70 680 l 1
+ 380 680 l 1
+ 335 430 l 1
+ 383 430 l 1
+ 366 340 l 1
+ 318 340 l 1
+ 246 -60 l 1
+ 156 -80 l 1
+ 231 340 l 1
+ 156 340 l 1
+ 173 430 l 1
+ 247 430 l 1
+ 276 590 l 1
+EndSplineSet
+Validated: 1
+EndChar

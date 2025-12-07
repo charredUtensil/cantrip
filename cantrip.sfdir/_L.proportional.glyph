@@ -1,0 +1,17 @@
+StartChar: L.proportional
+Encoding: 550 -1 277
+Width: 350
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+40 670 m 1
+ 135 690 l 1
+ 135 30 l 1
+ 340 30 l 1
+ 320 -60 l 1
+ 40 -60 l 1
+ 40 670 l 1
+EndSplineSet
+Validated: 1
+EndChar

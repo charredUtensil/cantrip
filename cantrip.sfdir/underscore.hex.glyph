@@ -1,0 +1,16 @@
+StartChar: underscore.hex
+Encoding: 535 -1 238
+Width: 420
+VWidth: 1000
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+80 70 m 1
+ 360 70 l 1
+ 340 0 l 1
+ 60 0 l 1
+ 80 70 l 1
+EndSplineSet
+Validated: 1
+EndChar

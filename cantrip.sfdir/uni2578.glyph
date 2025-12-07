@@ -1,0 +1,19 @@
+StartChar: uni2578
+Encoding: 447 9592 500
+Width: 420
+VWidth: 1000
+UnlinkRmOvrlpSave: 1
+Flags: W
+HStem: 260 110<0 245>
+VStem: -20 285
+LayerCount: 2
+Fore
+SplineSet
+0 370 m 1
+ 265 370 l 1
+ 245 260 l 1
+ -20 260 l 5
+ 0 370 l 1
+EndSplineSet
+Validated: 1
+EndChar

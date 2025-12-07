@@ -1,0 +1,25 @@
+StartChar: r.midthin
+Encoding: 539 -1 247
+Width: 330
+VWidth: 1000
+Flags: W
+HStem: -20 21G<55 135> 350 70<160.599 295.075> 413 20G<59.9677 115.5>
+VStem: 55 80<0 324.087>
+LayerCount: 2
+Fore
+SplineSet
+33 402 m 5xd0
+ 109 433 l 1xb0
+ 122 417 126 405 129 393 c 1
+ 143 403 175 420 223 420 c 0
+ 265 420 293 411 315 398 c 1
+ 288 336 l 1
+ 268 347 254 350 233 350 c 0
+ 180 350 135 323 135 275 c 2
+ 135 0 l 1
+ 55 -20 l 5
+ 55 291 l 6
+ 55 360 49 378 33 402 c 5xd0
+EndSplineSet
+Validated: 1
+EndChar

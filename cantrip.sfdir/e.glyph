@@ -1,0 +1,29 @@
+StartChar: e
+Encoding: 69 101 18
+Width: 420
+VWidth: 1000
+Flags: W
+HStem: -10 70<151.958 321.886> 350 70<156.597 297.495>
+VStem: 30 75<161.873 293.405> 315 75<238.392 331.673>
+LayerCount: 2
+Fore
+SplineSet
+137 98 m 1
+ 154 75 177 60 229 60 c 0
+ 299 60 334 87 372 117 c 1
+ 406 71 l 1
+ 353 24 305 -10 231 -10 c 0
+ 97 -10 30 100 30 207 c 0
+ 30 318 101 420 227 420 c 0
+ 316 420 390 369 390 295 c 0
+ 390 191 243 111 137 98 c 1
+315 288 m 0
+ 315 329 276 350 229 350 c 0
+ 141 350 105 278 105 209 c 0
+ 105 194 107 177 110 161 c 1
+ 200 169 315 219 315 288 c 0
+EndSplineSet
+Validated: 1
+Substitution2: "toCursive subtable" e.cursive
+Substitution2: "toHex subtable" e.hex
+EndChar

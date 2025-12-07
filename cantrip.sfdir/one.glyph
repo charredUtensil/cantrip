@@ -1,0 +1,26 @@
+StartChar: one
+Encoding: 17 49 76
+Width: 420
+VWidth: 1000
+Flags: W
+HStem: 0 70<80 170 245 340>
+VStem: 170 75<70 354>
+LayerCount: 2
+Fore
+SplineSet
+90 400 m 5
+ 245 440 l 5
+ 245 70 l 5
+ 360 70 l 5
+ 340 0 l 5
+ 60 0 l 5
+ 80 70 l 5
+ 170 70 l 5
+ 170 354 l 5
+ 70 330 l 5
+ 90 400 l 5
+EndSplineSet
+Validated: 1
+Substitution2: "toHex subtable" one.hex
+Substitution2: "lining subtable" one.lining
+EndChar

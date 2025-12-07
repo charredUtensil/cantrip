@@ -1,0 +1,9 @@
+StartChar: ncaron
+Encoding: 261 328 328
+Width: 420
+Flags: H
+LayerCount: 2
+Fore
+Refer: 261 711 N 1 0 0 1 0 -140 2
+Refer: 0 110 N 1 0 0 1 0 0 2
+EndChar

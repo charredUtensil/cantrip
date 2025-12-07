@@ -1,0 +1,28 @@
+StartChar: A.sprawl.s.wide
+Encoding: 479 -1 85
+Width: 600
+Flags: MW
+HStem: 270 90<258 360>
+DStem2: 40 -190 135 -170 0.225727 0.974191<40.9279 492.596 585.013 806.725> 380 690 285 670 0.236352 -0.971668<0 24.8694 93.7528 315.923 408.573 758.557>
+LayerCount: 2
+Fore
+SplineSet
+285 670 m 1
+ 380 690 l 1
+ 560 -50 l 1
+ 465 -70 l 1
+ 382 270 l 1
+ 237 270 l 1
+ 135 -170 l 1
+ 40 -190 l 1
+ 230 630 l 1
+ 292 643 l 1
+ 285 670 l 1
+308 576 m 1
+ 258 360 l 1
+ 360 360 l 1
+ 308 576 l 1
+EndSplineSet
+Validated: 1
+Substitution2: "proportional1 subtable" A.proportional
+EndChar

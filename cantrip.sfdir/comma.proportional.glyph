@@ -1,0 +1,17 @@
+StartChar: comma.proportional
+Encoding: 558 -1 285
+Width: 260
+VWidth: 1000
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+72 46 m 0
+ 72 82 94 108 130 108 c 0
+ 166 108 187 82 187 46 c 0
+ 187 6 148 -120 112 -170 c 1
+ 36 -190 l 1
+ 56 -154 72 -6 72 46 c 0
+EndSplineSet
+Validated: 1
+EndChar

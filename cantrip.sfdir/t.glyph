@@ -1,0 +1,37 @@
+StartChar: t
+Encoding: 84 116 187
+Width: 420
+VWidth: 1000
+Flags: HW
+HStem: -5 70<183.195 390.087> 349 71<64 103 178 303> 620 70<50 101.733>
+VStem: 103 75<73.5743 349 420 619.292>
+LayerCount: 2
+Fore
+SplineSet
+178 105 m 2
+ 178 73 215 65 230 65 c 0
+ 268 65 350 71 386 80 c 1
+ 405 15 l 1
+ 361 2 241 -5 190 -5 c 0
+ 145 -5 103 46 103 73 c 2
+ 103 349 l 5
+ 54 349 l 5
+ 64 420 l 5
+ 103 420 l 5
+ 103 548 l 2
+ 103 584 102 605 99 620 c 1
+ 30 620 l 1
+ 50 690 l 1
+ 152 690 l 1
+ 164 675 178 652 178 570 c 2
+ 178 420 l 5
+ 313 420 l 5
+ 303 349 l 5
+ 178 349 l 5
+ 178 105 l 2
+EndSplineSet
+Validated: 1
+Substitution2: "proportional1 subtable" t.midthin
+Substitution2: "midden subtable" t.midthin
+Substitution2: "toCursive subtable" t.cursive
+EndChar

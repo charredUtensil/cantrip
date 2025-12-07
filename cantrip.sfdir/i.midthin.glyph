@@ -1,0 +1,33 @@
+StartChar: i.midthin
+Encoding: 502 -1 192
+Width: 330
+VWidth: 1000
+Flags: MW
+HStem: -5 70<167.5 305.595> 330 70<60 123.733>
+VStem: 125 75<73.5743 328.59>
+LayerCount: 2
+Fore
+SplineSet
+158 454 m 0
+ 129 454 110 481 110 510 c 0
+ 110 538 130 562 158 562 c 0
+ 185 562 205 537 205 510 c 0
+ 205 481 187 454 158 454 c 0
+125 73 m 2
+ 125 258 l 2
+ 125 294 124 315 121 330 c 1
+ 40 330 l 1
+ 60 400 l 1
+ 174 400 l 1
+ 186 385 200 362 200 280 c 2
+ 200 105 l 2
+ 200 73 215 65 230 65 c 0
+ 268 65 265 71 301 80 c 1
+ 320 15 l 1
+ 276 2 241 -5 190 -5 c 0
+ 145 -5 125 46 125 73 c 2
+EndSplineSet
+Validated: 1
+Substitution2: "proportional1 subtable" i.thin
+Substitution2: "narrow subtable" i.thin
+EndChar

@@ -1,0 +1,343 @@
+@font-face {
+  font-family: 'cantrip_mono_demo';
+  src: url(../cantrip_mono.woff2);
+}
+
+body {
+  font-family: 'cantrip_mono_demo';
+  font-size: 24px;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.content {
+  padding: 1em 0;
+}
+
+.content > * {
+  max-width: 788px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.right .features-pane {
+  position: absolute;
+  right: 0;
+  width: 80px;
+  background: white;
+  padding: 24px 0 24px 24px;
+  border-radius: 24px 0 0 24px;
+}
+
+.parallaxWrapper {
+  clip-path: border-box;
+}
+
+.parallax {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  pointer-events: none;
+}
+
+.titleText {
+  text-align: center;
+  font-size: calc(min(30vh, 15vw));
+  line-height: 100vh;
+}
+.subtitleText {
+  position: absolute;
+  text-align: center;
+  top: calc(50% + min(30vh, 15vw) / 2);
+  width: 100%;
+}
+
+.title1 {
+  height: 100vh;
+  background: #2E2D4D;
+  color: white;
+}
+
+.title2 {
+  height: 30vh;
+  background: #F4D35E;
+  color: black;
+}
+
+.title3 {
+  height: 30vh;
+  background: black;
+  color: #2FBF71;
+  text-shadow: 0 0 10px #2FBF71;
+}
+
+.title4 {
+  height: 30vh;
+  background: #2E2D4D;
+  color: white;
+}
+
+#intro {
+  background: white;
+  color: black;
+}
+
+#why {
+  background: #064789;
+  color: white;
+}
+
+#texture-healing {
+  background: #F4D35E;
+  color: black;
+}
+
+#alts {
+  background: #39A0ED;
+  color: black;
+}
+
+#i18n {
+  background: #32533D;
+  color: white;
+}
+
+#cursive {
+  background: #56E39F;
+  color: black;
+}
+
+#proportional {
+  background: #CB04A5;
+  color: white;
+}
+
+#numerals {
+  background: #DA4167;
+  color: white;
+}
+
+#bugs {
+  background: #C5283D;
+  color: white;
+}
+
+#why a, #i18n a {
+  color: #bad9f7;
+}
+
+.sample {
+  background: #222;
+  color: #fff;
+  border-radius: 12px;
+  padding: 1em;
+  overflow: hidden;
+}
+
+.columns {
+  display: flex;
+  gap: 1em;
+  justify-content: space-between;
+}
+
+.small {
+  font-size: 16px;
+}
+
+.smaller {
+  font-size: 11pt;
+}
+
+.pre {
+  white-space: pre;
+}
+
+.token.keyword {
+  color: #ff79c6;
+}
+
+.token.function {
+  color: #50fa7b;
+}
+
+.token.string {
+  color: #f1fa8c;
+}
+
+.token.template-string {
+  color: #e2a13f;
+}
+
+.token.punctuation {
+  color: #8be9fd;
+}
+
+.token.operator {
+  color: #ff79c6;
+}
+
+.token.parameter,
+.token.interpolation-punctuation,
+.token.interpolation {
+  color: #f8f8f2;
+}
+
+.token.classname {
+  color: #ffb86c;
+}
+
+.token.constant {
+  color: #bd93f9;
+}
+
+.token.css {
+  color: #50fa7b;
+}
+
+.token.number {
+  color: #bd93f9;
+}
+
+.token.comment {
+  color: #6272a4;
+}
+
+.clear-features {
+  --font-feature-calt: 0;
+  --font-feature-lnum: 0;
+  --font-feature-ss01: 0;
+  --font-feature-ss02: 0;
+  --font-feature-ss03: 0;
+  --font-feature-ss08: 0;
+  --font-feature-ss16: 0;
+}
+
+.calt {
+  --font-feature-calt: 1;
+}
+
+.no-calt {
+  --font-feature-calt: 0;
+}
+
+.lnum {
+  --font-feature-lnum: 1;
+}
+
+.no-lnum {
+  --font-feature-lnum: 0;
+}
+
+.ss01 {
+  --font-feature-ss01: 1;
+}
+
+.no-ss01 {
+  --font-feature-ss01: 0;
+}
+
+.ss02 {
+  --font-feature-ss02: 1;
+}
+
+.no-ss02 {
+  --font-feature-ss02: 0;
+}
+
+.ss03 {
+  --font-feature-ss03: 1;
+}
+
+.no-ss03 {
+  --font-feature-ss03: 0;
+}
+
+.ss08 {
+  --font-feature-ss08: 1;
+}
+
+.no-ss08 {
+  --font-feature-ss08: 0;
+}
+
+.ss16 {
+  --font-feature-ss16: 1;
+}
+
+.no-ss16 {
+  --font-feature-ss16: 0;
+}
+
+body, .clear-features,
+.calt, .no-calt,
+.lnum, .no-lnum,
+.ss01, .no-ss01,
+.ss02, .no-ss02,
+.ss03, .no-ss03,
+.ss08, .no-ss08,
+.ss16, .no-ss16 {
+  font-feature-settings: 
+    "calt" var(--font-feature-calt),
+    "lnum" var(--font-feature-lnum),
+    "ss01" var(--font-feature-ss01),
+    "ss02" var(--font-feature-ss02),
+    "ss02" var(--font-feature-ss03),
+    "ss08" var(--font-feature-ss08),
+    "ss16" var(--font-feature-ss16);
+}
+
+
+@media screen and (max-width: 1080px) {
+  .content > * {
+    max-width: 788px;
+    margin-left: 24px;
+    margin-right: 120px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .sample {
+    margin-left: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .columns {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .content > * {
+    margin-right: 24px;
+  }
+  .right .features-pane {
+    display: none;
+  }
+  .sample {
+    margin-right: 0;
+    border-radius: 0;
+  }
+}

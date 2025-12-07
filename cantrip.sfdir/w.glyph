@@ -1,0 +1,42 @@
+StartChar: w
+Encoding: 87 119 30
+Width: 420
+VWidth: 1000
+Flags: HMW
+HStem: -10 70<124.608 167.79 248.103 292.197 353.5 399.252>
+VStem: 50 65<63.8454 400.886> 176 65<61.3332 310> 305 65<69.5303 420>
+LayerCount: 2
+Fore
+SplineSet
+137 -10 m 0
+ 68 -10 50 50 50 157 c 1
+ 50 291 l 1
+ 50 360 44 378 28 402 c 1
+ 99 433 l 1
+ 112 417 115 375 115 323 c 2
+ 115 158 l 2
+ 115 75 134 60 149 60 c 0
+ 169 60 176 113 176 141 c 2
+ 176 310 l 1
+ 241 310 l 1
+ 241 180 l 2
+ 241 97 247 60 266 60 c 0
+ 287 60 305 97 305 145 c 2
+ 305 420 l 1
+ 370 420 l 1
+ 370 336 l 0
+ 370 283 l 2
+ 370 56 370 56 380 56 c 0
+ 388 56 390 58 397 65 c 1
+ 420 29 l 1
+ 405 12 381 -5 360 -5 c 0
+ 347 -5 325 7 316 12 c 1
+ 304 -2 289 -10 258 -10 c 0
+ 222 -10 201 -4 189 10 c 1
+ 174 -2 156 -10 137 -10 c 0
+EndSplineSet
+Validated: 1
+Substitution2: "proportional1 subtable" w.wide
+Substitution2: "midden subtable" w.midwide
+Substitution2: "widen subtable" w.wide
+EndChar

@@ -1,0 +1,20 @@
+StartChar: Tcaron
+Encoding: 289 356 341
+Width: 420
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+20 560 m 1
+ 420 560 l 1
+ 400 470 l 1
+ 255 470 l 1
+ 255 -60 l 1
+ 160 -80 l 1
+ 160 470 l 1
+ 0 470 l 1
+ 20 560 l 1
+EndSplineSet
+Refer: 261 711 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar

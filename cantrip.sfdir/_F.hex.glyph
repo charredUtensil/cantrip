@@ -1,0 +1,24 @@
+StartChar: F.hex
+Encoding: 534 -1 237
+Width: 420
+Flags: W
+HStem: 120 70<135 300> 350 70<135 350>
+VStem: 60 75<-170 120 190 350>
+LayerCount: 2
+Fore
+SplineSet
+135 120 m 1
+ 135 -170 l 1
+ 60 -190 l 1
+ 60 400 l 1
+ 135 420 l 1
+ 360 420 l 1
+ 350 350 l 1
+ 135 350 l 1
+ 135 190 l 1
+ 300 190 l 1
+ 300 120 l 1
+ 135 120 l 1
+EndSplineSet
+Validated: 1
+EndChar

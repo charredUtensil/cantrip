@@ -1,0 +1,21 @@
+StartChar: logicalnot
+Encoding: 106 172 448
+Width: 420
+VWidth: 1000
+Flags: HW
+HStem: 280 70<80 285>
+VStem: 285 75<210 280>
+LayerCount: 2
+Fore
+SplineSet
+285 280 m 1
+ 60 280 l 1
+ 80 350 l 1
+ 285 350 l 1
+ 360 340 l 1
+ 360 190 l 5
+ 285 210 l 1
+ 285 280 l 1
+EndSplineSet
+Validated: 1
+EndChar

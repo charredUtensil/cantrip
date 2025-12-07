@@ -1,0 +1,26 @@
+StartChar: W.wide.alt
+Encoding: 490 -1 107
+Width: 600
+Flags: W
+HStem: 670 20G<465 560>
+VStem: 40 95<92 630> 465 95<97 670>
+LayerCount: 2
+Fore
+SplineSet
+40 630 m 5
+ 135 650 l 5
+ 135 92 l 5
+ 260 291 l 5
+ 340 311 l 5
+ 465 97 l 5
+ 465 670 l 5
+ 560 690 l 5
+ 560 -50 l 5
+ 465 -70 l 5
+ 305 191 l 5
+ 135 -90 l 5
+ 40 -110 l 5
+ 40 630 l 5
+EndSplineSet
+Validated: 1
+EndChar

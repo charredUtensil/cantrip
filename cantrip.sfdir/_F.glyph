@@ -1,0 +1,27 @@
+StartChar: F
+Encoding: 38 70 44
+Width: 420
+Flags: W
+HStem: 340 90<135 340> 590 90<135 400>
+VStem: 40 95<-60 340 430 590>
+LayerCount: 2
+Fore
+SplineSet
+135 340 m 1
+ 135 -60 l 1
+ 40 -80 l 1
+ 40 590 l 1
+ 40 660 l 1
+ 135 680 l 1
+ 420 680 l 1
+ 400 590 l 1
+ 135 590 l 1
+ 135 430 l 1
+ 340 430 l 1
+ 340 340 l 1
+ 135 340 l 1
+EndSplineSet
+Validated: 1
+Substitution2: "toSprawlAlt subtable" F.sprawl.e
+Substitution2: "toHex subtable" F.hex
+EndChar

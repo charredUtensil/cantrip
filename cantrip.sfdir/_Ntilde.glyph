@@ -1,0 +1,13 @@
+StartChar: Ntilde
+Encoding: 142 209 153
+Width: 420
+Flags: HMW
+HStem: 620 60<233.802 340.246> 690 60<79.7537 186.198>
+VStem: 40 95<-60 350> 60 300 285 95<150 580>
+DStem2: 135 570 135 350 0.336336 -0.941742<207.183 445.982>
+LayerCount: 2
+Fore
+Refer: 301 -1 N 1 0 0 1 0 0 2
+Refer: 100 126 N 1 0 0 1 0 370 2
+Validated: 1
+EndChar

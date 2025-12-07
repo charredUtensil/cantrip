@@ -1,0 +1,24 @@
+StartChar: C.sprawl.e
+Encoding: 500 -1 186
+Width: 420
+Flags: HW
+HStem: -170 90<248.665 433.723> -59 20G<452 481.667> 590 90<244.054 416.728>
+VStem: 30 95<113.617 435.003>
+LayerCount: 2
+Fore
+SplineSet
+305 590 m 31
+ 167 590 125 466 125 298 c 7
+ 125 42 176 -80 322 -80 c 7
+ 388 -80 439 -61 465 -39 c 5
+ 520 -105 l 5
+ 483 -142 402 -170 322 -170 c 31
+ 107 -170 30 -27 30 298 c 7
+ 30 526 117 680 305 680 c 31
+ 384 680 465 641 500 609 c 5
+ 459 532 l 5
+ 426 556 367 590 305 590 c 31
+EndSplineSet
+Validated: 1
+Substitution2: "proportional1 subtable" C.sprawl.e.proportional
+EndChar

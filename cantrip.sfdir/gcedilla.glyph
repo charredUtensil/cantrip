@@ -1,0 +1,20 @@
+StartChar: gcedilla
+Encoding: 224 291 401
+Width: 420
+Flags: H
+LayerCount: 2
+Fore
+SplineSet
+284 569 m 1
+ 284 569 273 569 231 569 c 3
+ 224 569 210 563 210 546 c 3
+ 210 523 220 497 240 471 c 1
+ 175 441 l 1
+ 158 466 135 514 135 556 c 3
+ 135 609 158 639 221 639 c 3
+ 271 639 304 639 304 639 c 1
+ 284 569 l 1
+EndSplineSet
+Refer: 17 103 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar

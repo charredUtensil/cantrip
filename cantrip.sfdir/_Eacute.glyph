@@ -1,0 +1,13 @@
+StartChar: Eacute
+Encoding: 134 201 157
+Width: 420
+UnlinkRmOvrlpSave: 1
+Flags: W
+HStem: -60 90<135 370> 250 90<135 340> 470 90<135 370> 548 186
+VStem: 40 95<30 250 340 470> 105 209
+LayerCount: 2
+Fore
+Refer: 104 -1 N 1 0 0 1 0 0 2
+Refer: 118 180 N 1 0 0 1 0 0 2
+Validated: 5
+EndChar

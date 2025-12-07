@@ -1,0 +1,13 @@
+StartChar: Ecircumflex
+Encoding: 135 202 158
+Width: 420
+Flags: HW
+HStem: -60 90<135 370> 220 90<135 340> 470 90<135 370>
+VStem: 40 95<30 220 310 470>
+DStem2: 70 623 139 596 0.716995 0.697078<30.6515 157.938> 283 736 230 685 0.500153 -0.865937<17.6547 119.365>
+LayerCount: 2
+Fore
+Refer: 56 94 N 1 0 0 1 0 0 2
+Refer: 104 -1 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar

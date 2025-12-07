@@ -1,0 +1,25 @@
+StartChar: F.sprawl.e
+Encoding: 555 -1 282
+Width: 420
+Flags: HW
+HStem: 340 90<135 390> 590 90<135 450>
+VStem: 40 95<-60 340 430 590>
+LayerCount: 2
+Fore
+SplineSet
+135 340 m 1
+ 135 -60 l 1
+ 40 -80 l 1
+ 40 590 l 1
+ 40 660 l 1
+ 135 680 l 1
+ 470 680 l 1
+ 450 590 l 1
+ 135 590 l 1
+ 135 430 l 1
+ 390 430 l 1
+ 390 340 l 1
+ 135 340 l 1
+EndSplineSet
+Validated: 1
+EndChar

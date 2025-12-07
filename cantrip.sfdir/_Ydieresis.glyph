@@ -1,0 +1,12 @@
+StartChar: Ydieresis
+Encoding: 309 376 260
+Width: 420
+Flags: HMW
+VStem: 160 95<-170 69.8667>
+DStem2: 135 560 40 540 0.233373 -0.972387<0 300.468> 210 269 255 60 0.242536 0.970143<0 319.904>
+LayerCount: 2
+Fore
+Refer: 440 -1 N 1 0 0 1 0 0 2
+Refer: 117 168 N 1 0 0 1 0 148 2
+Validated: 1
+EndChar

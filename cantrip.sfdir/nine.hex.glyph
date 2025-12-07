@@ -1,0 +1,12 @@
+StartChar: nine.hex
+Encoding: 522 -1 225
+Width: 420
+VWidth: 1000
+Flags: HW
+HStem: -10 70<161.369 238.421> 350 70<162.613 260.362>
+VStem: 60 75<88.1208 322.919> 285 75<79.4205 326.092>
+LayerCount: 2
+Fore
+Refer: 88 57 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar

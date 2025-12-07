@@ -1,0 +1,25 @@
+StartChar: .notdef
+Encoding: 497 1114109 165
+Width: 420
+Flags: HMW
+VStem: 180 60<300 300>
+LayerCount: 2
+Fore
+SplineSet
+240 239 m 27
+ 240 256 227 270 210 270 c 27
+ 193 270 180 256 180 239 c 27
+ 180 223 194 210 210 210 c 27
+ 226 210 240 223 240 239 c 27
+180 410 m 1
+ 180 300 l 1
+ 240 300 l 1
+ 240 410 l 1
+ 180 410 l 1
+210 508 m 1
+ 380 190 l 1
+ 40 190 l 1
+ 210 508 l 1
+EndSplineSet
+Validated: 1
+EndChar

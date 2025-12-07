@@ -1,0 +1,24 @@
+StartChar: Y.sprawl.nwne
+Encoding: 538 -1 243
+Width: 420
+Flags: MW
+HStem: 670 20G<355 450>
+VStem: 160 95<-60 150>
+DStem2: 65 670 -30 650 0.355218 -0.934784<0 407.659> 210 289 255 170 0.376377 0.926467<0 407.558>
+LayerCount: 2
+Fore
+SplineSet
+-30 650 m 1
+ 65 670 l 1
+ 210 289 l 1
+ 355 670 l 1
+ 450 690 l 1
+ 450 650 l 1
+ 255 170 l 1
+ 255 -60 l 1
+ 160 -80 l 1
+ 160 150 l 1
+ -30 650 l 1
+EndSplineSet
+Validated: 1
+EndChar
