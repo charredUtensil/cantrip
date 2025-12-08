@@ -3,10 +3,11 @@ Encoding: 288 355 333
 Width: 420
 VWidth: 1000
 UnlinkRmOvrlpSave: 1
-Flags: HW
+Flags: W
+HStem: -169 70<140 211.597> -5 70<183.195 390.087> 349 71<64 103 178 303> 620 70<50 101.733>
+VStem: 103 75<73.5743 349 420 618.59> 214 75<-98.4987 -12.352>
 LayerCount: 2
 Fore
 Refer: 178 184 N 1 0 0 1 0 0 2
 Refer: 187 116 N 1 0 0 1 0 0 2
-Validated: 5
 EndChar

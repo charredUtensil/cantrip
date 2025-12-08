@@ -2,20 +2,19 @@ StartChar: uni257F
 Encoding: 454 9599 513
 Width: 420
 UnlinkRmOvrlpSave: 1
-Flags: H
+VStem: 155 110<280 770> 175 70<-254 280>
 LayerCount: 2
 Fore
 SplineSet
-155 260 m 1
+155 260 m 1x80
  155 770 l 1
  265 790 l 1
  265 280 l 1
- 155 260 l 1
-175 -274 m 1
+ 155 260 l 1x80
+175 -274 m 1x40
  175 280 l 5
  245 300 l 5
  245 -254 l 1
- 175 -274 l 1
+ 175 -274 l 1x40
 EndSplineSet
-Validated: 5
 EndChar

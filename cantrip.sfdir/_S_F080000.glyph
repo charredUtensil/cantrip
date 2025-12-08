@@ -2,10 +2,10 @@ StartChar: SF080000
 Encoding: 362 9500 495
 Width: 420
 UnlinkRmOvrlpSave: 1
-Flags: H
+HStem: 280 70<195 420>
+VStem: 175 70<-254 770> 175 265
 LayerCount: 2
 Fore
 Refer: 487 9590 N 1 0 0 1 0 0 2
 Refer: 490 9474 N 1 0 0 1 0 0 2
-Validated: 5
 EndChar

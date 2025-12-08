@@ -2,10 +2,10 @@ StartChar: uni2523
 Encoding: 369 9507 528
 Width: 420
 UnlinkRmOvrlpSave: 1
-Flags: H
+HStem: 260 110<175 420>
+VStem: 155 110<-254 770> 155 285
 LayerCount: 2
 Fore
 Refer: 502 9594 N 1 0 0 1 0 0 2
 Refer: 521 9475 N 1 0 0 1 0 0 2
-Validated: 5
 EndChar

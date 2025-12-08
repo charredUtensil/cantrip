@@ -2,7 +2,9 @@ StartChar: ogonek
 Encoding: 321 731 304
 Width: 420
 VWidth: 1000
-Flags: HW
+Flags: W
+HStem: -169 70<208.403 280>
+VStem: 131 75<-98.4987 3.64187>
 LayerCount: 2
 Fore
 SplineSet

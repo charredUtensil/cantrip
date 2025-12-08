@@ -2,7 +2,7 @@ StartChar: Agrave
 Encoding: 125 192 149
 Width: 420
 UnlinkRmOvrlpSave: 1
-Flags: HW
+Flags: W
 HStem: 170 90<176.967 244> 548 186
 VStem: 40 340 106 209
 DStem2: 40 -80 135 -60 0.130034 0.99151<32.1834 264.153 354.924 615.159> 300 590 205 570 0.124035 -0.992278<8.06226 29.7481 60.4049 320.506 411.175 644.981>
@@ -10,5 +10,4 @@ LayerCount: 2
 Fore
 Refer: 96 96 N 1 0 0 1 0 0 2
 Refer: 101 -1 N 1 0 0 1 0 0 2
-Validated: 5
 EndChar

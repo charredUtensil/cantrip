@@ -2,7 +2,8 @@ StartChar: SF020000
 Encoding: 354 9492 493
 Width: 420
 UnlinkRmOvrlpSave: 1
-Flags: H
+HStem: 280 70<245 420>
+VStem: 175 70<350 770>
 LayerCount: 2
 Fore
 SplineSet
@@ -17,5 +18,4 @@ SplineSet
  245 300 l 1
  175 280 l 1
 EndSplineSet
-Validated: 5
 EndChar

@@ -2,7 +2,8 @@ StartChar: uni2504
 Encoding: 342 9476 594
 Width: 420
 UnlinkRmOvrlpSave: 1
-Flags: HW
+Flags: W
+HStem: 280 70<30 110 170 250 310 390>
 LayerCount: 2
 Fore
 SplineSet
@@ -22,5 +23,4 @@ SplineSet
  290 280 l 5
  310 350 l 5
 EndSplineSet
-Validated: 1
 EndChar

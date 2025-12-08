@@ -3,7 +3,9 @@ Encoding: 442 9580 593
 Width: 420
 VWidth: 1000
 UnlinkRmOvrlpSave: 1
-Flags: HW
+Flags: W
+HStem: 210 70<0 155 315 420> 350 70<0 105 315 420>
+VStem: 105 70<-254 260 420 770> 245 70<-254 210 420 770>
 LayerCount: 2
 Fore
 SplineSet
@@ -48,5 +50,4 @@ SplineSet
  315 -254 l 1
  245 -274 l 1
 EndSplineSet
-Validated: 5
 EndChar

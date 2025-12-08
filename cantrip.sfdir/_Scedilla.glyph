@@ -2,10 +2,10 @@ StartChar: Scedilla
 Encoding: 283 350 311
 Width: 420
 UnlinkRmOvrlpSave: 1
-Flags: H
+HStem: -209 70<140 211.597> -80 90<137.416 253.357> 590 90<176.963 296.563>
+VStem: 60 95<441.604 567.857> 214 75<-138.499 -52.352> 295 95<62.0271 247.675>
 LayerCount: 2
 Fore
 Refer: 178 184 N 1 0 0 1 0 -40 2
 Refer: 189 83 N 1 0 0 1 0 0 2
-Validated: 5
 EndChar

@@ -2,10 +2,10 @@ StartChar: lcedilla
 Encoding: 249 316 414
 Width: 420
 UnlinkRmOvrlpSave: 1
-Flags: H
+HStem: -169 70<160 231.597> -5 70<187.5 390.207> 620 70<72 143.733>
+VStem: 145 75<73.5743 618.59> 234 75<-98.4987 -12.352>
 LayerCount: 2
 Fore
 Refer: 15 108 N 1 0 0 1 0 0 2
 Refer: 178 184 S 1 0 0 1 20 0 2
-Validated: 5
 EndChar

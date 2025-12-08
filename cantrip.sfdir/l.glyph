@@ -2,7 +2,7 @@ StartChar: l
 Encoding: 76 108 15
 Width: 420
 VWidth: 1000
-Flags: HW
+Flags: W
 HStem: -5 70<187.5 390.207> 620 70<72 143.733>
 VStem: 145 75<73.5743 618.59>
 LayerCount: 2
