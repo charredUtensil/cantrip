@@ -1,5 +1,5 @@
 StartChar: uni2578
-Encoding: 447 9592 500
+Encoding: 447 9592 497
 Width: 420
 VWidth: 1000
 UnlinkRmOvrlpSave: 1
@@ -15,4 +15,5 @@ SplineSet
  -20 260 l 5
  0 370 l 1
 EndSplineSet
+Validated: 1
 EndChar

@@ -1,13 +1,13 @@
 StartChar: H
 Encoding: 40 72 34
 Width: 420
-Flags: W
+Flags: HW
 HStem: -60 21G<285 380> 340 90<135 285> 670 20G<285 380>
 VStem: 40 95<-60 340 430 650> 285 95<-40 340 430 670>
 LayerCount: 2
 Fore
 SplineSet
-40 650 m 5
+40 650 m 1
  135 670 l 5
  135 430 l 5
  285 430 l 5
@@ -16,10 +16,10 @@ SplineSet
  380 -40 l 5
  285 -60 l 5
  285 340 l 5
- 135 340 l 5
- 135 -60 l 5
- 40 -80 l 5
- 40 650 l 5
+ 135 340 l 1
+ 135 -60 l 1
+ 40 -80 l 1
+ 40 650 l 1
 EndSplineSet
 Validated: 1
 Substitution2: "proportional1 subtable" H.proportional

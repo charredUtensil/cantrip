@@ -1,5 +1,5 @@
 StartChar: SF380000
-Encoding: 424 9562 575
+Encoding: 424 9562 572
 Width: 420
 VWidth: 1000
 UnlinkRmOvrlpSave: 1
@@ -30,4 +30,5 @@ SplineSet
  105 210 l 5
  125 280 l 5
 EndSplineSet
+Validated: 5
 EndChar

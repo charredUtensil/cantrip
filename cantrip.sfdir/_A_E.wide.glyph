@@ -1,0 +1,29 @@
+StartChar: AE.wide
+Encoding: 626 -1 626
+Width: 600
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+180 360 m 1
+ 520 360 l 1
+ 520 270 l 1
+ 160 270 l 1
+ 180 360 l 1
+220 630 m 1
+ 315 650 l 1
+ 135 -60 l 1
+ 40 -80 l 1
+ 220 630 l 1
+395 680 m 1
+ 570 680 l 1
+ 550 590 l 1
+ 395 590 l 1
+ 395 32 l 1
+ 570 32 l 1
+ 550 -58 l 1
+ 300 -58 l 1
+ 300 662 l 1
+ 395 680 l 1
+EndSplineSet
+EndChar

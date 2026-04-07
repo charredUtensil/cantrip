@@ -1,5 +1,5 @@
 StartChar: uni254F
-Encoding: 413 9551 596
+Encoding: 413 9551 593
 Width: 420
 UnlinkRmOvrlpSave: 1
 Flags: W
@@ -18,4 +18,5 @@ SplineSet
  265 -184 l 5
  155 -204 l 1
 EndSplineSet
+Validated: 1
 EndChar

@@ -72,7 +72,7 @@
 @digits = [A.hex B.hex C.hex D.hex E.hex F.hex X.hex a.hex b.hex c.hex d.hex e.hex eight eight.hex eight.lining f.hex five five.hex five.lining four four.hex four.lining nine nine.hex nine.lining one one.hex one.lining seven seven.hex seven.lining six six.hex six.lining three three.hex three.lining two two.hex two.lining underscore.hex x.hex zero zero.hex zero.lining];
 
 # Roughly bar shaped symbols (ascending + descending in the middle)
-@bars = [backslash bar braceleft braceright bracketleft bracketright brokenbar dagger daggerdbl florin parenleft parenright slash];
+@bars = [backslash bar bracedouble braceleft braceright bracketdouble bracketleft bracketright brokenbar dagger daggerdbl florin parendouble parenleft parenright slash];
 
 # Any punctuation
 @punctuation = [colon colon.proportional comma comma.proportional ellipsis exclam exclamdown period period.proportional question questiondown semicolon semicolon.proportional];
@@ -83,6 +83,7 @@
 ];
 
 @upper = [A A.proportional A.short A.sprawl.s A.sprawl.s.wide A.wide AE Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde B B.sprawl.nw C C.short C.sprawl.e C.sprawl.e.proportional C.sprawl.s Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D D.proportional D.sprawl.nw Dcaron Dcroat E E.short Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eng Eogonek Eth F F.sprawl.e G G.proportional G.short G.wide Gbreve Gcedilla Gcircumflex Gdotaccent H H.proportional Hbar Hcircumflex I I.midthin I.short IJ Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde J J.sprawl.s J.thin.sprawl.sw Jcircumflex K K.sprawl.se Kcedilla L L.proportional L.sprawl.s L.thin.sprawl.se Lacute Lcaron Lcedilla Ldot Lslash M M.wide N N.proportional N.short N.sprawl.s Nacute Ncaron Ncedilla Ntilde O O.short OE Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde P P.sprawl.nw Q Q.sprawl.se R R.short R.sprawl.nw R.sprawl.nwse R.sprawl.se Racute Rcaron Rcedilla S S.cursive S.cursive.wide S.short Sacute Scaron Scedilla Scircumflex T Tbar Tcaron Tcedilla Thorn U U.short Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde V V.proportional V.sprawl.nwne V.sprawl.w W W.wide W.wide.alt Wcircumflex X X.sprawl.s Y Y.short Y.sprawl.nwne Y.sprawl.w Yacute Ycircumflex Ydieresis Z Z.short Z.sprawl.s Z.sprawl.se Zacute Zcaron Zdotaccent];
+@lining = [Euro.lining dollar.lining eight.lining five.lining four.lining nine.lining one.lining seven.lining six.lining sterling.lining three.lining two.lining yen.lining zero.lining];
 
 @lower = [a aacute abreve acircumflex adieresis ae agrave amacron aogonek aring atilde b c cacute ccaron ccedilla ccircumflex cdotaccent d dcaron dcroat dotlessi e e.cursive eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eng eogonek eth f f.cursive f.flourish.sw f.sprawl.sw g g.cursive gbreve gcedilla gcircumflex gdotaccent germandbls h hbar hcircumflex i i.midthin i.sprawl.w i.thin iacute ibreve icircumflex idieresis igrave ij imacron iogonek itilde j j.old1 j.sprawl.s j.thin j.thin.sprawl.sw jcircumflex k k.sprawl.se kcedilla kgreenlandic l l.midthin l.sprawl.w l.thin lacute lcaron lcedilla ldot longs lslash m m.midwide m.wide n nacute napostrophe ncaron ncedilla ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde p q q.sprawl.se r r.midthin racute rcaron rcedilla s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scedilla scircumflex t t.cursive t.cursive.before.i.thin t.cursive.before.t t.cursive.sprawl.e t.cursive.sprawl.se t.midthin tbar tcaron tcedilla thorn u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde v w w.midwide w.wide wcircumflex x y y.flourish.sw yacute ycircumflex ydieresis z z.sprawl.s z.sprawl.se zacute zcaron zdotaccent];
 @xHeight = [a ae c dcaron dotlessi e e.cursive eth germandbls kgreenlandic m m.midwide m.wide n o oe oslash r r.midthin s s.cursive s.cursive.alt s.cursive.sprawl.w u v w w.midwide w.wide x z];
@@ -132,16 +133,12 @@
   @B @C @D @E @F @I @H @J @K @N @P @R AE Eng
 ];
 @blocksSprawlE.tCursive = [
-  @upper @lower @digits @punctuation dollar Euro
+  @upper @lower @digits @punctuation @lining
 ];
 
 # Digit groups (order matters)
 @normalDigits = [
   zero one two three four five six seven eight nine
-];
-@liningDigits = [
-  zero.lining one.lining two.lining three.lining four.lining
-  five.lining six.lining seven.lining eight.lining nine.lining
 ];
 @hexDigits = [
   zero.hex one.hex two.hex three.hex four.hex
@@ -171,6 +168,8 @@ sub eight by eight.lining;
 sub nine by nine.lining;
 sub dollar by dollar.lining;
 sub Euro by Euro.lining;
+sub sterling by sterling.lining;
+sub yen by yen.lining;
 } lining;
 
 ###############################################################################
@@ -292,7 +291,7 @@ lookup toSprawlAlt {
   sub z                    by  z.sprawl.s           ;
 } toSprawlAlt;
 
-@blocksFirstCapSprawl = [@upper @liningDigits];
+@blocksFirstCapSprawl = [@upper @lining];
 lookup sprawl1 {
   ignore sub @blocksFirstCapSprawl  [A C J L N X Z]'                          ;
   ignore sub @lower                 [J j z]'                                  ;
@@ -378,15 +377,15 @@ lookup tw2 {
   @jt = [J J.sprawl.s j];
 
   # Sub immediate pairs.
-  # wj
+  # Wj
   sub
     [@wideUpperA @wideLowerA]' lookup widen
     @jt' lookup narrowJ;
-  # wi
+  # Wi
   sub
     [@wideUpperA @wideLowerA]' lookup widen
     @narrowA' lookup narrow;
-  # w'x
+  # W'x
   sub
     [@wideUpperA @wideLowerA]' lookup widen
     quotesingle' lookup narrow
@@ -400,7 +399,7 @@ lookup tw2 {
   sub
     [@narrowA @Lt]' lookup narrow
     @wideLowerA' lookup widen;
-  # x'w
+  # X'w
   sub
     [@upper @lower]
     quotesingle' lookup narrow
@@ -411,17 +410,17 @@ lookup tw2 {
   @skipBeforeJ = [a aacute abreve acircumflex adieresis ae agrave amacron aring atilde b c cacute ccaron ccircumflex cdotaccent d dcaron dcroat dotlessi e e.cursive eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eth germandbls h hbar hcircumflex i i.sprawl.w iacute ibreve icircumflex idieresis igrave imacron itilde kgreenlandic l l.sprawl.w lacute lcaron ldot lslash m n nacute napostrophe ncaron ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde r racute rcaron s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scircumflex t t.cursive t.cursive.before.t t.cursive.sprawl.e tbar tcaron u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uring utilde v w wcircumflex x z zacute zcaron zdotaccent @p thorn];
   @skipAfterL = [a aacute abreve acircumflex adieresis ae agrave amacron aring atilde b c cacute ccaron ccircumflex cdotaccent d dcaron dcroat dotlessi e e.cursive eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eth germandbls h hbar hcircumflex i i.sprawl.w iacute ibreve icircumflex idieresis igrave imacron itilde kgreenlandic l l.sprawl.w lacute lcaron ldot lslash m n nacute napostrophe ncaron ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde r racute rcaron s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scircumflex t t.cursive t.cursive.before.t t.cursive.sprawl.e tbar tcaron u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uring utilde v w wcircumflex x z zacute zcaron zdotaccent @q];
 
-  # wxj
+  # Wxj
   sub
     [@wideUpperA @wideLowerA]' lookup widen
      @skipBeforeJ
     @jt' lookup narrowJ;
-  # wxi
+  # Wxi
   sub
     [@wideUpperA @wideLowerA]' lookup widen
     @skip 
     @narrowA' lookup narrow;
-  # wx'x
+  # Wx'x
   sub
     [@wideUpperA @wideLowerA]' lookup widen
     @skip 
@@ -450,17 +449,17 @@ lookup tw2 {
     @skipAfterL 
     @wideLowerA' lookup widen;
 
-  # wxxj
+  # Wxxj
   sub
     [@wideUpperA @wideLowerA]' lookup widen
     @skip  @skipBeforeJ
     @jt' lookup narrowJ;
-  # wxi
+  # Wxi
   sub
     [@wideUpperA @wideLowerA]' lookup widen
     @skip @skip 
     @narrowA' lookup narrow;
-  # wxx'x
+  # Wxx'x
   sub
     [@wideUpperA @wideLowerA]' lookup widen
     @skip @skip 
@@ -698,6 +697,13 @@ lookup cursiveLigatures {
   sub t.cursive quotesingle.thin s.cursive by tquotesingles.cursive.thin;
 } cursiveLigatures;
 
+lookup liga {
+  sub T T by TT;
+  sub parenleft parenright by parendouble;
+  sub bracketleft bracketright by bracketdouble;
+  sub braceleft braceright by bracedouble;
+} liga;
+
 ###############################################################################
 # Feature Definitions (order here doesn't actually matter)                    #
 ###############################################################################
@@ -722,6 +728,15 @@ feature calt {
     lookup tw3;
     lookup tw4;
 } calt;
+
+feature liga {
+  script DFLT;
+    language dflt ;
+    lookup liga;
+  script latn;
+    language dflt ;
+    lookup liga;
+} liga;
 
 feature lnum {
   script DFLT;

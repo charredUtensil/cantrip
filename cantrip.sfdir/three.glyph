@@ -2,7 +2,7 @@ StartChar: three
 Encoding: 19 51 74
 Width: 420
 VWidth: 1000
-Flags: W
+Flags: MW
 HStem: -5 65<125.405 258.417> 200 60<178 259.964> 360 70<113.208 260.935>
 VStem: 275 75<276.58 344.419> 285 75<86.0718 186.614>
 LayerCount: 2

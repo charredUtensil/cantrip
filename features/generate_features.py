@@ -37,9 +37,9 @@ SYMBOLS = SYMBOLS_NUMBERSIGN + SYMBOLS_OVER + [
   'onequarter', 'onehalf', 'threequarters', 'guillemotleft', 'guillemotright',
 ]
 BARS = [
-  'bar', 'brokenbar', 'parenleft', 'parenright', 'bracketleft', 'bracketright', 
-  'braceleft', 'braceright', 'slash', 'backslash', 'dagger', 'daggerdbl',
-  'florin',
+  'bar', 'brokenbar', 'parenleft', 'parenright', 'parendouble', 'bracketleft',
+  'bracketright', 'bracketdouble', 'braceleft', 'braceright', 'bracedouble',
+  'slash', 'backslash', 'dagger', 'daggerdbl', 'florin',
 ]
 PUNCTUATION = [
   'colon', 'semicolon', 'period', 'comma', 'exclam', 'exclamdown', 'question',
@@ -63,6 +63,8 @@ LIGATURES = [
   'ii', 'll', 'tt', 'rr', 'mm', 'ww',
   'bs', 'gr', 'gs', 'is', 'ls', 'os', 'te', 'tr', 'ts',
   'tquotesingles',
+  'TT',
+  'parendouble', 'bracketdouble', 'bracedouble',
 ]
 WIDTH = [
   'wide', 'midwide', 'midthin', 'thin', 'proportional'
@@ -215,6 +217,7 @@ def get_defs(tagged_glyphs):
 ];
 
 @upper = [{t('upper')}];
+@lining = [{t('lining')}];
 
 @lower = [{t('lower')}];
 @xHeight = [{t('lower', '!tall', '!descending', '!accentOver', '!accentUnder')}];
@@ -264,16 +267,12 @@ def get_defs(tagged_glyphs):
   @B @C @D @E @F @I @H @J @K @N @P @R AE Eng
 ];
 @blocksSprawlE.tCursive = [
-  @upper @lower @digits @punctuation dollar Euro
+  @upper @lower @digits @punctuation @lining
 ];
 
 # Digit groups (order matters)
 @normalDigits = [
   zero one two three four five six seven eight nine
-];
-@liningDigits = [
-  zero.lining one.lining two.lining three.lining four.lining
-  five.lining six.lining seven.lining eight.lining nine.lining
 ];
 @hexDigits = [
   zero.hex one.hex two.hex three.hex four.hex
@@ -295,7 +294,7 @@ lookup lining {{
     '\n'.join(
     f'sub {n} by {n}.lining;'
     for n
-    in 'zero one two three four five six seven eight nine dollar Euro'.split())
+    in 'zero one two three four five six seven eight nine dollar Euro sterling yen'.split())
   }
 }} lining;
 
@@ -340,6 +339,7 @@ lookup afterHexify {{
 
 lookup toCursive {{
   sub e by e.cursive;
+  sub f by f.cursive;
   sub g by g.cursive;
   sub S by S.cursive;
   sub s by s.cursive;
@@ -351,6 +351,10 @@ lookup cursiveAlts {{
   sub  [g.cursive @tCursive]  e' lookup toCursive;
   sub  b s.cursive            e' lookup toCursive;
   sub  o s.cursive            e' lookup toCursive;
+
+  # f
+  sub @fCursive @f' lookup toCursive;
+  sub [@lowerNotTall @lowerLeftTall] [i l] @f' lookup toCursive;
 
   # g
   ignore sub g g';
@@ -366,8 +370,8 @@ lookup cursiveAlts {{
   sub S' lookup toCursive @lower;
 
   # t
-  @notBeforet  = [@d @f @l];
-  @beforet     = [@c @p @tCursive @sCursive @SCursive];
+  @notBeforet  = [@d {t('f', '!cursive')} @l];
+  @beforet     = [@c @fCursive @p @tCursive @sCursive @SCursive];
   @notAftert   = [@h @k @l @upper];
   @aftert      = [@r @s @w];
 
@@ -422,7 +426,7 @@ lookup toSprawlAlt {{
   sub z                    by  z.sprawl.s           ;
 }} toSprawlAlt;
 
-@blocksFirstCapSprawl = [@upper @liningDigits];
+@blocksFirstCapSprawl = [@upper @lining];
 lookup sprawl1 {{
   ignore sub @blocksFirstCapSprawl  [A C J L N X Z]'                          ;
   ignore sub @lower                 [J j z]'                                  ;
@@ -751,6 +755,13 @@ lookup cursiveLigatures {{
   sub t.cursive quotesingle.thin s.cursive by tquotesingles.cursive.thin;
 }} cursiveLigatures;
 
+lookup liga {{
+  sub T T by TT;
+  sub parenleft parenright by parendouble;
+  sub bracketleft bracketright by bracketdouble;
+  sub braceleft braceright by bracedouble;
+}} liga;
+
 ###############################################################################
 # Feature Definitions (order here doesn't actually matter)                    #
 ###############################################################################
@@ -775,6 +786,15 @@ feature calt {{
     lookup tw3;
     lookup tw4;
 }} calt;
+
+feature liga {{
+  script DFLT;
+    language dflt ;
+    lookup liga;
+  script latn;
+    language dflt ;
+    lookup liga;
+}} liga;
 
 feature lnum {{
   script DFLT;

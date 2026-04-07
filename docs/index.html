@@ -9,34 +9,34 @@
     <div class="right">
       <div class="features-pane">
         Features
-        <div>
+        <label for="calt-feature">
           <input type="checkbox" id="calt-feature" name="font-feature" value="calt" checked />
-          <label for="calt-feature">calt</label>
-        </div>
-        <div>
+          calt
+        </label>
+        <label for="lnum-feature">
           <input type="checkbox" id="lnum-feature" name="font-feature" value="lnum" />
-          <label for="lnum-feature">lnum</label>
-        </div>
-        <div>
+          lnum
+        </label>
+        <label for="ss01-feature">
           <input type="checkbox" id="ss01-feature" name="font-feature" value="ss01" />
-          <label for="ss01-feature">ss01</label>
-        </div>
-        <div>
+          ss01
+        </label>
+        <label for="ss02-feature">
           <input type="checkbox" id="ss02-feature" name="font-feature" value="ss02" />
-          <label for="ss02-feature">ss02</label>
-        </div>
-        <div>
+          ss02
+        </label>
+        <label for="ss03-feature">
           <input type="checkbox" id="ss03-feature" name="font-feature" value="ss03" />
-          <label for="ss03-feature">ss03</label>
-        </div>
-        <div>
+          ss03
+        </label>
+        <label for="ss08-feature">
           <input type="checkbox" id="ss08-feature" name="font-feature" value="ss08" />
-          <label for="ss08-feature">ss08</label>
-        </div>
-        <div>
+          ss08
+        </label>
+        <label for="ss16-feature">
           <input type="checkbox" id="ss16-feature" name="font-feature" value="ss16" />
-          <label for="ss16-feature">ss16</label>
-        </div>
+          ss16
+        </label>
       </div>
     </div>
     <div class="main">
@@ -83,6 +83,7 @@
           !@#$%^&amp;*()-=_+[]{}/\|
           Witaj świecie Gött mos
           &pound;&euro;&yen;
+          :(){ :|:&amp; };:
         </p>
         <div class="sample columns no-ss08">
 <div class="pre smaller"><span class="token keyword">function</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
@@ -216,7 +217,7 @@
           will always be seven times the width of a single letter, but the
           individual letters might be shifted to produce a more legible
           outcome. Think of it like reverse-kerning. Instead of adjusting the
-          space between letters, it adjusts the letter widths themseleves!
+          space between letters, it adjusts the letter widths themselves!
         </p>
         <p class="sample">
           My Mission: min-max whimsy with calming pairs conjoined in Majestic
@@ -258,12 +259,21 @@
       </div>
       <div id="i18n" class="content">
         <h2>Internationalization Support</h2>
-        <p class="sample">
-          ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõöøùúûüýþÿ<br />
-          ĀāĂăĄąĆćĈĉĊċČčĎďĐđĒēĔĕĖėĘęĚěĜĝĞğĠġĢģĤĥĦħĨĩĪīĬĭĮįİıĲĳĴĵĶķĸĹĺĻļĽľĿŀŁł<br />
-          ŃńŅņŇňŉŊŋŌōŎŏŐőŒœŔŕŖŗŘřŚśŜŝŞşŠšŢţŤťŦŧŨũŪūŬŭŮůŰűŲųŴŵŶŷŸŹźŻżŽžſ<br />
-          ¡ ¢ £ ¤ ¥ ¦ § ¨ © ª « ¬ ® ¯ ° ± ² ³ ´ µ ¶ · ¸ ¹ º » ¼ ½ ¾ ¿ × ÷
-        </p>
+        <p class="sample pre">¿Lo tiene? ¡Claro que sí!
+
+ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõöøùúûüýþÿ
+ĀāĂăĄąĆćĈĉĊċČčĎďĐđĒēĔĕĖėĘęĚěĜĝĞğĠġĢģĤĥĦħĨĩĪīĬĭĮįİıĲĳĴĵĶķĸĹĺĻļĽľĿŀŁł
+ŃńŅņŇňŉŊŋŌōŎŏŐőŒœŔŕŖŗŘřŚśŜŝŞşŠšŢţŤťŦŧŨũŪūŬŭŮůŰűŲųŴŵŶŷŸŹźŻżŽžſ
+
+╔═════════════════╤═══════╦═════════════════╤═══════╗
+║ Fried Ice Cream │ $5.95 ║ Rulltårta       │ &euro;2.30 ║
+╟─────────────────┼───────╫─────────────────┼───────╢
+║     + Sprinkles │   60&cent; ║ Pączki          │ &euro;1.43 ║
+╟─────────────────┼───────╫─────────────────┼───────╢
+║ Trifle          │ &pound;4.90 ║ Jelly Doughnut  │  &yen;400 ║
+╚═════════════════╧═══════╩═════════════════╧═══════╝
+
+¤ ¦ § ¨ © ª « ¬ ® ¯ ° ± ² ³ ´ µ ¶ · ¸ ¹ º » ¼ ½ ¾ × ÷</p>
         <p>
           Cantrip contains glyphs to cover the
           <a href="https://en.wikipedia.org/wiki/Latin-1_Supplement" target="_blank">Latin-1 Suppliment</a>
@@ -339,9 +349,23 @@
           letters otherwise don't connect.
         </p>
       </div>
+      <div id="flourish" class="content">
+        <h2>
+          Additional Flourish
+        </h2>
+        <div class="ss03 sample">
+          Any affordance by gyroscopic cryogenics yields myopic yeasty
+          foundries for pyrotechnics. Often, feverish shifters graft half
+          wayfound gruff woff files.
+        </div>
+        <p>
+          <b>ss03</b> enables some additional flourishes that make individual
+          words more unique, but can make the text less legible.
+        </p>
+      </div>
       <div id="proportional" class="content">
         <h2>
-          ss08: Proportional Width Glyphs
+          Proportional Width Glyphs
         </h2>
         <div class="sample columns">
           <div class="no-ss08">
@@ -366,7 +390,7 @@
           </div>
         </div>
         <p class="ss08">
-          This option causes all width-adjustable characters to always adjust
+          <b>ss08</b> causes all width-adjustable characters to always adjust
           their width, ignoring any requirements for matching letter pairs. The
           result is that the overall font is no longer anything resembling
           monospace. There are also a few glyphs specifically for this feature
@@ -441,6 +465,27 @@
           <span class="ss01 ss02 no-ss08">
             trtrtrtrtrtrtrtrtrtrtrtrtrtrtrtrtrtrtrtrtrtrtrtrtrtrtrtrtrtrtrtrtrtrtr║
           </span>
+        </p>
+      </div>
+      <div id="download" class="content">
+        <h1>Download</h1>
+        <p>
+          Copyright &copy; 2025, Christopher Dollard<br />
+          The Font Software is licensed under the
+          <a href="http://scripts.sil.org/OFL" target="_blank">SIL Open Font License</a>,
+          Version 1.1.
+        </p>
+        <div class="columns">
+          <div class="download-button">
+            <a href="./cantrip_mono.ttf" download>Download TTF</a>
+          </div>
+          <div class="download-button">
+            <a href="./cantrip_mono.woff2" download>Download WOFF2</a>
+          </div>
+        </div>
+        <p>
+          If you enjoy this open-source project, please consider donating to
+          the <a href="https://eff.org" target="_blank">Electronic Frontier Foundation</a>.
         </p>
       </div>
     </div>

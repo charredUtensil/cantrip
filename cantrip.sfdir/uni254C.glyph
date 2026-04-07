@@ -1,5 +1,5 @@
 StartChar: uni254C
-Encoding: 410 9548 597
+Encoding: 410 9548 594
 Width: 420
 UnlinkRmOvrlpSave: 1
 HStem: 280 70<50 155 265 370>
@@ -17,4 +17,5 @@ SplineSet
  245 280 l 5
  265 350 l 5
 EndSplineSet
+Validated: 1
 EndChar
