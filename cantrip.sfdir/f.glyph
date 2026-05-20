@@ -32,7 +32,8 @@ SplineSet
  262 700 l 6
 EndSplineSet
 Validated: 1
-Substitution2: "Single Substitution lookup 24 subtable" f.flourish.sw
+Substitution2: "Single Substitution lookup 26 subtable" f.flourish.sw
 Substitution2: "toSprawl subtable" f.sprawl.sw
+Substitution2: "toCursive subtable" f.cursive
 Substitution2: "toHex subtable" f.hex
 EndChar

@@ -82,18 +82,18 @@
   semicolon semicolon.proportional
 ];
 
-@upper = [A A.proportional A.short A.sprawl.s A.sprawl.s.wide A.wide AE Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde B B.sprawl.nw C C.short C.sprawl.e C.sprawl.e.proportional C.sprawl.s Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D D.proportional D.sprawl.nw Dcaron Dcroat E E.short Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eng Eogonek Eth F F.sprawl.e G G.proportional G.short G.wide Gbreve Gcedilla Gcircumflex Gdotaccent H H.proportional Hbar Hcircumflex I I.midthin I.short IJ Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde J J.sprawl.s J.thin.sprawl.sw Jcircumflex K K.sprawl.se Kcedilla L L.proportional L.sprawl.s L.thin.sprawl.se Lacute Lcaron Lcedilla Ldot Lslash M M.wide N N.proportional N.short N.sprawl.s Nacute Ncaron Ncedilla Ntilde O O.short OE Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde P P.sprawl.nw Q Q.sprawl.se R R.short R.sprawl.nw R.sprawl.nwse R.sprawl.se Racute Rcaron Rcedilla S S.cursive S.cursive.wide S.short Sacute Scaron Scedilla Scircumflex T Tbar Tcaron Tcedilla Thorn U U.short Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde V V.proportional V.sprawl.nwne V.sprawl.w W W.wide W.wide.alt Wcircumflex X X.sprawl.s Y Y.short Y.sprawl.nwne Y.sprawl.w Yacute Ycircumflex Ydieresis Z Z.short Z.sprawl.s Z.sprawl.se Zacute Zcaron Zdotaccent];
+@upper = [A A.proportional A.short A.sprawl.s A.sprawl.s.wide A.wide AE AE.wide Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde B B.sprawl.nw C C.short C.sprawl.e C.sprawl.e.proportional C.sprawl.s Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D D.proportional D.sprawl.nw Dcaron Dcroat E E.short Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eng Eogonek Eth F F.sprawl.e G G.proportional G.short G.wide Gbreve Gcedilla Gcircumflex Gdotaccent H H.proportional Hbar Hcircumflex I I.midthin I.short IJ Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde J J.sprawl.s J.thin.sprawl.sw Jcircumflex K K.sprawl.se Kcedilla L L.proportional L.sprawl.s L.thin.sprawl.se Lacute Lcaron Lcedilla Ldot Lslash M M.wide N N.proportional N.short N.sprawl.s Nacute Ncaron Ncedilla Ntilde O O.short OE Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde P P.sprawl.nw Q Q.sprawl.se R R.short R.sprawl.nw R.sprawl.nwse R.sprawl.se Racute Rcaron Rcedilla S S.cursive S.cursive.wide S.short Sacute Scaron Scedilla Scircumflex T Tbar Tcaron Tcedilla Thorn U U.short Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde V V.proportional V.sprawl.nwne V.sprawl.w W W.wide W.wide.alt Wcircumflex X X.sprawl.s Y Y.short Y.sprawl.nwne Y.sprawl.w Yacute Ycircumflex Ydieresis Z Z.short Z.sprawl.s Z.sprawl.se Zacute Zcaron Zdotaccent];
 @lining = [Euro.lining dollar.lining eight.lining five.lining four.lining nine.lining one.lining seven.lining six.lining sterling.lining three.lining two.lining yen.lining zero.lining];
 
-@lower = [a aacute abreve acircumflex adieresis ae agrave amacron aogonek aring atilde b c cacute ccaron ccedilla ccircumflex cdotaccent d dcaron dcroat dotlessi e e.cursive eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eng eogonek eth f f.cursive f.flourish.sw f.sprawl.sw g g.cursive gbreve gcedilla gcircumflex gdotaccent germandbls h hbar hcircumflex i i.midthin i.sprawl.w i.thin iacute ibreve icircumflex idieresis igrave ij imacron iogonek itilde j j.old1 j.sprawl.s j.thin j.thin.sprawl.sw jcircumflex k k.sprawl.se kcedilla kgreenlandic l l.midthin l.sprawl.w l.thin lacute lcaron lcedilla ldot longs lslash m m.midwide m.wide n nacute napostrophe ncaron ncedilla ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde p q q.sprawl.se r r.midthin racute rcaron rcedilla s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scedilla scircumflex t t.cursive t.cursive.before.i.thin t.cursive.before.t t.cursive.sprawl.e t.cursive.sprawl.se t.midthin tbar tcaron tcedilla thorn u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde v w w.midwide w.wide wcircumflex x y y.flourish.sw yacute ycircumflex ydieresis z z.sprawl.s z.sprawl.se zacute zcaron zdotaccent];
-@xHeight = [a ae c dcaron dotlessi e e.cursive eth germandbls kgreenlandic m m.midwide m.wide n o oe oslash r r.midthin s s.cursive s.cursive.alt s.cursive.sprawl.w u v w w.midwide w.wide x z];
-@lowerNotTall = [a aacute abreve acircumflex adieresis ae agrave amacron aogonek aring atilde c cacute ccaron ccedilla ccircumflex cdotaccent dcaron dotlessi e e.cursive eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eng eogonek eth g g.cursive gbreve gcedilla gcircumflex gdotaccent germandbls i i.midthin i.sprawl.w i.thin iacute ibreve icircumflex idieresis igrave ij imacron iogonek itilde j j.old1 j.sprawl.s j.thin j.thin.sprawl.sw jcircumflex kgreenlandic m m.midwide m.wide n nacute napostrophe ncaron ncedilla ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde p q q.sprawl.se r r.midthin racute rcaron rcedilla s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scedilla scircumflex u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde v w w.midwide w.wide wcircumflex x y y.flourish.sw yacute ycircumflex ydieresis z z.sprawl.s z.sprawl.se zacute zcaron zdotaccent];
-@lowerNotDescending = [a aacute abreve acircumflex adieresis ae agrave amacron aring atilde b c cacute ccaron ccircumflex cdotaccent d dcaron dcroat dotlessi e e.cursive eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eth germandbls h hbar hcircumflex i i.midthin i.sprawl.w i.thin iacute ibreve icircumflex idieresis igrave imacron itilde kgreenlandic l l.midthin l.sprawl.w l.thin lacute lcaron ldot lslash m m.midwide m.wide n nacute napostrophe ncaron ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde r r.midthin racute rcaron s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scircumflex t t.cursive t.cursive.before.i.thin t.cursive.before.t t.cursive.sprawl.e t.midthin tbar tcaron u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uring utilde v w w.midwide w.wide wcircumflex x z zacute zcaron zdotaccent];
+@lower = [a aacute abreve acircumflex adieresis ae ae.wide agrave amacron aogonek aring atilde b c cacute ccaron ccedilla ccircumflex cdotaccent d dcaron dcroat dotlessi e e.cursive eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eng eogonek eth f f.cursive f.flourish.sw f.sprawl.sw g g.cursive gbreve gcedilla gcircumflex gdotaccent germandbls h hbar hcircumflex i i.midthin i.sprawl.w i.thin iacute ibreve icircumflex idieresis igrave ij imacron iogonek itilde j j.old1 j.sprawl.s j.thin j.thin.sprawl.sw jcircumflex k k.sprawl.se kcedilla kgreenlandic l l.midthin l.sprawl.w l.thin lacute lcaron lcedilla ldot longs lslash m m.midwide m.wide n nacute napostrophe ncaron ncedilla ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde p q q.sprawl.se r r.midthin racute rcaron rcedilla s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scedilla scircumflex t t.cursive t.cursive.before.i.thin t.cursive.before.t t.cursive.sprawl.e t.cursive.sprawl.se t.midthin tbar tcaron tcedilla thorn u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde v w w.midwide w.wide wcircumflex x y y.flourish.sw yacute ycircumflex ydieresis z z.sprawl.s z.sprawl.se zacute zcaron zdotaccent];
+@xHeight = [a ae ae.wide c dcaron dotlessi e e.cursive eth germandbls kgreenlandic m m.midwide m.wide n o oe oslash r r.midthin s s.cursive s.cursive.alt s.cursive.sprawl.w u v w w.midwide w.wide x z];
+@lowerNotTall = [a aacute abreve acircumflex adieresis ae ae.wide agrave amacron aogonek aring atilde c cacute ccaron ccedilla ccircumflex cdotaccent dcaron dotlessi e e.cursive eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eng eogonek eth g g.cursive gbreve gcedilla gcircumflex gdotaccent germandbls i i.midthin i.sprawl.w i.thin iacute ibreve icircumflex idieresis igrave ij imacron iogonek itilde j j.old1 j.sprawl.s j.thin j.thin.sprawl.sw jcircumflex kgreenlandic m m.midwide m.wide n nacute napostrophe ncaron ncedilla ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde p q q.sprawl.se r r.midthin racute rcaron rcedilla s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scedilla scircumflex u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde v w w.midwide w.wide wcircumflex x y y.flourish.sw yacute ycircumflex ydieresis z z.sprawl.s z.sprawl.se zacute zcaron zdotaccent];
+@lowerNotDescending = [a aacute abreve acircumflex adieresis ae ae.wide agrave amacron aring atilde b c cacute ccaron ccircumflex cdotaccent d dcaron dcroat dotlessi e e.cursive eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eth germandbls h hbar hcircumflex i i.midthin i.sprawl.w i.thin iacute ibreve icircumflex idieresis igrave imacron itilde kgreenlandic l l.midthin l.sprawl.w l.thin lacute lcaron ldot lslash m m.midwide m.wide n nacute napostrophe ncaron ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde r r.midthin racute rcaron s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scircumflex t t.cursive t.cursive.before.i.thin t.cursive.before.t t.cursive.sprawl.e t.midthin tbar tcaron u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uring utilde v w w.midwide w.wide wcircumflex x z zacute zcaron zdotaccent];
 @lowerLeftTall = [@b @h @k @l t t.midthin tbar tcaron tcedilla germandbls thorn];
 @lowerRightTall = [@d @f];
 
 @flourishCompatSW = [
-  a aacute abreve acircumflex adieresis ae agrave amacron aring atilde b c cacute ccaron ccircumflex cdotaccent d dcaron dcroat dotlessi e eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eth germandbls h hbar hcircumflex i i.sprawl.w iacute ibreve icircumflex idieresis igrave imacron itilde kgreenlandic l l.sprawl.w lacute lcaron ldot lslash m m.midwide m.wide n nacute napostrophe ncaron ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde r racute rcaron s sacute scaron scircumflex t tbar tcaron u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uring utilde v w w.midwide w.wide wcircumflex x z zacute zcaron zdotaccent
+  a aacute abreve acircumflex adieresis ae ae.wide agrave amacron aring atilde b c cacute ccaron ccircumflex cdotaccent d dcaron dcroat dotlessi e eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eth germandbls h hbar hcircumflex i i.sprawl.w iacute ibreve icircumflex idieresis igrave imacron itilde kgreenlandic l l.sprawl.w lacute lcaron ldot lslash m m.midwide m.wide n nacute napostrophe ncaron ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde r racute rcaron s sacute scaron scircumflex t tbar tcaron u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uring utilde v w w.midwide w.wide wcircumflex x z zacute zcaron zdotaccent
 ];
 
 # Misc incompatibilities
@@ -103,11 +103,11 @@
   Aacute Abreve Acircumflex Adieresis Agrave Amacron Aring Atilde Cacute Ccaron Ccircumflex Cdotaccent Dcaron Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Gbreve Gcircumflex Gdotaccent Hcircumflex Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Itilde Jcircumflex Lacute Nacute Ncaron Ntilde Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Otilde Racute Rcaron Sacute Scaron Scircumflex Tcaron Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uring Utilde Wcircumflex Yacute Ycircumflex Ydieresis Zacute Zcaron Zdotaccent aacute abreve acircumflex adieresis agrave amacron aring atilde cacute ccaron ccircumflex cdotaccent eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron gbreve gcedilla gcircumflex gdotaccent hcircumflex i i.midthin i.sprawl.w i.thin iacute ibreve icircumflex idieresis igrave ij imacron iogonek itilde j j.old1 j.sprawl.s j.thin j.thin.sprawl.sw jcircumflex lacute nacute napostrophe ncaron ntilde oacute obreve ocircumflex odieresis ograve ohungarumlaut omacron otilde racute rcaron sacute scaron scircumflex uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uring utilde wcircumflex yacute ycircumflex ydieresis zacute zcaron zdotaccent
   Aogonek Ccedilla Eogonek Gcedilla Iogonek Kcedilla Lcedilla Ncedilla Rcedilla Scedilla Tcedilla Uogonek aogonek ccedilla eogonek iogonek kcedilla lcedilla ncedilla rcedilla scedilla tcedilla uogonek
   Dcroat Eth Hbar Lcaron Ldot Lslash Oslash Tbar dcaron dcroat hbar kgreenlandic lcaron ldot lslash oslash tbar tcaron
-  AE Eng IJ OE Thorn ae dotlessi eng eth germandbls ij longs oe
+  AE AE.wide Eng IJ OE Thorn ae ae.wide dotlessi eng eth germandbls ij longs oe
 ];
 @blocksSprawlNW = [
   @digitsLining
-  A A.proportional A.short A.sprawl.s A.sprawl.s.wide A.wide AE Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde B B.sprawl.nw C C.short C.sprawl.e C.sprawl.e.proportional C.sprawl.s Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D D.proportional D.sprawl.nw Dcaron Dcroat E E.short Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eng Eogonek Eth F F.sprawl.e G G.proportional G.short G.wide Gbreve Gcedilla Gcircumflex Gdotaccent H H.proportional Hbar Hcircumflex I I.midthin I.short IJ Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde J J.sprawl.s J.thin.sprawl.sw Jcircumflex K K.sprawl.se Kcedilla M M.wide N N.proportional N.short N.sprawl.s Nacute Ncaron Ncedilla Ntilde O O.short OE Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde P P.sprawl.nw Q Q.sprawl.se R R.short R.sprawl.nw R.sprawl.nwse R.sprawl.se Racute Rcaron Rcedilla S S.cursive S.cursive.wide S.short Sacute Scaron Scedilla Scircumflex T Tbar Tcaron Tcedilla Thorn U U.short Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde V V.proportional V.sprawl.nwne V.sprawl.w W W.wide W.wide.alt Wcircumflex X X.sprawl.s Y Y.short Y.sprawl.nwne Y.sprawl.w Yacute Ycircumflex Ydieresis Z Z.short Z.sprawl.s Z.sprawl.se Zacute Zcaron Zdotaccent
+  A A.proportional A.short A.sprawl.s A.sprawl.s.wide A.wide AE AE.wide Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde B B.sprawl.nw C C.short C.sprawl.e C.sprawl.e.proportional C.sprawl.s Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D D.proportional D.sprawl.nw Dcaron Dcroat E E.short Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eng Eogonek Eth F F.sprawl.e G G.proportional G.short G.wide Gbreve Gcedilla Gcircumflex Gdotaccent H H.proportional Hbar Hcircumflex I I.midthin I.short IJ Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde J J.sprawl.s J.thin.sprawl.sw Jcircumflex K K.sprawl.se Kcedilla M M.wide N N.proportional N.short N.sprawl.s Nacute Ncaron Ncedilla Ntilde O O.short OE Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde P P.sprawl.nw Q Q.sprawl.se R R.short R.sprawl.nw R.sprawl.nwse R.sprawl.se Racute Rcaron Rcedilla S S.cursive S.cursive.wide S.short Sacute Scaron Scedilla Scircumflex T Tbar Tcaron Tcedilla Thorn U U.short Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde V V.proportional V.sprawl.nwne V.sprawl.w W W.wide W.wide.alt Wcircumflex X X.sprawl.s Y Y.short Y.sprawl.nwne Y.sprawl.w Yacute Ycircumflex Ydieresis Z Z.short Z.sprawl.s Z.sprawl.se Zacute Zcaron Zdotaccent
   @lowerRightTall
 ];
 @blocksSprawlNWSwash = [
@@ -209,6 +209,7 @@ lookup afterHexify {
 
 lookup toCursive {
   sub e by e.cursive;
+  sub f by f.cursive;
   sub g by g.cursive;
   sub S by S.cursive;
   sub s by s.cursive;
@@ -220,6 +221,10 @@ lookup cursiveAlts {
   sub  [g.cursive @tCursive]  e' lookup toCursive;
   sub  b s.cursive            e' lookup toCursive;
   sub  o s.cursive            e' lookup toCursive;
+
+  # f
+  sub @fCursive @f' lookup toCursive;
+  sub [@lowerNotTall @lowerLeftTall] [i l] @f' lookup toCursive;
 
   # g
   ignore sub g g';
@@ -235,8 +240,8 @@ lookup cursiveAlts {
   sub S' lookup toCursive @lower;
 
   # t
-  @notBeforet  = [@d @f @l];
-  @beforet     = [@c @p @tCursive @sCursive @SCursive];
+  @notBeforet  = [@d f f.flourish.sw f.sprawl.sw @l];
+  @beforet     = [@c @fCursive @p @tCursive @sCursive @SCursive];
   @notAftert   = [@h @k @l @upper];
   @aftert      = [@r @s @w];
 
@@ -339,10 +344,10 @@ lookup tw1 {
   sub w w  by  ww;
 } tw1;
 
-@wideUpperA = [ A      A.sprawl.s      G      M      S.cursive      W      ];
-@wideUpperB = [ A.wide A.sprawl.s.wide G.wide M.wide S.cursive.wide W.wide ];
-@wideLowerA = [ m      mm      w      ww      ];
-@wideLowerB = [ m.wide mm.wide w.wide ww.wide ];
+@wideUpperA = [ A      A.sprawl.s      AE      G      M      S.cursive      W      ];
+@wideUpperB = [ A.wide A.sprawl.s.wide AE.wide G.wide M.wide S.cursive.wide W.wide ];
+@wideLowerA = [ ae      m      mm      w      ww      ];
+@wideLowerB = [ ae.wide m.wide mm.wide w.wide ww.wide ];
 @narrowA = [ i      ii      j      j.sprawl.s l      ll      rr      tt      ];
 @narrowB = [ i.thin ii.thin j.thin j.thin     l.thin ll.thin rr.thin tt.thin ];
 
@@ -404,91 +409,95 @@ lookup tw2 {
     [@upper @lower]
     quotesingle' lookup narrow
     @wideLowerA' lookup widen;
+} tw2;
   
-  # With space in the middle
-  @skip = [a aacute abreve acircumflex adieresis ae agrave amacron aogonek aring atilde b c cacute ccaron ccedilla ccircumflex cdotaccent d dcaron dcroat dotlessi e e.cursive eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eng eogonek eth f f.cursive f.flourish.sw f.sprawl.sw g g.cursive gbreve gcedilla gcircumflex gdotaccent germandbls h hbar hcircumflex i i.sprawl.w iacute ibreve icircumflex idieresis igrave ij imacron iogonek itilde j j.old1 j.sprawl.s jcircumflex k k.sprawl.se kcedilla kgreenlandic l l.sprawl.w lacute lcaron lcedilla ldot longs lslash m n nacute napostrophe ncaron ncedilla ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde p q q.sprawl.se r racute rcaron rcedilla s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scedilla scircumflex t t.cursive t.cursive.before.t t.cursive.sprawl.e t.cursive.sprawl.se tbar tcaron tcedilla thorn u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde v w wcircumflex x y y.flourish.sw yacute ycircumflex ydieresis z z.sprawl.s z.sprawl.se zacute zcaron zdotaccent];
-  @skipBeforeJ = [a aacute abreve acircumflex adieresis ae agrave amacron aring atilde b c cacute ccaron ccircumflex cdotaccent d dcaron dcroat dotlessi e e.cursive eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eth germandbls h hbar hcircumflex i i.sprawl.w iacute ibreve icircumflex idieresis igrave imacron itilde kgreenlandic l l.sprawl.w lacute lcaron ldot lslash m n nacute napostrophe ncaron ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde r racute rcaron s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scircumflex t t.cursive t.cursive.before.t t.cursive.sprawl.e tbar tcaron u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uring utilde v w wcircumflex x z zacute zcaron zdotaccent @p thorn];
-  @skipAfterL = [a aacute abreve acircumflex adieresis ae agrave amacron aring atilde b c cacute ccaron ccircumflex cdotaccent d dcaron dcroat dotlessi e e.cursive eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eth germandbls h hbar hcircumflex i i.sprawl.w iacute ibreve icircumflex idieresis igrave imacron itilde kgreenlandic l l.sprawl.w lacute lcaron ldot lslash m n nacute napostrophe ncaron ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde r racute rcaron s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scircumflex t t.cursive t.cursive.before.t t.cursive.sprawl.e tbar tcaron u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uring utilde v w wcircumflex x z zacute zcaron zdotaccent @q];
+# With space in the middle
+@skipTw2 = [a aacute abreve acircumflex adieresis ae agrave amacron aogonek aring atilde b c cacute ccaron ccedilla ccircumflex cdotaccent d dcaron dcroat dotlessi e e.cursive eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eng eogonek eth f f.cursive f.flourish.sw f.sprawl.sw g g.cursive gbreve gcedilla gcircumflex gdotaccent germandbls h hbar hcircumflex i i.sprawl.w iacute ibreve icircumflex idieresis igrave ij imacron iogonek itilde j j.old1 j.sprawl.s jcircumflex k k.sprawl.se kcedilla kgreenlandic l l.sprawl.w lacute lcaron lcedilla ldot longs lslash m n nacute napostrophe ncaron ncedilla ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde p q q.sprawl.se r racute rcaron rcedilla s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scedilla scircumflex t t.cursive t.cursive.before.t t.cursive.sprawl.e t.cursive.sprawl.se tbar tcaron tcedilla thorn u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde v w wcircumflex x y y.flourish.sw yacute ycircumflex ydieresis z z.sprawl.s z.sprawl.se zacute zcaron zdotaccent];
+@skipTw2BeforeJ = [a aacute abreve acircumflex adieresis ae agrave amacron aring atilde b c cacute ccaron ccircumflex cdotaccent d dcaron dcroat dotlessi e e.cursive eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eth germandbls h hbar hcircumflex i i.sprawl.w iacute ibreve icircumflex idieresis igrave imacron itilde kgreenlandic l l.sprawl.w lacute lcaron ldot lslash m n nacute napostrophe ncaron ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde r racute rcaron s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scircumflex t t.cursive t.cursive.before.t t.cursive.sprawl.e tbar tcaron u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uring utilde v w wcircumflex x z zacute zcaron zdotaccent @p thorn];
+@skipTw2AfterL = [a aacute abreve acircumflex adieresis ae agrave amacron aring atilde b c cacute ccaron ccircumflex cdotaccent d dcaron dcroat dotlessi e e.cursive eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eth germandbls h hbar hcircumflex i i.sprawl.w iacute ibreve icircumflex idieresis igrave imacron itilde kgreenlandic l l.sprawl.w lacute lcaron ldot lslash m n nacute napostrophe ncaron ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde r racute rcaron s s.cursive s.cursive.alt s.cursive.sprawl.w sacute scaron scircumflex t t.cursive t.cursive.before.t t.cursive.sprawl.e tbar tcaron u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uring utilde v w wcircumflex x z zacute zcaron zdotaccent @q];
 
+lookup tw2_skip1 {
   # Wxj
   sub
     [@wideUpperA @wideLowerA]' lookup widen
-     @skipBeforeJ
+     @skipTw2BeforeJ
     @jt' lookup narrowJ;
   # Wxi
   sub
     [@wideUpperA @wideLowerA]' lookup widen
-    @skip 
+    @skipTw2 
     @narrowA' lookup narrow;
   # Wx'x
   sub
     [@wideUpperA @wideLowerA]' lookup widen
-    @skip 
+    @skipTw2 
     quotesingle' lookup narrow
     [@upper @lower];
   # xjxw
   sub
     [@lowerNotDescending @p thorn]
     @jt' lookup narrowJ
-    @skip 
+    @skipTw2 
     @wideLowerA' lookup widen;
   # ixw
   sub
     @narrowA' lookup narrow
-    @skip 
+    @skipTw2 
     @wideLowerA' lookup widen;
   # x'xw
   sub
     [@upper @lower]
     quotesingle' lookup narrow
-    @skip 
+    @skipTw2 
     @wideLowerA' lookup widen;
   # Lxw
   sub
     @Lt' lookup narrow
-    @skipAfterL 
+    @skipTw2AfterL 
     @wideLowerA' lookup widen;
+} tw2_skip1;
 
+lookup tw2_skip2 {
   # Wxxj
   sub
     [@wideUpperA @wideLowerA]' lookup widen
-    @skip  @skipBeforeJ
+    @skipTw2  @skipTw2BeforeJ
     @jt' lookup narrowJ;
   # Wxi
   sub
     [@wideUpperA @wideLowerA]' lookup widen
-    @skip @skip 
+    @skipTw2 @skipTw2 
     @narrowA' lookup narrow;
   # Wxx'x
   sub
     [@wideUpperA @wideLowerA]' lookup widen
-    @skip @skip 
+    @skipTw2 @skipTw2 
     quotesingle' lookup narrow
     [@upper @lower];
   # xjxxw
   sub
     [@lowerNotDescending @p thorn]
     @jt' lookup narrowJ
-    @skip @skip 
+    @skipTw2 @skipTw2 
     @wideLowerA' lookup widen;
   # ixxw
   sub
     @narrowA' lookup narrow
-    @skip @skip 
+    @skipTw2 @skipTw2 
     @wideLowerA' lookup widen;
   # x'xxw
   sub
     [@upper @lower]
     quotesingle' lookup narrow
-    @skip @skip 
+    @skipTw2 @skipTw2 
     @wideLowerA' lookup widen;
   # Lxxw
   sub
     @Lt' lookup narrow
-    @skipAfterL @skip 
+    @skipTw2AfterL @skipTw2 
     @wideLowerA' lookup widen;
+} tw2_skip2;
 
-} tw2;
 
 lookup midden {
   sub [
@@ -716,6 +725,8 @@ feature calt {
     lookup sprawl3;
     lookup tw1;
     lookup tw2;
+    lookup tw2_skip1;
+    lookup tw2_skip2;
     lookup tw3;
     lookup tw4;
   script latn;
@@ -725,6 +736,8 @@ feature calt {
     lookup sprawl3;
     lookup tw1;
     lookup tw2;
+    lookup tw2_skip1;
+    lookup tw2_skip2;
     lookup tw3;
     lookup tw4;
 } calt;

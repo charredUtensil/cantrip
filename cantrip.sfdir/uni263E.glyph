@@ -1,0 +1,17 @@
+StartChar: uni263E
+Encoding: 641 9790 641
+Width: 420
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+260 420 m 0
+ 272 420 284 419 295 416 c 1
+ 218 400 160 332 160 250 c 0
+ 160 169 218 102 295 86 c 1
+ 284 83 272 82 260 82 c 0
+ 167 82 90 157 90 250 c 0
+ 90 344 166 420 260 420 c 0
+EndSplineSet
+Validated: 1
+EndChar

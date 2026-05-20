@@ -42,6 +42,6 @@ SplineSet
  602 630 l 1
 EndSplineSet
 Validated: 1
-LCarets2: 1 0
 Ligature2: "liga subtable" braceleft braceright
+LCarets2: 1 0
 EndChar

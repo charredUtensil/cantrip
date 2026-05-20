@@ -8,7 +8,7 @@ def get_glyphs(directory_path):
             for file in glob.glob(search_pattern)]
 
 UNUSED = [
-  'cmu', 'u1FB6C', 'u1FB6E', 'cantripVersion',
+  'cmu', 'cantripVersion',
 ]
 SPACE = [
   'space', 'hyphen', 'endash', 'emdash', 'underscore', 'periodcentered',
@@ -35,6 +35,7 @@ SYMBOLS = SYMBOLS_NUMBERSIGN + SYMBOLS_OVER + [
   'section', 'dollar', 'Euro', 'paragraph', 'yen', 'block', 'ampersand',
   'sterling',
   'onequarter', 'onehalf', 'threequarters', 'guillemotleft', 'guillemotright',
+  'male', 'female',
 ]
 BARS = [
   'bar', 'brokenbar', 'parenleft', 'parenright', 'parendouble', 'bracketleft',
@@ -91,6 +92,9 @@ OVERRIDES = {
   'thorn':        ['thorn', 'lower', 'otherletter',               'tall', 'descending', ]
 }
 
+MAX_TW2_SKIPS = 3
+MAX_TW3_SKIPS = 3
+
 def tags_for_letter(letter):
   tags = [letter]
   if letter[0].isupper():
@@ -134,7 +138,7 @@ def tag_glyphs(glyphs):
       tags.extend([base_glyph, 'space'])
     elif base_glyph in DIGITS:
       tags.extend([base_glyph, 'digit'])
-    elif base_glyph in SYMBOLS or base_glyph.startswith('SF') or base_glyph.startswith('uni'):
+    elif base_glyph in SYMBOLS or base_glyph.startswith('SF') or base_glyph.startswith('uni') or base_glyph.startswith('u1'):
       tags.extend([base_glyph, 'symbol'])
     elif base_glyph in BARS:
       tags.extend([base_glyph, 'bar'])
@@ -474,10 +478,10 @@ lookup tw1 {{
   sub w w  by  ww;
 }} tw1;
 
-@wideUpperA = [ A      A.sprawl.s      G      M      S.cursive      W      ];
-@wideUpperB = [ A.wide A.sprawl.s.wide G.wide M.wide S.cursive.wide W.wide ];
-@wideLowerA = [ m      mm      w      ww      ];
-@wideLowerB = [ m.wide mm.wide w.wide ww.wide ];
+@wideUpperA = [ A      A.sprawl.s      AE      G      M      S.cursive      W      ];
+@wideUpperB = [ A.wide A.sprawl.s.wide AE.wide G.wide M.wide S.cursive.wide W.wide ];
+@wideLowerA = [ ae      m      mm      w      ww      ];
+@wideLowerB = [ ae.wide m.wide mm.wide w.wide ww.wide ];
 @narrowA = [ i      ii      j      j.sprawl.s l      ll      rr      tt      ];
 @narrowB = [ i.thin ii.thin j.thin j.thin     l.thin ll.thin rr.thin tt.thin ];
 
@@ -539,52 +543,54 @@ lookup tw2 {{
     [@upper @lower]
     quotesingle' lookup narrow
     @wideLowerA' lookup widen;
+}} tw2;
   
-  # With space in the middle
-  @skip = [{t('lower', '!width')}];
-  @skipBeforeJ = [{t('lower', '!descending', '!accentUnder', '!width')} @p thorn];
-  @skipAfterL = [{t('lower', '!descending', '!accentUnder', '!width')} @q];
+# With space in the middle
+@skipTw2 = [{t('lower', '!width')}];
+@skipTw2BeforeJ = [{t('lower', '!descending', '!accentUnder', '!width')} @p thorn];
+@skipTw2AfterL = [{t('lower', '!descending', '!accentUnder', '!width')} @q];
 {''.join(f"""
+lookup tw2_skip{i} {{
   # W{'x' * i}j
   sub
     [@wideUpperA @wideLowerA]' lookup widen
-    {'@skip ' * (i - 1)} @skipBeforeJ
+    {'@skipTw2 ' * (i - 1)} @skipTw2BeforeJ
     @jt' lookup narrowJ;
   # Wxi
   sub
     [@wideUpperA @wideLowerA]' lookup widen
-    {'@skip ' * i}
+    {'@skipTw2 ' * i}
     @narrowA' lookup narrow;
   # W{'x' * i}'x
   sub
     [@wideUpperA @wideLowerA]' lookup widen
-    {'@skip ' * i}
+    {'@skipTw2 ' * i}
     quotesingle' lookup narrow
     [@upper @lower];
   # xj{'x' * i}w
   sub
     [@lowerNotDescending @p thorn]
     @jt' lookup narrowJ
-    {'@skip ' * i}
+    {'@skipTw2 ' * i}
     @wideLowerA' lookup widen;
   # i{'x' * i}w
   sub
     @narrowA' lookup narrow
-    {'@skip ' * i}
+    {'@skipTw2 ' * i}
     @wideLowerA' lookup widen;
   # x'{'x' * i}w
   sub
     [@upper @lower]
     quotesingle' lookup narrow
-    {'@skip ' * i}
+    {'@skipTw2 ' * i}
     @wideLowerA' lookup widen;
   # L{'x' * i}w
   sub
     @Lt' lookup narrow
-    @skipAfterL {'@skip ' * (i - 1)}
+    @skipTw2AfterL {'@skipTw2 ' * (i - 1)}
     @wideLowerA' lookup widen;
-""" for i in range(1, 3))}
-}} tw2;
+}} tw2_skip{i};
+""" for i in range(1, MAX_TW2_SKIPS))}
 
 lookup midden {{
   sub [
@@ -626,7 +632,7 @@ lookup tw3 {{
    [m.wide w.wide]' lookup midden
    {'@lower ' * i}
    [m w]' lookup midden;
-""" for i in range(0, 3))}
+""" for i in range(0, MAX_TW3_SKIPS))}
 }} tw3;
 
 lookup tw4 {{
@@ -774,6 +780,7 @@ feature calt {{
     lookup sprawl3;
     lookup tw1;
     lookup tw2;
+{'\n'.join(f"    lookup tw2_skip{i};" for i in range(1, 3))}
     lookup tw3;
     lookup tw4;
   script latn;
@@ -783,6 +790,7 @@ feature calt {{
     lookup sprawl3;
     lookup tw1;
     lookup tw2;
+{'\n'.join(f"    lookup tw2_skip{i};" for i in range(1, 3))}
     lookup tw3;
     lookup tw4;
 }} calt;
