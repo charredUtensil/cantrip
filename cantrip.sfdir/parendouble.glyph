@@ -2,7 +2,7 @@ StartChar: parendouble
 Encoding: 600 -1 621
 Width: 840
 VWidth: 1065
-Flags: W
+Flags: HW
 HStem: -204 90<250.924 300 540 589.076> 630 90<250.924 300 540 589.076>
 VStem: 100 95<-41.6266 557.627> 645 95<-41.6266 557.627>
 LayerCount: 2
@@ -28,5 +28,6 @@ SplineSet
  100 249 100 267 100 450 c 27
 EndSplineSet
 Validated: 1
+LCarets2: 1 420
 Ligature2: "liga subtable" parenleft parenright
 EndChar

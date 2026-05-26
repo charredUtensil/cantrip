@@ -10,21 +10,22 @@ SplineSet
  468 -204 l 1
  488 -114 l 1
  645 -114 l 1
- 645 630 l 5
- 518 630 l 5
- 538 720 l 5
- 740 720 l 5
+ 645 630 l 1
+ 518 630 l 1
+ 538 720 l 1
+ 740 720 l 1
  740 -204 l 1
-100 720 m 5
- 372 720 l 5
- 352 630 l 5
- 195 630 l 5
+100 720 m 1
+ 372 720 l 1
+ 352 630 l 1
+ 195 630 l 1
  195 -114 l 1
  322 -114 l 1
  302 -204 l 1
  100 -204 l 1
- 100 720 l 5
+ 100 720 l 1
 EndSplineSet
 Validated: 1
+LCarets2: 1 420
 Ligature2: "liga subtable" bracketleft bracketright
 EndChar

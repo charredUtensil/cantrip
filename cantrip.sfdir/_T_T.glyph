@@ -1,7 +1,7 @@
 StartChar: TT
 Encoding: 625 -1 620
 Width: 840
-Flags: W
+Flags: HW
 HStem: 590 90<40 180 275 380 460 560 655 800>
 VStem: 180 95<-60 590> 560 95<-60 590>
 LayerCount: 2
@@ -28,5 +28,5 @@ SplineSet
 EndSplineSet
 Validated: 1
 Ligature2: "liga subtable" T T
-LCarets2: 1 0
+LCarets2: 1 420
 EndChar

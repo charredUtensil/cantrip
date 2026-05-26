@@ -27,6 +27,7 @@ h1 {
 
 .content {
   padding: 1em 0;
+  background: var(--content-bg);
 }
 
 .content > * {
@@ -111,64 +112,70 @@ h1 {
 
 .title4 {
   height: 30vh;
-  background: #2E2D4D;
+  background: #c5c5a8;
+  color: #200536;
+}
+
+.title5 {
+  height: 30vh;
+  background: #200536;
   color: white;
 }
 
 #intro {
-  background: white;
+  --content-bg: white;
   color: black;
 }
 
 #why {
-  background: #064789;
+  --content-bg: #064789;
   color: white;
 }
 
 #texture-healing {
-  background: #F4D35E;
+  --content-bg: #F4D35E;
   color: black;
 }
 
 #alts {
-  background: #39A0ED;
+  --content-bg: #39A0ED;
   color: black;
 }
 
 #i18n {
-  background: #32533D;
+  --content-bg: #32533D;
   color: white;
 }
 
 #cursive {
-  background: #56E39F;
+  --content-bg: #56E39F;
   color: black;
 }
 
 #flourish {
-  background: #0b1863;
+  --content-bg: #0b1863;
   color: white;
 }
 
 #proportional {
-  background: #CB04A5;
+  --content-bg: #CB04A5;
   color: white;
 }
 
 #numerals {
-  background: #DA4167;
+  --content-bg: #DA4167;
   color: white;
 }
 
 #bugs {
-  background: #C5283D;
+  --content-bg: #C5283D;
   color: white;
 }
 
 #download {
   position: relative;
   z-index: 1;
-  background: #2E2D4D;
+  --content-bg: #2E2D4D;
   color: white;
   min-height: calc(100vh - 2em);
 }

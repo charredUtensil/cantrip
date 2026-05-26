@@ -60,6 +60,12 @@
       </div>
       <div class="parallaxWrapper title4 clear-features calt">
         <div class="parallax">
+          <div class="titleText">☾🜁♄♁♃i♀</div>
+          <div class="subtitleText lnum">Rūnstafas writan þæm leóht-buxum on alce</div>
+        </div>
+      </div>
+      <div class="parallaxWrapper title5 clear-features calt">
+        <div class="parallax">
           <div class="titleText ss08">Cantrip</div>
           <div class="subtitleText ss08">A FONT FAMILY FOR SOFTWARE ALCHEMISTS</div>
         </div>
@@ -259,6 +265,14 @@
       </div>
       <div id="i18n" class="content">
         <h2>Internationalization Support</h2>
+        <p>
+          Cantrip contains glyphs to cover the
+          <a href="https://en.wikipedia.org/wiki/Latin-1_Supplement" target="_blank">Latin-1 Suppliment</a>
+          and
+          <a href="https://en.wikipedia.org/wiki/Latin_Extended-A" target="_blank">Latin Extended-A</a>
+          Unicode ranges, covering a wide variety of languages. These glyphs
+          generally do not include variant width forms.
+        </p>
         <p class="sample pre">¿Lo tiene? ¡Claro que sí!
 
 ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõöøùúûüýþÿ
@@ -275,12 +289,9 @@
 
 ¤ ¦ § ¨ © ª « ¬ ® ¯ ° ± ² ³ ´ µ ¶ · ¸ ¹ º » ¼ ½ ¾ × ÷</p>
         <p>
-          Cantrip contains glyphs to cover the
-          <a href="https://en.wikipedia.org/wiki/Latin-1_Supplement" target="_blank">Latin-1 Suppliment</a>
-          and
-          <a href="https://en.wikipedia.org/wiki/Latin_Extended-A" target="_blank">Latin Extended-A</a>
-          Unicode ranges, covering a wide variety of languages. These glyphs
-          generally do not include variant width forms.
+          It also includes a few glyphs commonly used by terminal applications,
+          including a full set of
+          <a href="https://en.wikipedia.org/wiki/Box-drawing_characters">Box-Drawing characters</a>.
         </p>
         <p class="sample no-ss08">
           <span style="background: #fff; color: #222;">
@@ -301,9 +312,32 @@
 └─────────────────────┘</span>
         </p>
         <p>
-          It also includes a few glyphs commonly used by terminal applications, including
-          <a href="https://en.wikipedia.org/wiki/Box-drawing_characters">Box-Drawing characters</a>.
+          A few alchemal symbols are also available.
         </p>
+        <div class="sample">
+          <div class="columns">
+            <div class="pre">Primes
+🜍 Sulfur
+🜔 Salt
+☿ Quicksilver</div>
+            <div class="pre">Classical Elements
+🜂 Fire
+🜄 Water
+🜁 Air
+🜃 Earth</div>
+            <div class="pre">Planetary Metals
+☿ Quicksilver
+♄ Lead
+♃ Tin
+♂ Iron
+♀ Copper
+☾ Silver (☽)
+☉ Gold</div>
+            <div class="pre">Mundane Elements
+♁ Antimony
+⛢ Platinum</div>
+          </div>
+        </div>
       </div>
       <div id="cursive" class="content">
         <h1>Optional Styles</h1>
@@ -444,10 +478,33 @@
           </li>
           <li>
             <b>ss16</b> adds special glyphs for a-f and A-F that match the
-            oldstyle digits, and substitutes these within hexadecimal literals
-            only.
+            oldstyle digits, and substitutes these within text that looks like
+            a hexadecimal literal.
           </li>
         </ul>
+
+        <div class="sample no-lnum no-ss16">
+          <div class="columns">
+            <div>
+              Off&nbsp;
+            </div>
+            <div>
+              $01 £23 €45 ¥67 89
+            </div>
+          </div>
+          <div class="columns lnum">
+            <div>
+              lnum
+            </div>
+            <div>
+              $01 £23 €45 ¥67 89
+            </div>
+          </div>
+        </div>
+        <p>
+          These styles also affect some non-numeral symbols that usually appear
+          adjecent to numbers, such as currency symbols.
+        </p>
       </div>
       <div id="bugs" class="content">
         <h1>Known Issues</h1>

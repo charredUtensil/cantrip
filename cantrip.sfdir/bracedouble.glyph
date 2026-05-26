@@ -2,7 +2,7 @@ StartChar: bracedouble
 Encoding: 602 -1 623
 Width: 840
 VWidth: 1065
-Flags: MW
+Flags: HMW
 HStem: -210 90<470 586> -200 90<235 340> 260 90<70 199 643 770> 630 90<242 370 500 602>
 DStem2: 242 630 125 700 0.243839 -0.969816<0 264.477> 125 -220 235 -110 0.152367 0.988324<125.476 485.671> 528 260 643 350 0.181547 0.983382<109.382 377.286> 626 260 528 260 0.151562 -0.988448<0 369.548>
 LayerCount: 2
@@ -43,5 +43,5 @@ SplineSet
 EndSplineSet
 Validated: 1
 Ligature2: "liga subtable" braceleft braceright
-LCarets2: 1 0
+LCarets2: 1 420
 EndChar
