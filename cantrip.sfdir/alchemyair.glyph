@@ -1,4 +1,4 @@
-StartChar: u1F701
+StartChar: alchemyair
 Encoding: 630 128769 630
 Width: 420
 UnlinkRmOvrlpSave: 1
@@ -15,5 +15,4 @@ SplineSet
  40 240 l 1x30
 EndSplineSet
 Refer: 628 128770 N 1 0 0 1 0 0 2
-Validated: 5
 EndChar

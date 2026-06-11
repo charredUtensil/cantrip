@@ -333,7 +333,10 @@
 ♀ Copper
 ☾ Silver (☽)
 ☉ Gold</div>
-            <div class="pre">Mundane Elements
+            <div class="pre">Other Elements
+🜈 Aqua Vitae
+🜕 Nitre
+🜖 Vitriol (🜗)
 ♁ Antimony
 ⛢ Platinum</div>
           </div>
@@ -387,20 +390,30 @@
         <h2>
           Additional Flourish
         </h2>
+        <p>
+          <b>ss03</b> enables some additional flourishes that make individual
+          words more unique, but can make the text less legible.
+        </p>
         <div class="ss03 sample">
           Any affordance by gyroscopic cryogenics yields myopic yeasty
           foundries for pyrotechnics. Often, feverish shifters graft half
           wayfound gruff woff files.
         </div>
-        <p>
-          <b>ss03</b> enables some additional flourishes that make individual
-          words more unique, but can make the text less legible.
-        </p>
       </div>
       <div id="proportional" class="content">
         <h2>
           Proportional Width Glyphs
         </h2>
+        <p class="ss08">
+          <b>ss08</b> causes all width-adjustable characters to always adjust
+          their width, ignoring any requirements for matching letter pairs. The
+          result is that the overall font is no longer anything resembling
+          monospace. There are also a few glyphs specifically for this feature
+          (like <span class="no-ss08">G</span> -&gt;
+          <span class="ss08">G</span>) that don't align at all with the
+          monospace grid. It also activates some kerning for specific letter
+          pairings.
+        </p>
         <div class="sample columns">
           <div class="no-ss08">
             <div>
@@ -423,21 +436,18 @@
             </div>
           </div>
         </div>
-        <p class="ss08">
-          <b>ss08</b> causes all width-adjustable characters to always adjust
-          their width, ignoring any requirements for matching letter pairs. The
-          result is that the overall font is no longer anything resembling
-          monospace. There are also a few glyphs specifically for this feature
-          (like <span class="no-ss08">G</span> -&gt;
-          <span class="ss08">G</span>) that don't align at all with the
-          monospace grid. It also activates some kerning for specific letter
-          pairings.
-        </p>
       </div>
       <div id="numerals" class="content">
         <h2>
           Alternative Numerals
         </h2>
+        <p>
+          This font uses "oldstyle" numerals by default, sized to match
+          lower-case letters. This gives each letter a more distinctive shape,
+          and I find them to be more legible overall. It does, however, make
+          random jumbles of characters look strange - hexadecimal literals
+          doubly so. Cantrip includes two options to handle this:
+        </p>
         <div class="sample no-lnum no-ss16">
           <div class="columns">
             <div>
@@ -464,13 +474,6 @@
             </div>
           </div>
         </div>
-        <p>
-          This font uses "oldstyle" numerals by default, sized to match
-          lower-case letters. This gives each letter a more distinctive shape,
-          and I find them to be more legible overall. It does, however, make
-          random jumbles of characters look strange - hexadecimal literals
-          doubly so. Cantrip includes two options to handle this:
-        </p>
         <ul>
           <li>
             <b>lnum</b> swaps the digits for "lining" numerals that match the
@@ -482,7 +485,10 @@
             a hexadecimal literal.
           </li>
         </ul>
-
+        <p>
+          These styles also affect some non-numeral symbols that usually appear
+          adjecent to numbers, such as currency symbols.
+        </p>
         <div class="sample no-lnum no-ss16">
           <div class="columns">
             <div>
@@ -501,10 +507,6 @@
             </div>
           </div>
         </div>
-        <p>
-          These styles also affect some non-numeral symbols that usually appear
-          adjecent to numbers, such as currency symbols.
-        </p>
       </div>
       <div id="bugs" class="content">
         <h1>Known Issues</h1>
@@ -525,30 +527,34 @@
         </p>
         <p>
           Some terminal emulators ignore glyph widths entirely and render each
-          character on a grid. If Cantrip's thin-wide substitution is enabled,
-          this will look very strange.
+          character on a grid. This is usually a good thing - it means higher
+          performance overall, and a font missing certain Unicode characters
+          won't end up with broken line widths. However, if Cantrip's thin-wide
+          substitution is enabled, this will look very strange.
         </p>
       </div>
       <div id="download" class="content">
-        <h1>Download</h1>
-        <p>
-          Copyright &copy; 2025, Christopher Dollard<br />
-          The Font Software is licensed under the
-          <a href="http://scripts.sil.org/OFL" target="_blank">SIL Open Font License</a>,
-          Version 1.1.
-        </p>
-        <div class="columns">
-          <div class="download-button">
-            <a href="./cantrip_mono.ttf" download>Download TTF</a>
+        <div>
+          <h1>Download</h1>
+          <p>
+            Copyright &copy; 2025, Christopher Dollard<br />
+            The Font Software is licensed under the
+            <a href="http://scripts.sil.org/OFL" target="_blank">SIL Open Font License</a>,
+            Version 1.1.
+          </p>
+          <div class="columns">
+            <div class="download-button">
+              <a href="./cantrip_mono.ttf" download>Download TTF</a>
+            </div>
+            <div class="download-button">
+              <a href="./cantrip_mono.woff2" download>Download WOFF2</a>
+            </div>
           </div>
-          <div class="download-button">
-            <a href="./cantrip_mono.woff2" download>Download WOFF2</a>
-          </div>
+          <p>
+            If you enjoy this open-source project, please consider donating to
+            the <a href="https://eff.org" target="_blank">Electronic Frontier Foundation</a>.
+          </p>
         </div>
-        <p>
-          If you enjoy this open-source project, please consider donating to
-          the <a href="https://eff.org" target="_blank">Electronic Frontier Foundation</a>.
-        </p>
       </div>
     </div>
   </body>

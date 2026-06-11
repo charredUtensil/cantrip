@@ -37,6 +37,7 @@ SYMBOLS = SYMBOLS_NUMBERSIGN + SYMBOLS_OVER + [
   'onequarter', 'onehalf', 'threequarters', 'guillemotleft', 'guillemotright',
   'male', 'female',
 ]
+SYMBOLS_PREFIXES = ['SF', 'uni', 'u1', 'astrology', 'alchemy']
 BARS = [
   'bar', 'brokenbar', 'parenleft', 'parenright', 'parendouble', 'bracketleft',
   'bracketright', 'bracketdouble', 'braceleft', 'braceright', 'bracedouble',
@@ -138,7 +139,7 @@ def tag_glyphs(glyphs):
       tags.extend([base_glyph, 'space'])
     elif base_glyph in DIGITS:
       tags.extend([base_glyph, 'digit'])
-    elif base_glyph in SYMBOLS or base_glyph.startswith('SF') or base_glyph.startswith('uni') or base_glyph.startswith('u1'):
+    elif base_glyph in SYMBOLS or any(base_glyph.startswith(p) for p in SYMBOLS_PREFIXES):
       tags.extend([base_glyph, 'symbol'])
     elif base_glyph in BARS:
       tags.extend([base_glyph, 'bar'])
@@ -227,7 +228,7 @@ def get_defs(tagged_glyphs):
 @xHeight = [{t('lower', '!tall', '!descending', '!accentOver', '!accentUnder')}];
 @lowerNotTall = [{t('lower', '!tall')}];
 @lowerNotDescending = [{t('lower', '!descending', '!accentUnder')}];
-@lowerLeftTall = [@b @h @k @l {t('t', '!cursive')} germandbls thorn];
+@lowerLeftTall = [@b @h @k {t('l', '!thin')} {t('t', '!cursive')} germandbls thorn];
 @lowerRightTall = [@d @f];
 
 @flourishCompatSW = [
@@ -236,8 +237,8 @@ def get_defs(tagged_glyphs):
 
 # Misc incompatibilities
 @blocksHex = [
-  @G @H @I @J @K @L @M @N @O @P @Q @R @S @T @U @V @W @X @Y @Z
-  @g @h @i @j @k @l @m @n @o @p @q @r @s @t @u @v @w @x @y @z
+  {' '.join(f'@{chr(c)}' for c in range(ord('G'), ord('Z')))}
+  {' '.join(f'@{chr(c)}' for c in range(ord('g'), ord('z')))}
   {t('accentOver')}
   {t('accentUnder')}
   {t('diacritic')}
@@ -698,11 +699,30 @@ lookup proportional2 {{
 }} proportional2;
 
 lookup proportionalPos {{
-  pos [A.proportional L.sprawl.s L.proportional] [{t('Y', 'sprawl')}] -30;
-  pos [T quotesingle.thin] [@lowerNotTall @lowerRightTall] -100;
-  pos [@L @lowerNotTall @lowerLeftTall] [T V.proportional {t('Y', '!sprawl')} @f longs quotesingle.thin]  -100;
-  pos V.proportional [@lowerNotTall @lowerRightTall A.proportional] -30;
-  pos [@lowerNotTall @lowerLeftTall] V.proportional -30;
+  pos
+    [A.proportional L.sprawl.s L.proportional]
+    [{t('Y', 'sprawl')}]
+    -30;
+  pos
+    V.proportional
+    [@lowerNotTall @lowerRightTall A.proportional]
+    -30;
+  pos
+    [@lowerNotTall @lowerLeftTall]
+    V.proportional
+    -30;
+  pos
+    [T quotesingle.thin]
+    [@lowerNotTall @lowerRightTall]
+    -100;
+  pos 
+    [@L @lowerNotTall @lowerLeftTall]
+    [
+      T V.proportional {t('Y', '!sprawl')}
+      {t('f', '!cursive')} longs
+      quotesingle.thin
+    ]
+    -100;
 }} proportionalPos;
 
 ###############################################################################
@@ -752,7 +772,7 @@ lookup cursiveLigatures {{
   sub  l.midthin  s.cursive  by  ls.cursive.midthin;
   sub  l.thin     s.cursive  by  ls.cursive.thin;
 
-  sub o           s.cursive  by  os.cursive;
+  sub  o          s.cursive  by  os.cursive;
 
   sub  t.cursive  r          by  tr.cursive;
   sub  t.cursive  r.midthin  by  tr.cursive.midthin;

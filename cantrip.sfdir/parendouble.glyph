@@ -28,6 +28,6 @@ SplineSet
  100 249 100 267 100 450 c 27
 EndSplineSet
 Validated: 1
-LCarets2: 1 420
 Ligature2: "liga subtable" parenleft parenright
+LCarets2: 1 420
 EndChar

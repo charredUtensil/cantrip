@@ -178,6 +178,9 @@ h1 {
   --content-bg: #2E2D4D;
   color: white;
   min-height: calc(100vh - 2em);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 #why a, #i18n a, #download a {
@@ -372,7 +375,7 @@ body, .clear-features,
     margin-left: 24px;
     margin-right: 120px;
   }
-  #download.content > * {
+  #download.content > div {
     margin-right: 24px;
   }
 }
@@ -392,7 +395,7 @@ body, .clear-features,
   .content > * {
     margin-right: 24px;
   }
-  #download.content > * {
+  #download.content > div {
     margin-right: 24px;
   }
   .right .features-pane {

@@ -1,4 +1,4 @@
-StartChar: u1F703
+StartChar: alchemyearth
 Encoding: 631 128771 631
 Width: 420
 UnlinkRmOvrlpSave: 1
@@ -15,5 +15,4 @@ SplineSet
  40 240 l 1
 EndSplineSet
 Refer: 629 128772 N 1 0 0 1 0 0 2
-Validated: 5
 EndChar
