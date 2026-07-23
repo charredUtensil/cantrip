@@ -5,7 +5,7 @@ FamilyName: Cantrip Mono
 Weight: Regular
 Copyright: Copyright (c) 2025, Christopher Dollard
 UComments: "2025-6-9: Created with FontForge (http://fontforge.org)"
-Version: 000.044
+Version: 000.045
 ItalicAngle: 0
 UnderlinePosition: -300
 UnderlineWidth: 70
@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1749492845
-ModificationTime: 1780952599
+ModificationTime: 1784773080
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 2
@@ -886,7 +886,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 532 14 9
+WinInfo: 0 14 9
 BeginPrivate: 6
 StdHW 4 [70]
 StemSnapH 7 [70 90]
