@@ -1,0 +1,32 @@
+StartChar: TT
+Encoding: 625 -1 620
+Width: 840
+Flags: HW
+HStem: 590 90<40 180 275 380 460 560 655 800>
+VStem: 180 95<-60 590> 560 95<-60 590>
+LayerCount: 2
+Fore
+SplineSet
+460 680 m 1
+ 820 680 l 1
+ 800 590 l 1
+ 655 590 l 1
+ 655 -60 l 1
+ 560 -80 l 1
+ 560 590 l 1
+ 440 590 l 1
+ 460 680 l 1
+40 680 m 1
+ 400 680 l 1
+ 380 590 l 1
+ 275 590 l 1
+ 275 -60 l 1
+ 180 -80 l 1
+ 180 590 l 1
+ 20 590 l 1
+ 40 680 l 1
+EndSplineSet
+Validated: 1
+Ligature2: "liga subtable" T T
+LCarets2: 1 420
+EndChar

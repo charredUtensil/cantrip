@@ -1,0 +1,27 @@
+StartChar: alchemyfire
+Encoding: 628 128770 628
+Width: 420
+Flags: MW
+HStem: -20 21G<54.5 125> 0 70<141 280>
+VStem: 50 320
+DStem2: 50 -20 141 70 0.219512 0.97561<107.78 410> 280 440 205 420 0.209529 -0.977802<3.84137 25.4229 37.5755 361.787>
+LayerCount: 2
+Fore
+SplineSet
+205 420 m 1xa0
+ 280 440 l 1
+ 370 20 l 1
+ 296 0 l 1
+ 295 0 l 1
+ 125 0 l 1x60
+ 50 -20 l 1
+ 140 380 l 1
+ 210 399 l 1
+ 205 420 l 1xa0
+212 387 m 1
+ 141 70 l 1
+ 280 70 l 1
+ 212 387 l 1
+EndSplineSet
+Validated: 1
+EndChar

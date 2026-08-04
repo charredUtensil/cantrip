@@ -6,15 +6,15 @@ DStem2: 135 650 40 630 0.144799 -0.989461<6.0333 565.948> 210 89 255 -170 0.1438
 LayerCount: 2
 Fore
 SplineSet
-40 630 m 1
- 135 650 l 1
- 210 89 l 1
- 285 670 l 1
- 380 690 l 1
- 380 650 l 1
- 255 -170 l 1
- 160 -190 l 1
- 40 630 l 1
+40 630 m 5
+ 135 650 l 5
+ 210 89 l 5
+ 285 670 l 5
+ 380 690 l 5
+ 380 650 l 5
+ 255 -170 l 5
+ 160 -190 l 5
+ 40 630 l 5
 EndSplineSet
 Validated: 1
 Substitution2: "proportional1 subtable" V.proportional

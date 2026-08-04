@@ -1,11 +1,11 @@
 StartChar: SF060000
-Encoding: 378 9516 497
+Encoding: 378 9516 494
 Width: 420
 UnlinkRmOvrlpSave: 1
 HStem: 280 70<0 420>
 VStem: 175 70<-254 280>
 LayerCount: 2
 Fore
-Refer: 489 9591 N 1 0 0 1 0 0 2
-Refer: 485 9472 N 1 0 0 1 0 0 2
+Refer: 486 9591 N 1 0 0 1 0 0 2
+Refer: 482 9472 N 1 0 0 1 0 0 2
 EndChar

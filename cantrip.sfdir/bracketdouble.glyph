@@ -1,0 +1,31 @@
+StartChar: bracketdouble
+Encoding: 601 -1 622
+Width: 840
+VWidth: 1065
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+740 -204 m 1
+ 468 -204 l 1
+ 488 -114 l 1
+ 645 -114 l 1
+ 645 630 l 1
+ 518 630 l 1
+ 538 720 l 1
+ 740 720 l 1
+ 740 -204 l 1
+100 720 m 1
+ 372 720 l 1
+ 352 630 l 1
+ 195 630 l 1
+ 195 -114 l 1
+ 322 -114 l 1
+ 302 -204 l 1
+ 100 -204 l 1
+ 100 720 l 1
+EndSplineSet
+Validated: 1
+Ligature2: "liga subtable" bracketleft bracketright
+LCarets2: 1 420
+EndChar

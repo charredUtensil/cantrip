@@ -1,0 +1,18 @@
+StartChar: alchemyearth
+Encoding: 631 128771 631
+Width: 420
+UnlinkRmOvrlpSave: 1
+HStem: -20 21G<154.286 255> 170 70<40 380> 350 70<130 288>
+VStem: 40 340
+DStem2: 130 350 40 400 0.274721 -0.961524<0 274.721> 206 86 255 0 0.298275 0.95448<0 276.441>
+LayerCount: 2
+Fore
+SplineSet
+40 240 m 1
+ 400 240 l 1
+ 380 170 l 1
+ 20 170 l 1
+ 40 240 l 1
+EndSplineSet
+Refer: 629 128772 N 1 0 0 1 0 0 2
+EndChar

@@ -8,7 +8,7 @@ def get_glyphs(directory_path):
             for file in glob.glob(search_pattern)]
 
 UNUSED = [
-  'cmu', 'u1FB6C', 'u1FB6E', 'cantripVersion',
+  'cmu', 'cantripVersion',
 ]
 SPACE = [
   'space', 'hyphen', 'endash', 'emdash', 'underscore', 'periodcentered',
@@ -35,11 +35,13 @@ SYMBOLS = SYMBOLS_NUMBERSIGN + SYMBOLS_OVER + [
   'section', 'dollar', 'Euro', 'paragraph', 'yen', 'block', 'ampersand',
   'sterling',
   'onequarter', 'onehalf', 'threequarters', 'guillemotleft', 'guillemotright',
+  'male', 'female',
 ]
+SYMBOLS_PREFIXES = ['SF', 'uni', 'u1', 'astrology', 'alchemy']
 BARS = [
-  'bar', 'brokenbar', 'parenleft', 'parenright', 'bracketleft', 'bracketright', 
-  'braceleft', 'braceright', 'slash', 'backslash', 'dagger', 'daggerdbl',
-  'florin',
+  'bar', 'brokenbar', 'parenleft', 'parenright', 'parendouble', 'bracketleft',
+  'bracketright', 'bracketdouble', 'braceleft', 'braceright', 'bracedouble',
+  'slash', 'backslash', 'dagger', 'daggerdbl', 'florin',
 ]
 PUNCTUATION = [
   'colon', 'semicolon', 'period', 'comma', 'exclam', 'exclamdown', 'question',
@@ -63,6 +65,8 @@ LIGATURES = [
   'ii', 'll', 'tt', 'rr', 'mm', 'ww',
   'bs', 'gr', 'gs', 'is', 'ls', 'os', 'te', 'tr', 'ts',
   'tquotesingles',
+  'TT',
+  'parendouble', 'bracketdouble', 'bracedouble',
 ]
 WIDTH = [
   'wide', 'midwide', 'midthin', 'thin', 'proportional'
@@ -88,6 +92,9 @@ OVERRIDES = {
   'tcaron':       ['t',     'lower', 'diacritic',                 'tall',               ],
   'thorn':        ['thorn', 'lower', 'otherletter',               'tall', 'descending', ]
 }
+
+MAX_TW2_SKIPS = 3
+MAX_TW3_SKIPS = 3
 
 def tags_for_letter(letter):
   tags = [letter]
@@ -132,7 +139,7 @@ def tag_glyphs(glyphs):
       tags.extend([base_glyph, 'space'])
     elif base_glyph in DIGITS:
       tags.extend([base_glyph, 'digit'])
-    elif base_glyph in SYMBOLS or base_glyph.startswith('SF') or base_glyph.startswith('uni'):
+    elif base_glyph in SYMBOLS or any(base_glyph.startswith(p) for p in SYMBOLS_PREFIXES):
       tags.extend([base_glyph, 'symbol'])
     elif base_glyph in BARS:
       tags.extend([base_glyph, 'bar'])
@@ -215,12 +222,13 @@ def get_defs(tagged_glyphs):
 ];
 
 @upper = [{t('upper')}];
+@lining = [{t('lining')}];
 
 @lower = [{t('lower')}];
 @xHeight = [{t('lower', '!tall', '!descending', '!accentOver', '!accentUnder')}];
 @lowerNotTall = [{t('lower', '!tall')}];
 @lowerNotDescending = [{t('lower', '!descending', '!accentUnder')}];
-@lowerLeftTall = [@b @h @k @l {t('t', '!cursive')} germandbls thorn];
+@lowerLeftTall = [@b @h @k {t('l', '!thin')} {t('t', '!cursive')} germandbls thorn];
 @lowerRightTall = [@d @f];
 
 @flourishCompatSW = [
@@ -229,8 +237,8 @@ def get_defs(tagged_glyphs):
 
 # Misc incompatibilities
 @blocksHex = [
-  @G @H @I @J @K @L @M @N @O @P @Q @R @S @T @U @V @W @X @Y @Z
-  @g @h @i @j @k @l @m @n @o @p @q @r @s @t @u @v @w @x @y @z
+  {' '.join(f'@{chr(c)}' for c in range(ord('G'), ord('Z')))}
+  {' '.join(f'@{chr(c)}' for c in range(ord('g'), ord('z')))}
   {t('accentOver')}
   {t('accentUnder')}
   {t('diacritic')}
@@ -264,16 +272,12 @@ def get_defs(tagged_glyphs):
   @B @C @D @E @F @I @H @J @K @N @P @R AE Eng
 ];
 @blocksSprawlE.tCursive = [
-  @upper @lower @digits @punctuation dollar Euro
+  @upper @lower @digits @punctuation @lining
 ];
 
 # Digit groups (order matters)
 @normalDigits = [
   zero one two three four five six seven eight nine
-];
-@liningDigits = [
-  zero.lining one.lining two.lining three.lining four.lining
-  five.lining six.lining seven.lining eight.lining nine.lining
 ];
 @hexDigits = [
   zero.hex one.hex two.hex three.hex four.hex
@@ -295,7 +299,7 @@ lookup lining {{
     '\n'.join(
     f'sub {n} by {n}.lining;'
     for n
-    in 'zero one two three four five six seven eight nine dollar Euro'.split())
+    in 'zero one two three four five six seven eight nine dollar Euro sterling yen'.split())
   }
 }} lining;
 
@@ -340,6 +344,7 @@ lookup afterHexify {{
 
 lookup toCursive {{
   sub e by e.cursive;
+  sub f by f.cursive;
   sub g by g.cursive;
   sub S by S.cursive;
   sub s by s.cursive;
@@ -351,6 +356,10 @@ lookup cursiveAlts {{
   sub  [g.cursive @tCursive]  e' lookup toCursive;
   sub  b s.cursive            e' lookup toCursive;
   sub  o s.cursive            e' lookup toCursive;
+
+  # f
+  sub @fCursive @f' lookup toCursive;
+  sub [@lowerNotTall @lowerLeftTall] [i l] @f' lookup toCursive;
 
   # g
   ignore sub g g';
@@ -366,8 +375,8 @@ lookup cursiveAlts {{
   sub S' lookup toCursive @lower;
 
   # t
-  @notBeforet  = [@d @f @l];
-  @beforet     = [@c @p @tCursive @sCursive @SCursive];
+  @notBeforet  = [@d {t('f', '!cursive')} @l];
+  @beforet     = [@c @fCursive @p @tCursive @sCursive @SCursive];
   @notAftert   = [@h @k @l @upper];
   @aftert      = [@r @s @w];
 
@@ -422,7 +431,7 @@ lookup toSprawlAlt {{
   sub z                    by  z.sprawl.s           ;
 }} toSprawlAlt;
 
-@blocksFirstCapSprawl = [@upper @liningDigits];
+@blocksFirstCapSprawl = [@upper @lining];
 lookup sprawl1 {{
   ignore sub @blocksFirstCapSprawl  [A C J L N X Z]'                          ;
   ignore sub @lower                 [J j z]'                                  ;
@@ -470,10 +479,10 @@ lookup tw1 {{
   sub w w  by  ww;
 }} tw1;
 
-@wideUpperA = [ A      A.sprawl.s      G      M      S.cursive      W      ];
-@wideUpperB = [ A.wide A.sprawl.s.wide G.wide M.wide S.cursive.wide W.wide ];
-@wideLowerA = [ m      mm      w      ww      ];
-@wideLowerB = [ m.wide mm.wide w.wide ww.wide ];
+@wideUpperA = [ A      A.sprawl.s      AE      G      M      S.cursive      W      ];
+@wideUpperB = [ A.wide A.sprawl.s.wide AE.wide G.wide M.wide S.cursive.wide W.wide ];
+@wideLowerA = [ ae      m      mm      w      ww      ];
+@wideLowerB = [ ae.wide m.wide mm.wide w.wide ww.wide ];
 @narrowA = [ i      ii      j      j.sprawl.s l      ll      rr      tt      ];
 @narrowB = [ i.thin ii.thin j.thin j.thin     l.thin ll.thin rr.thin tt.thin ];
 
@@ -535,52 +544,54 @@ lookup tw2 {{
     [@upper @lower]
     quotesingle' lookup narrow
     @wideLowerA' lookup widen;
+}} tw2;
   
-  # With space in the middle
-  @skip = [{t('lower', '!width')}];
-  @skipBeforeJ = [{t('lower', '!descending', '!accentUnder', '!width')} @p thorn];
-  @skipAfterL = [{t('lower', '!descending', '!accentUnder', '!width')} @q];
+# With space in the middle
+@skipTw2 = [{t('lower', '!width')}];
+@skipTw2BeforeJ = [{t('lower', '!descending', '!accentUnder', '!width')} @p thorn];
+@skipTw2AfterL = [{t('lower', '!descending', '!accentUnder', '!width')} @q];
 {''.join(f"""
+lookup tw2_skip{i} {{
   # W{'x' * i}j
   sub
     [@wideUpperA @wideLowerA]' lookup widen
-    {'@skip ' * (i - 1)} @skipBeforeJ
+    {'@skipTw2 ' * (i - 1)} @skipTw2BeforeJ
     @jt' lookup narrowJ;
   # Wxi
   sub
     [@wideUpperA @wideLowerA]' lookup widen
-    {'@skip ' * i}
+    {'@skipTw2 ' * i}
     @narrowA' lookup narrow;
   # W{'x' * i}'x
   sub
     [@wideUpperA @wideLowerA]' lookup widen
-    {'@skip ' * i}
+    {'@skipTw2 ' * i}
     quotesingle' lookup narrow
     [@upper @lower];
   # xj{'x' * i}w
   sub
     [@lowerNotDescending @p thorn]
     @jt' lookup narrowJ
-    {'@skip ' * i}
+    {'@skipTw2 ' * i}
     @wideLowerA' lookup widen;
   # i{'x' * i}w
   sub
     @narrowA' lookup narrow
-    {'@skip ' * i}
+    {'@skipTw2 ' * i}
     @wideLowerA' lookup widen;
   # x'{'x' * i}w
   sub
     [@upper @lower]
     quotesingle' lookup narrow
-    {'@skip ' * i}
+    {'@skipTw2 ' * i}
     @wideLowerA' lookup widen;
   # L{'x' * i}w
   sub
     @Lt' lookup narrow
-    @skipAfterL {'@skip ' * (i - 1)}
+    @skipTw2AfterL {'@skipTw2 ' * (i - 1)}
     @wideLowerA' lookup widen;
-""" for i in range(1, 3))}
-}} tw2;
+}} tw2_skip{i};
+""" for i in range(1, MAX_TW2_SKIPS))}
 
 lookup midden {{
   sub [
@@ -622,7 +633,7 @@ lookup tw3 {{
    [m.wide w.wide]' lookup midden
    {'@lower ' * i}
    [m w]' lookup midden;
-""" for i in range(0, 3))}
+""" for i in range(0, MAX_TW3_SKIPS))}
 }} tw3;
 
 lookup tw4 {{
@@ -688,11 +699,30 @@ lookup proportional2 {{
 }} proportional2;
 
 lookup proportionalPos {{
-  pos [A.proportional L.sprawl.s L.proportional] [{t('Y', 'sprawl')}] -30;
-  pos [T quotesingle.thin] [@lowerNotTall @lowerRightTall] -100;
-  pos [@L @lowerNotTall @lowerLeftTall] [T V.proportional {t('Y', '!sprawl')} @f longs quotesingle.thin]  -100;
-  pos V.proportional [@lowerNotTall @lowerRightTall A.proportional] -30;
-  pos [@lowerNotTall @lowerLeftTall] V.proportional -30;
+  pos
+    [A.proportional L.sprawl.s L.proportional]
+    [{t('Y', 'sprawl')}]
+    -30;
+  pos
+    V.proportional
+    [@lowerNotTall @lowerRightTall A.proportional]
+    -30;
+  pos
+    [@lowerNotTall @lowerLeftTall]
+    V.proportional
+    -30;
+  pos
+    [T quotesingle.thin]
+    [@lowerNotTall @lowerRightTall]
+    -100;
+  pos 
+    [@L @lowerNotTall @lowerLeftTall]
+    [
+      T V.proportional {t('Y', '!sprawl')}
+      {t('f', '!cursive')} longs
+      quotesingle.thin
+    ]
+    -100;
 }} proportionalPos;
 
 ###############################################################################
@@ -742,7 +772,7 @@ lookup cursiveLigatures {{
   sub  l.midthin  s.cursive  by  ls.cursive.midthin;
   sub  l.thin     s.cursive  by  ls.cursive.thin;
 
-  sub o           s.cursive  by  os.cursive;
+  sub  o          s.cursive  by  os.cursive;
 
   sub  t.cursive  r          by  tr.cursive;
   sub  t.cursive  r.midthin  by  tr.cursive.midthin;
@@ -750,6 +780,13 @@ lookup cursiveLigatures {{
 
   sub t.cursive quotesingle.thin s.cursive by tquotesingles.cursive.thin;
 }} cursiveLigatures;
+
+lookup liga {{
+  sub T T by TT;
+  sub parenleft parenright by parendouble;
+  sub bracketleft bracketright by bracketdouble;
+  sub braceleft braceright by bracedouble;
+}} liga;
 
 ###############################################################################
 # Feature Definitions (order here doesn't actually matter)                    #
@@ -763,6 +800,7 @@ feature calt {{
     lookup sprawl3;
     lookup tw1;
     lookup tw2;
+{'\n'.join(f"    lookup tw2_skip{i};" for i in range(1, 3))}
     lookup tw3;
     lookup tw4;
   script latn;
@@ -772,9 +810,19 @@ feature calt {{
     lookup sprawl3;
     lookup tw1;
     lookup tw2;
+{'\n'.join(f"    lookup tw2_skip{i};" for i in range(1, 3))}
     lookup tw3;
     lookup tw4;
 }} calt;
+
+feature liga {{
+  script DFLT;
+    language dflt ;
+    lookup liga;
+  script latn;
+    language dflt ;
+    lookup liga;
+}} liga;
 
 feature lnum {{
   script DFLT;

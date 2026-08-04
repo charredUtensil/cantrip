@@ -1,11 +1,11 @@
 StartChar: uni2530
-Encoding: 382 9520 539
+Encoding: 382 9520 536
 Width: 420
 UnlinkRmOvrlpSave: 1
 HStem: 280 70<0 225 265 420>
 VStem: -20 265 155 110<-254 280>
 LayerCount: 2
 Fore
-Refer: 486 9588 N 1 0 0 1 0 0 2
-Refer: 506 9486 N 1 0 0 1 0 0 2
+Refer: 483 9588 N 1 0 0 1 0 0 2
+Refer: 503 9486 N 1 0 0 1 0 0 2
 EndChar

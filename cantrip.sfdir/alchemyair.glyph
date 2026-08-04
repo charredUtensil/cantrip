@@ -1,0 +1,18 @@
+StartChar: alchemyair
+Encoding: 630 128769 630
+Width: 420
+UnlinkRmOvrlpSave: 1
+HStem: -20 21G<54.5 125> 0 70<141 280> 170 70<40 380>
+VStem: 50 320
+DStem2: 50 -20 141 70 0.219512 0.97561<107.78 410> 280 440 205 420 0.209529 -0.977802<3.84137 25.4229 37.5755 361.787>
+LayerCount: 2
+Fore
+SplineSet
+40 240 m 1x30
+ 400 240 l 1
+ 380 170 l 1
+ 20 170 l 1
+ 40 240 l 1x30
+EndSplineSet
+Refer: 628 128770 N 1 0 0 1 0 0 2
+EndChar
